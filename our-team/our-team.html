@@ -174,7 +174,7 @@
     <footer>
       <div>
         <div>
-          <p>Ask us something</p>
+          <p>ASK US SOMETHING</p>
           <p>
             Have some questions? Leave us your information and we contact you in
             a little.
@@ -190,15 +190,16 @@
         <div>
           <p>Contact Us</p>
           <form>
+          <!-- class al label hidden -->
             <label for="name">Enter your name</label>
-            <input type="text" id="name" name="name"/>
+            <input type="text" id="name" name="name" placeholder="Enter your name"/>
             <label for="phone">Enter your phone</label>
-            <input type="tel" id="phone" name="phone"/>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone"/>
             <label for="email">Enter your email</label>
-            <input type="email" id="email" name="email"/>
+            <input type="email" id="email" name="email" placeholder="Enter your email"/>
             <input type="checkbox" id="company-politics" name="company-politics" value="Politics"/>
-            <label for="company-politics">I read and agree to the rights and rules of company’s politics</label>
-            <input type="submit" value="Submit"/>
+            <label for="company-politics">I read and agree to the rights and rules of <span>company’s politics</span></label>
+            <input type="submit" value="Show More"/>
           </form>
         </div>
       </div>
@@ -233,8 +234,9 @@
           </div>
           <div>
             <span>Contact us</span>
-            <li>76 W Street,New York, NY 10014</li>
-            <!-- meter achor-->
+            <li>
+              <a href="https://goo.gl/maps/bperdV5WTmEGwWUPA">76 W Street,New York, NY 10014</a> 
+            </li>
             <li>
               <a href="mailto:millious@example.com">millious@example.com</a>
             </li>
