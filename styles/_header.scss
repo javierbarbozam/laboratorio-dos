@@ -1,0 +1,60 @@
+@use '_colors';
+
+header {
+	display: flex;
+	width: 80%;
+	margin: 0 auto;
+	justify-content: space-between;
+	padding-top: 50px;
+}
+
+.header__logo::after {
+	content: url(../images/millious.svg);
+}
+
+.header__nav {
+	a {
+		font-weight: 700;
+		position: relative;
+
+		&::after {
+			content: url(../icons/nav-anchor-arrow.svg);
+			position: relative;
+			left: 9px;
+		}
+
+		&:hover {
+			color: colors.$darkorange;
+		}
+	}
+
+	a:nth-child(even) {
+		padding: 0 25px;
+	}
+
+	&--search {
+		background-color: transparent;
+		border: none;
+		cursor: pointer;
+		&:after {
+			content: url(../icons/nav-search-btn.svg);
+		}
+	}
+	&--booking {
+		background-color: transparent;
+		border: none;
+		padding: 0 21px;
+		cursor: pointer;
+		&:after {
+			content: url(../icons/nav-booking-btn.svg);
+		}
+	}
+	&--cart {
+		background-color: transparent;
+		border: none;
+		cursor: pointer;
+		&:after {
+			content: url(../icons/nav-shopping-cart-btn.svg);
+		}
+	}
+}

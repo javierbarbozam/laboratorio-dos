@@ -2,4 +2,79 @@
   display: flex;
 }
 
+header {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+.header__logo::after {
+  content: url(../images/millious.svg);
+}
+
+.header__nav a {
+  font-weight: 700;
+  position: relative;
+}
+.header__nav a::after {
+  content: url(../icons/nav-anchor-arrow.svg);
+  position: relative;
+  left: 9px;
+}
+.header__nav a:hover {
+  color: #E27D60;
+}
+.header__nav a:nth-child(even) {
+  padding: 0 25px;
+}
+.header__nav--search {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.header__nav--search:after {
+  content: url(../icons/nav-search-btn.svg);
+}
+.header__nav--booking {
+  background-color: transparent;
+  border: none;
+  padding: 0 21px;
+  cursor: pointer;
+}
+.header__nav--booking:after {
+  content: url(../icons/nav-booking-btn.svg);
+}
+.header__nav--cart {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.header__nav--cart:after {
+  content: url(../icons/nav-shopping-cart-btn.svg);
+}
+
+body {
+  font-family: "Libre Franklin", sans-serif;
+  box-sizing: border-box;
+  color: #303030;
+  margin: 0;
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+a {
+  text-decoration: transparent;
+  color: #303030;
+}
+
 /*# sourceMappingURL=styles.css.map */

@@ -1,9 +1,30 @@
-// Color variables
-$lightorange: #E8A87C;
-$darkorange: #E27D60;
-$lightgrey: #E6E6E6;
-$darkgrey:#303030;
-
+$font: 'Libre Franklin', sans-serif;
 
 //PARTIALS 
-@import '_footer';
+@use '_colors';
+@use '_footer';
+@use '_header';
+
+//ESTILOS GENERALES
+
+body {
+	font-family: $font;
+	box-sizing: border-box;
+  color: colors.$darkgrey;
+  margin: 0;
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+a {
+  text-decoration: transparent;
+  color: colors.$darkgrey;
+}
