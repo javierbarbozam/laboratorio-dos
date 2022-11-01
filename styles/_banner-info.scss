@@ -1,0 +1,44 @@
+@use '_colors';
+
+.banner-info__index {
+  max-width: 100%;
+  height: 420px;
+  display: flex;
+  margin-bottom: 100px;
+
+  .banner-info--p {
+    margin-bottom: 5%;
+  }
+
+  div {
+    max-width: 55%;
+    height: 85%;
+    background-color: #f2f1f1;
+    padding-top: 3%;
+
+
+    p {
+      text-align: right;
+      max-width: 45%;
+      margin-left: 48%;
+    }
+
+    h2 {
+      margin-right: 7%;
+      color: colors.$darkorange;
+      text-align: right;
+    }
+
+    a {
+      margin-left: 78%;
+    }
+
+  }
+
+  &--img {
+    background: url(../images/give-us-a-visit.png) no-repeat;
+    background-size: cover;
+    width: 560px;
+    height: 85%;
+  }
+}
