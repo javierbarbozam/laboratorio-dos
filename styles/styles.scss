@@ -1,9 +1,207 @@
-// Color variables
-$lightorange: #E8A87C;
-$darkorange: #E27D60;
-$lightgrey: #E6E6E6;
-$darkgrey:#303030;
+// PARTIALS 
+@use '_colors';
+@use '_footer';
+@use '_header';
+@use '_news';
 
+// GENERAL TAGS
 
-//PARTIALS 
-@import '_footer';
+body {
+	font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+	box-sizing: border-box;
+  color: colors.$darkgrey;
+  margin: 0 auto;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+p {
+  font-size: 18px;
+  opacity: 0.8;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+a {
+  text-decoration: transparent;
+  color: colors.$darkgrey;
+}
+
+.title {
+  &--light {
+    text-align: center;
+  }
+  &--bold {
+    text-align: center;
+    font-size: 36px;
+    color: colors.$darkorange;
+    font-weight: 700;
+    margin: 10px 0;
+  }
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+.buttons {
+  padding: 10px 36px;
+  background-color: colors.$darkgrey;
+  border-radius: 2px;
+  border: none;
+  font-size: 18px;
+  color: #FFFFFF;
+
+  &:hover {
+    background-color: colors.$darkorange;
+  }
+}
+// NON REPITED STYLES
+
+.landing {
+  &__welcome { // welcome container
+    display: flex;
+    position: relative;
+    padding-top: 40px;
+
+    &--img {
+      background: url(../images/container-welcome.png) no-repeat;
+      background-size: cover;
+      height: 449px;
+      width: 55%;
+      border-radius: 0 0 200px 0;
+      z-index: 2;
+    }
+    
+    &--info {
+      padding-top: 100px;
+      padding-left: 100px;
+      z-index: 2;
+      h1 {
+        font-size: 48px;
+        max-width: 400px;
+        margin: 0;
+        span {
+          color: colors.$darkorange;
+        }
+      }
+      p {
+        font-size: 18px;
+        color: colors.$darkgrey;
+        max-width: 440px;
+        line-height: 22px;
+      }
+    }
+    &--bg {
+      background-color: colors.$lightorange;
+      opacity: 0.5;
+      height: 600px;
+      width: 90%;
+      border-radius: 0 0 0 200px;
+      position: absolute;
+      z-index: 1;
+      right: 0;
+      top: 40px;
+    }
+  }
+
+  &__services {
+
+    &--ul {
+      display: flex;
+      justify-content: space-between;
+      width: 1200px;
+      margin: 40px auto 40px auto;
+
+      &--flex {
+        display: flex;
+        width: 570px;
+        align-items: flex-end;
+
+        p {
+          margin: 0;
+        }
+      }
+
+      &--title {
+        opacity: 1;
+        font-family: 'Libre Franklin', sans-serif;
+        font-weight: 700;
+      }
+
+      &--divider {
+        height: 2px;
+        width: 390px;
+        border-bottom: dotted colors.$darkgrey;
+        position: relative;
+        bottom: 5px;
+      }
+
+      &--price {
+        opacity: 1;
+        font-family: 'Libre Franklin', sans-serif;
+        font-weight: 700;
+        color: colors.$darkorange;
+      }
+    }
+
+    .buttons {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+}
+
+.services__promo {
+  margin: 100px 0;
+  display: flex;
+  justify-content: center;
+  height: 350px;
+  width: 100%;
+  color: #fff;
+  background: rgb(61,60,103);
+  background: linear-gradient(90deg, rgba(61,60,103,1) 0%, rgba(73,35,90,1) 17%, rgba(65,52,99,1) 37%, rgba(82,0,67,1) 59%, rgba(126,75,83,1) 89%, rgba(139,96,88,1) 100%);
+
+  div {
+    margin: auto 0;
+  }
+
+  &--description {
+    opacity: 1;
+    width: 583px;
+    margin: 0;
+  }
+
+  &--title {
+    opacity: 1;
+    font-family: 'Libre Franklin', 'sans-serif';
+    font-weight: 700;
+    font-size: 64px;
+    margin: 0 0 10px 0;
+
+    span {
+      color: colors.$darkorange;
+    }
+  }
+
+  &--discount {
+    opacity: 1;
+    margin: auto 0;
+    font-weight: 700;
+    font-size: 64px;
+    font-family: 'Libre Franklin', 'sans-serif';
+    padding-left: 120px;
+  }
+}

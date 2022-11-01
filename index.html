@@ -5,23 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;700&family=Work+Sans&display=swap" rel="stylesheet">
     <title>Millious</title>
   </head>
   <body>
     <header>
-      <a href=""><span>Millious</span></a>
-      <nav>
-        <a href="./index.html">Home</a>
-        <a href="./about-us/index.html">About Us</a>
-        <a href="./blog/article.html">Blog</a>
-        <a href="./services/services.html">Services</a>
-        <a href="./our-team/our-team.html">Our Team</a>
+      <a href="#" class="header__logo"><span class="visually-hidden">Millious</span></a>
+      <nav class="header__nav">
+        <a href="../index.html">Home</a>
+        <a href="./index.html">About Us</a>
+        <a href="../blog/article.html">Blog</a>
+        <a href="../services/services.html">Services</a>
+        <a href="../our-team/our-team.html">Our Team</a>
       </nav>
-      <button><span>Search</span></button>
-      <button><span>Booking</span></button>
-      <button><span>Cart</span></button>
+      <div>
+        <button class="header__nav--search"><span class="visually-hidden">Go to Search tool</span></button>
+        <button class="header__nav--booking"><span class="visually-hidden">Go to Bookings</span></button>
+        <button class="header__nav--cart"><span class="visually-hidden">Go to my cart</span></button>
+      </div>
     </header>
     <main>
+      <section class="landing__welcome">
+        <div class="landing__welcome--img"></div>
+        <div class="landing__welcome--info">
+          <h1>There is nothing better than a <span>quick massage.</span></h1>
+          <p>Tempor etiam ipsum pellentesque eget pretium consectetur pellentesque ultrices sagittis. Elit ut ultricies donec a at odio ultricies tellus.</p>
+          <button class="buttons">Book an appointment</button>
+        </div>
+        <div class="landing__welcome--bg"></div>
+      </section>
       <section>
         <div>
           <!-- div de imagen -->
@@ -55,50 +69,76 @@
         <!-- div de imagen -->
         <div></div>
       </section>
-      <section>
-        <p>PRICING</p>
-        <h2>It's worth the time.</h2>
-        <div> <!--div contenedor de 2 div-->
+      <section class="landing__services">
+        <p class="title--light">PRICING</p>
+        <h2 class="title--bold">It's worth the time.</h2>
+        <ul class="landing__services--ul">
           <div>
-            <div> <!--div con la información (3 precios)-->
-              <p>Full Massage</p>
-              <div></div> <!--div divisor del precio y servicio-->
-              <p>$25.00</p>
-              <p>Adipiscing fames eu enim feugiat egestas</p>
-            </div>
-            <div> <!--div con la información (3 precios)-->
-              <p>Sauna Relax</p>
-              <div></div> <!--div divisor del precio y servicio-->
-              <p>$40.00</p>
-              <p>Adipiscing fames eu enim feugiat egestas</p>
-            </div>
-            <div> <!--div con la información (3 precios)-->
-              <p>Rehabilitation</p>
-              <div></div> <!--div divisor del precio y servicio-->
-              <p>$40.00</p>
-              <p>Adipiscing fames eu enim feugiat egestas</p>
-            </div>
-          <div>
-            <div> <!--div con la información (3 precios)-->
-              <p>Scrub Procedure</p>
-              <div></div> <!--div divisor del precio y servicio-->
-              <p>$65.00</p>
-              <p>Adipiscing fames eu enim feugiat egestas</p>
-            </div>
-            <div> <!--div con la información (3 precios)-->
-              <p>Aromatherapy</p>
-              <div></div> <!--div divisor del precio y servicio-->
-              <p>$60.00</p>
-              <p>Adipiscing fames eu enim feugiat egestas</p>
-            </div>
-            <div> <!--div con la información (3 precios)-->
-              <p>Head Massage</p>
-              <div></div> <!--div divisor del precio y servicio-->
-              <p>$30.00</p>
-              <p>Adipiscing fames eu enim feugiat egestas</p>
-            </div>
+            <li>
+              <div>
+                <div class="landing__services--ul--flex">
+                  <p class="landing__services--ul--title">Full Massage</p>
+                  <div class="landing__services--ul--divider"></div>
+                  <p class="landing__services--ul--price">$25.00</p>
+                </div>
+                <p>Adipiscing fames eu enim feugiat egestas</p> <!--averiguar para afectar (prezi)-->
+              </div>
+            </li>
+            <li>
+              <div>
+                <div class="landing__services--ul--flex">
+                  <p class="landing__services--ul--title">Sauna Relax</p>
+                  <div class="landing__services--ul--divider"></div>
+                  <p class="landing__services--ul--price">$40.00</p>
+                </div>
+                <p>Adipiscing fames eu enim feugiat egestas</p> <!--averiguar para afectar (prezi)-->
+              </div>
+            </li>
+            <li>
+              <div>
+                <div class="landing__services--ul--flex">
+                  <p class="landing__services--ul--title">Rehabilitation</p>
+                  <div class="landing__services--ul--divider"></div>
+                  <p class="landing__services--ul--price">$40.00</p>
+                </div>
+                <p>Adipiscing fames eu enim feugiat egestas</p> <!--averiguar para afectar (prezi)-->
+              </div>
+            </li>
           </div>
-        </div>
+          <div>
+            <li>
+              <div>
+                <div class="landing__services--ul--flex">
+                  <p class="landing__services--ul--title">Scrub Procedure</p>
+                  <div class="landing__services--ul--divider"></div>
+                  <p class="landing__services--ul--price">$65.00</p>
+                </div>
+                <p>Adipiscing fames eu enim feugiat egestas</p> <!--averiguar para afectar (prezi)-->
+              </div>
+            </li>
+            <li>
+              <div>
+                <div class="landing__services--ul--flex">
+                  <p class="landing__services--ul--title">Aromateraphy</p>
+                  <div class="landing__services--ul--divider"></div>
+                  <p class="landing__services--ul--price">$60.00</p>
+                </div>
+                <p>Adipiscing fames eu enim feugiat egestas</p> <!--averiguar para afectar (prezi)-->
+              </div>
+            </li>
+            <li>
+              <div>
+                <div class="landing__services--ul--flex">
+                  <p class="landing__services--ul--title">Head Massage</p>
+                  <div class="landing__services--ul--divider"></div>
+                  <p class="landing__services--ul--price">$30.00</p>
+                </div>
+                <p>Adipiscing fames eu enim feugiat egestas</p> <!--averiguar para afectar (prezi)-->
+              </div>
+            </li>
+          </div>
+        </ul>
+        <button class="buttons">View More</button>
       </section>
       <section>
         <!-- div de imagen -->
@@ -185,40 +225,47 @@
           </div>
         </div>
       </section>
-      <section>
-        <p>BLOG</p>
-        <h2>Latest news.</h2>
-        <div>
-          <article>
+      <!-- revisar nombre de clase -->
+      <section class="latest-news">
+        <p class="title--light">BLOG</p>
+        <h2 class="title--bold">Latest news.</h2>
+        <div class="news">
+          <div class="news__card">
             <!--div imagen-->
-            <div></div>
-            <div>
+            <div class="news__img--beauty"></div>
+            <div class="news__category">
               <p>BEAUTY</p>
             </div>
-            <time datetime="2021-07-17">July 17, 2021</time>
-            <h3>Your head and heart matter.</h3>
-            <a href="#">Read More</a>
-          </article>
-          <article>
+            <div class="news__info">
+              <time datetime="2021-07-17">July 17, 2021</time>
+              <h3>Your head and heart matter.</h3>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+          <div class="news__card">
             <!--div imagen-->
-            <div></div>
-            <div>
+            <div class="news__img--massage"></div>
+            <div class="news__category">
               <p>MASSAGE</p>
             </div>
-            <time datetime="2021-07-12">July 12, 2021</time>
-            <h3>From unbalanced to balance.</h3>
-            <a href="#">Read More</a>
-          </article>
-          <article>
+            <div class="news__info">
+              <time datetime="2021-07-12">July 12, 2021</time>
+              <h3>From unbalanced to balance.</h3>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+          <div class="news__card">
             <!--div imagen-->
-            <div></div>
-            <div>
+            <div class="news__img--healthcare"></div>
+            <div class="news__category">
               <p>HEALTHCARE</p>
             </div>
-            <time datetime="2021-07-09">July 9, 2021</time>
-            <h3>Your head and heart matter.</h3>
-            <a href="#">Read More</a>
-          </article>
+            <div class="news__info">
+              <time datetime="2021-07-09">July 9, 2021</time>
+              <h3>Get the desired health.</h3>
+              <a href="#">Read More</a>
+            </div>
+          </div>
         </div>
       </section>
     </main>
