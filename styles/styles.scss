@@ -23,6 +23,7 @@ ul {
 p {
   font-size: 18px;
   opacity: 0.8;
+  line-height: 20px;
 }
 
 h1, h2, h3, h4 {
@@ -33,6 +34,15 @@ a {
   text-decoration: transparent;
   color: colors.$darkgrey;
 }
+
+article {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+
+// GENERAL CLASSES
 
 .title {
   &--light {
@@ -203,5 +213,39 @@ a {
     font-size: 64px;
     font-family: 'Libre Franklin', 'sans-serif';
     padding-left: 120px;
+  }
+}
+
+.article--img {
+  &--float {
+    float: left;
+    margin: 0 30px 0 0;
+    position: relative;
+
+    time {
+      display: inline-block;
+      margin-top: 15px;
+      opacity: 0.5;
+
+      &::before {
+        content: url(../icons/time-icon.svg);
+        margin-right: 5px;
+      }
+    }
+  }
+  &--one {
+    background: url(../images/news_beauty.png) no-repeat;
+    background-size: cover;
+    height: 370px;
+    width: 670px;
+
+    &--info {
+      display: flex;
+      justify-content: space-between;
+
+      p {
+        opacity: 0.5;
+      }
+    }
   }
 }

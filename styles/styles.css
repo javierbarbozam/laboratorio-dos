@@ -156,6 +156,7 @@ ul {
 p {
   font-size: 18px;
   opacity: 0.8;
+  line-height: 20px;
 }
 
 h1, h2, h3, h4 {
@@ -165,6 +166,12 @@ h1, h2, h3, h4 {
 a {
   text-decoration: transparent;
   color: #303030;
+}
+
+article {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 100px;
 }
 
 .title--light {
@@ -315,6 +322,34 @@ a {
   font-size: 64px;
   font-family: "Libre Franklin", "sans-serif";
   padding-left: 120px;
+}
+
+.article--img--float {
+  float: left;
+  margin: 0 30px 0 0;
+  position: relative;
+}
+.article--img--float time {
+  display: inline-block;
+  margin-top: 15px;
+  opacity: 0.5;
+}
+.article--img--float time::before {
+  content: url(../icons/time-icon.svg);
+  margin-right: 5px;
+}
+.article--img--one {
+  background: url(../images/news_beauty.png) no-repeat;
+  background-size: cover;
+  height: 370px;
+  width: 670px;
+}
+.article--img--one--info {
+  display: flex;
+  justify-content: space-between;
+}
+.article--img--one--info p {
+  opacity: 0.5;
 }
 
 /*# sourceMappingURL=styles.css.map */
