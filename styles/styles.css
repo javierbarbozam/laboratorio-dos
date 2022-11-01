@@ -15,6 +15,7 @@ header {
 }
 
 .header__nav a {
+  font-family: "Libre Franklin", sans-serif;
   font-weight: 700;
   position: relative;
 }
@@ -56,10 +57,15 @@ header {
 }
 
 body {
-  font-family: "Libre Franklin", sans-serif;
+  font-family: "Work Sans", sans-serif;
   box-sizing: border-box;
   color: #303030;
-  margin: 0;
+  margin: 0 auto;
+  width: 100%;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Libre Franklin", sans-serif;
 }
 
 .visually-hidden {
@@ -75,6 +81,50 @@ body {
 a {
   text-decoration: transparent;
   color: #303030;
+}
+
+.container__welcome {
+  display: flex;
+  position: relative;
+  padding-top: 40px;
+}
+.container__welcome--img {
+  background: url(../images/container-welcome.png) no-repeat;
+  background-size: cover;
+  height: 449px;
+  width: 745px;
+  border-radius: 0 0 200px 0;
+  z-index: 2;
+}
+.container__welcome--info {
+  padding-top: 100px;
+  padding-left: 100px;
+  z-index: 2;
+}
+.container__welcome--info h1 {
+  font-size: 48px;
+  max-width: 400px;
+  margin: 0;
+}
+.container__welcome--info h1 span {
+  color: #E27D60;
+}
+.container__welcome--info p {
+  font-size: 18px;
+  color: #303030;
+  max-width: 440px;
+  line-height: 22px;
+}
+.container__welcome--bg {
+  background-color: #E8A87C;
+  opacity: 0.5;
+  height: 600px;
+  width: 1200px;
+  border-radius: 0 0 0 200px;
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  top: 40px;
 }
 
 /*# sourceMappingURL=styles.css.map */

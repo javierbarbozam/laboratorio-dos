@@ -1,17 +1,20 @@
-$font: 'Libre Franklin', sans-serif;
-
-//PARTIALS 
+// PARTIALS 
 @use '_colors';
 @use '_footer';
 @use '_header';
 
-//ESTILOS GENERALES
+// GENERAL TAGS
 
 body {
-	font-family: $font;
+	font-family: 'Work Sans', sans-serif;
 	box-sizing: border-box;
   color: colors.$darkgrey;
-  margin: 0;
+  margin: 0 auto;
+  width: 100%;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Libre Franklin', sans-serif;
 }
 
 .visually-hidden {
@@ -27,4 +30,49 @@ body {
 a {
   text-decoration: transparent;
   color: colors.$darkgrey;
+}
+// NON REPITED STYLES
+
+.container__welcome {
+  display: flex;
+  position: relative;
+  padding-top: 40px;
+  &--img {
+    background: url(../images/container-welcome.png) no-repeat;
+    background-size: cover;
+    height: 449px;
+    width: 745px;
+    border-radius: 0 0 200px 0;
+    z-index: 2;
+  }
+  &--info {
+    padding-top: 100px;
+    padding-left: 100px;
+    z-index: 2;
+    h1 {
+      font-size: 48px;
+      max-width: 400px;
+      margin: 0;
+      span {
+        color: colors.$darkorange;
+      }
+    }
+    p {
+      font-size: 18px;
+      color: colors.$darkgrey;
+      max-width: 440px;
+      line-height: 22px;
+    }
+  }
+  &--bg {
+    background-color: colors.$lightorange;
+    opacity: 0.5;
+    height: 600px;
+    width: 1200px;
+    border-radius: 0 0 0 200px;
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    top: 40px;
+  }
 }
