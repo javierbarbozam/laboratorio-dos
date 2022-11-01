@@ -2,12 +2,14 @@
 
 .latest-news{
   height: 566px;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .news {
   display: flex;
   justify-content: space-between;
-  margin: 0 auto;
 
   h3 {
     color: colors.$darkorange;
