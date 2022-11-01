@@ -179,15 +179,15 @@ a {
 }
 
 .buttons {
-  display: flex;
-  justify-content: center;
   padding: 10px 36px;
   background-color: #303030;
   border-radius: 2px;
+  border: none;
   font-size: 18px;
   color: #FFFFFF;
-  width: 120px;
-  height: 25px;
+}
+.buttons:hover {
+  background-color: #E27D60;
 }
 
 .container__welcome {
