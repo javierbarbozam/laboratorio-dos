@@ -75,14 +75,16 @@ a {
     display: flex;
     position: relative;
     padding-top: 40px;
+
     &--img {
       background: url(../images/container-welcome.png) no-repeat;
       background-size: cover;
       height: 449px;
-      width: 745px;
+      width: 55%;
       border-radius: 0 0 200px 0;
       z-index: 2;
     }
+    
     &--info {
       padding-top: 100px;
       padding-left: 100px;
@@ -106,7 +108,7 @@ a {
       background-color: colors.$lightorange;
       opacity: 0.5;
       height: 600px;
-      width: 1200px;
+      width: 90%;
       border-radius: 0 0 0 200px;
       position: absolute;
       z-index: 1;
@@ -163,6 +165,7 @@ a {
 }
 
 .services__promo {
+  margin: 100px 0;
   display: flex;
   justify-content: center;
   height: 350px;
@@ -171,17 +174,34 @@ a {
   background: rgb(61,60,103);
   background: linear-gradient(90deg, rgba(61,60,103,1) 0%, rgba(73,35,90,1) 17%, rgba(65,52,99,1) 37%, rgba(82,0,67,1) 59%, rgba(126,75,83,1) 89%, rgba(139,96,88,1) 100%);
 
-  p {
+  div {
+    margin: auto 0;
+  }
+
+  &--description {
     opacity: 1;
+    width: 583px;
+    margin: 0;
   }
 
   &--title {
+    opacity: 1;
     font-family: 'Libre Franklin', 'sans-serif';
     font-weight: 700;
     font-size: 64px;
+    margin: 0 0 10px 0;
 
     span {
       color: colors.$darkorange;
     }
+  }
+
+  &--discount {
+    opacity: 1;
+    margin: auto 0;
+    font-weight: 700;
+    font-size: 64px;
+    font-family: 'Libre Franklin', 'sans-serif';
+    padding-left: 120px;
   }
 }
