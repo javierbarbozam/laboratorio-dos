@@ -249,4 +249,23 @@ article {
       }
     }
   }
+  &--flex {
+    display: flex;
+    width: 1200px;
+    justify-content: center;
+    margin: 30px 0;
+  }
+  &--two{
+    background: url(../images/article-img-two.png) no-repeat;
+    background-size: cover;
+    margin-right: 5px;
+    height: 360px;
+    width: 383px;
+  }
+  &--three{
+    background: url(../images/article-img-three.png) no-repeat;
+    background-size: cover;
+    height: 360px;
+    width: 383px;
+  }
 }
