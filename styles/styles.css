@@ -11,6 +11,15 @@ form {
   margin: 0;
 }
 
+form {
+  background: url(../images/footer_img.png) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 275px;
+  color: white;
+  margin: 0;
+}
+
 .form__info {
   margin: 0 auto;
   width: 1200px;
@@ -31,6 +40,10 @@ form {
   font-weight: bolder;
   font-size: 36px;
 }
+.form__info .our-team-form-label {
+  display: block;
+  width: 600px;
+}
 .form__info--description {
   font-weight: regular;
   font-size: 18px;
@@ -38,6 +51,10 @@ form {
 }
 .form__info--description span {
   color: #E27D60;
+}
+
+.form__contact {
+  background-color: #fff;
 }
 
 input[type=email] {
@@ -70,6 +87,7 @@ input::placeholder {
   font-size: 14px;
   width: 1200px;
   margin: 0 auto;
+  padding-top: 60px;
 }
 .footer-nav__logo {
   background: url(../images/millious-footer.png) no-repeat;
@@ -87,14 +105,15 @@ input::placeholder {
 }
 .footer-nav__social-media--facebook::before {
   content: url(../icons/footer-facebook.svg);
+  margin-right: 15px;
 }
 .footer-nav__social-media--vimeo::before {
   content: url(../icons/footer-vimeo.svg);
-  margin: 0 15px;
+  margin-right: 15px;
 }
 .footer-nav__social-media--instagram::before {
   content: url(../icons/footer-instagram.svg);
-  margin: 0 15px;
+  margin-right: 15px;
 }
 .footer-nav__social-media--twitter::before {
   content: url(../icons/footer-twitter.svg);
@@ -103,7 +122,6 @@ input::placeholder {
 .footer-list {
   display: flex;
   justify-content: right;
-  margin-top: 60px;
 }
 .footer-list li {
   list-style: none;

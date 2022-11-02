@@ -13,6 +13,16 @@ form {
   margin: 0; ////revisar despues de pull
   }
 
+  form {
+    background: url(../images/footer_img.png) no-repeat; 
+    background-size: cover;
+    width: 100%;
+    height: 275px; 
+    color:white;
+    margin: 0; ////revisar despues de pull
+    }
+
+
 .form__info {
   margin: 0 auto;
   width: 1200px;
@@ -35,6 +45,11 @@ form {
       font-size: 36px;
     }
 
+    .our-team-form-label {
+      display: block;
+      width: 600px;
+    }
+
     &--description {
       font-weight: regular;
       font-size: 18px;
@@ -45,6 +60,9 @@ form {
     }  
 }
 
+.form__contact {
+  background-color: #fff;
+}
 
 input[type=email] {
   width: 45%;
@@ -76,6 +94,7 @@ background-color: #303030;
   font-size: 14px;
   width: 1200px;
   margin: 0 auto;
+  padding-top: 60px;
   &__logo {
     background: url(../images/millious-footer.png) no-repeat; 
     background-size: cover;
@@ -92,14 +111,15 @@ background-color: #303030;
     
     &--facebook::before {
       content: url(../icons/footer-facebook.svg);
+      margin-right: 15px;
     }
     &--vimeo::before {
       content: url(../icons/footer-vimeo.svg);
-      margin: 0 15px;
+      margin-right: 15px;
     }
     &--instagram::before {
       content: url(../icons/footer-instagram.svg);
-      margin: 0 15px;
+      margin-right: 15px;
     }
     &--twitter::before {
       content: url(../icons/footer-twitter.svg);
@@ -111,7 +131,6 @@ background-color: #303030;
 .footer-list {
   display: flex;
   justify-content: right;
-  margin-top: 60px;
   li {
     list-style: none;
     margin-top: 20px;
