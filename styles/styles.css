@@ -228,18 +228,16 @@ input::placeholder {
   padding: 10px;
 }
 
-header {
+.header__flex {
   display: flex;
+  justify-content: space-between;
   width: 80%;
   margin: 0 auto;
-  justify-content: space-between;
   padding-top: 50px;
 }
-
 .header__logo::after {
   content: url(../images/millious.svg);
 }
-
 .header__nav a {
   font-family: "Libre Franklin", sans-serif;
   font-weight: 700;
@@ -280,6 +278,34 @@ header {
 }
 .header__nav--cart:after {
   content: url(../icons/nav-shopping-cart-btn.svg);
+}
+.header__title {
+  position: relative;
+  margin-top: 80px;
+}
+.header__title p {
+  font-size: 12px;
+  margin: 0;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+.header__title h1 {
+  color: #E27D60;
+  margin: 10px 0 0 0;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+.header__title--bg {
+  background-color: #E6E6E6;
+  opacity: 0.5;
+  width: 90%;
+  height: 144px;
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  top: -60%;
 }
 
 .container-news {

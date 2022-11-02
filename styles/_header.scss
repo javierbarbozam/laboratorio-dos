@@ -1,61 +1,95 @@
-@use '_colors';
+@use "_colors";
 
-header {
-	display: flex;
-	width: 80%;
-	margin: 0 auto;
-	justify-content: space-between;
-	padding-top: 50px;
-}
+.header {
+  &__flex {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+  }
 
-.header__logo::after {
-	content: url(../images/millious.svg);
-}
+  &__logo::after {
+    content: url(../images/millious.svg);
+  }
 
-.header__nav {
-	a {
-		font-family: 'Libre Franklin', sans-serif;;
-		font-weight: 700;
-		position: relative;
+  &__nav {
+    a {
+      font-family: "Libre Franklin", sans-serif;
+      font-weight: 700;
+      position: relative;
 
-		&::after {
-			content: url(../icons/nav-anchor-arrow.svg);
-			position: relative;
-			left: 9px;
-		}
+      &::after {
+        content: url(../icons/nav-anchor-arrow.svg);
+        position: relative;
+        left: 9px;
+      }
 
-		&:hover {
-			color: colors.$darkorange;
-		}
-	}
+      &:hover {
+        color: colors.$darkorange;
+      }
+    }
 
-	a:nth-child(even) {
-		padding: 0 25px;
-	}
+    a:nth-child(even) {
+      padding: 0 25px;
+    }
 
-	&--search {
-		background-color: transparent;
-		border: none;
-		cursor: pointer;
-		&:after {
-			content: url(../icons/nav-search-btn.svg);
-		}
-	}
-	&--booking {
-		background-color: transparent;
-		border: none;
-		padding: 0 21px;
-		cursor: pointer;
-		&:after {
-			content: url(../icons/nav-booking-btn.svg);
-		}
-	}
-	&--cart {
-		background-color: transparent;
-		border: none;
-		cursor: pointer;
-		&:after {
-			content: url(../icons/nav-shopping-cart-btn.svg);
-		}
-	}
+    &--search {
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      &:after {
+        content: url(../icons/nav-search-btn.svg);
+      }
+    }
+    &--booking {
+      background-color: transparent;
+      border: none;
+      padding: 0 21px;
+      cursor: pointer;
+      &:after {
+        content: url(../icons/nav-booking-btn.svg);
+      }
+    }
+    &--cart {
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      &:after {
+        content: url(../icons/nav-shopping-cart-btn.svg);
+      }
+    }
+  }
+
+  &__title {
+    position: relative;
+    margin-top: 80px;
+
+    p {
+      font-size: 12px;
+      margin: 0;
+      text-align: center;
+      position: relative;
+      z-index: 2;
+    }
+
+    h1 {
+      color: colors.$darkorange;
+      margin: 10px 0 0 0;
+      text-align: center;
+      position: relative;
+      z-index: 2;
+    }
+
+    &--bg {
+      background-color: colors.$lightgrey;
+      opacity: 0.5;
+      width: 90%;
+      height: 144px;
+      position: absolute;
+      z-index: 1;
+      right: 0;
+      top: -60%;
+    }
+  }
 }
