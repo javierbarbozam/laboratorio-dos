@@ -1,0 +1,32 @@
+.shop--brands {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  &-change {
+    background: url(../icons/shop-change.svg) no-repeat;
+    width: 164px;
+    height: 67px;
+  }
+
+  &-blue_velvet {
+    background: url(../icons/shop-blue_velvet.svg) no-repeat;
+    width: 164px;
+    height: 67px;
+  }
+
+  &-hilroy {
+    background: url(../icons/shop-hilroy.svg) no-repeat;
+    width: 164px;
+    height: 67px;
+  }
+
+  &-nafia {
+    background: url(../icons/shop-nafia.svg) no-repeat;
+    width: 164px;
+    height: 67px;
+  }
+}
+

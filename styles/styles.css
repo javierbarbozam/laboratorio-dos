@@ -411,6 +411,34 @@ header {
   text-align: right;
 }
 
+.shop--brands {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.shop--brands-change {
+  background: url(../icons/shop-change.svg) no-repeat;
+  width: 164px;
+  height: 67px;
+}
+.shop--brands-blue_velvet {
+  background: url(../icons/shop-blue_velvet.svg) no-repeat;
+  width: 164px;
+  height: 67px;
+}
+.shop--brands-hilroy {
+  background: url(../icons/shop-hilroy.svg) no-repeat;
+  width: 164px;
+  height: 67px;
+}
+.shop--brands-nafia {
+  background: url(../icons/shop-nafia.svg) no-repeat;
+  width: 164px;
+  height: 67px;
+}
+
 body {
   font-family: "Work Sans", sans-serif;
   font-weight: 400;
@@ -566,8 +594,8 @@ article {
   height: 350px;
   width: 100%;
   color: #fff;
-  background: rgb(61, 60, 103);
-  background: linear-gradient(90deg, rgb(61, 60, 103) 0%, rgb(73, 35, 90) 17%, rgb(65, 52, 99) 37%, rgb(82, 0, 67) 59%, rgb(126, 75, 83) 89%, rgb(139, 96, 88) 100%);
+  background: #3d3c67;
+  background: linear-gradient(90deg, #3d3c67 0%, #49235a 17%, #413463 37%, #520043 59%, #7e4b53 89%, #8b6058 100%);
 }
 .services__promo div {
   margin: auto 0;
