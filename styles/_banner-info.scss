@@ -21,17 +21,17 @@
     p {
       text-align: right;
       max-width: 45%;
-      margin-left: 53%;
+      margin-left: 48%;
     }
 
     h2 {
-      margin-right: 2%;
+      margin-right: 7%;
       color: colors.$darkorange;
       text-align: right;
     }
 
     a {
-      margin-left: 83%;
+      margin-left: 78%;
     }
 
   }
@@ -46,7 +46,7 @@
 
 .banner-info__triumph {
   max-width: 100%;
-  height: 420px;
+  height: 450px;
   display: flex;
   justify-content: right;
   margin-top: 100px;
@@ -57,7 +57,7 @@
   }
 
   div {
-    max-width: 75%;
+    max-width: 55%;
     height: 75%;
     background-color: #f2f1f1;
     padding-top: 4%;
@@ -66,13 +66,20 @@
     p {
       text-align: left;
       max-width: 35%;
-      margin-left: 35%;
+      margin-left: 7%;
     }
 
     h2 {
-      margin-right: 51.5%;
+      margin-right: 75%;
       color: colors.$darkorange;
       text-align: right;
     }
+  }
+
+  &--img {
+    background: url(../images/banner-info-triumph.jpg) no-repeat;
+    background-size: cover;
+    width: 560px;
+    height: 85%;
   }
 }
