@@ -469,8 +469,7 @@ a {
 
 article {
   width: 1200px;
-  margin: 0 auto;
-  margin-top: 100px;
+  margin: 100px auto;
 }
 
 .title--light {
@@ -623,51 +622,91 @@ article {
   padding-left: 120px;
 }
 
-.article--img--float {
+.article__img--float {
   float: left;
   margin: 0 30px 0 0;
   position: relative;
 }
-.article--img--float time {
+.article__img--float time {
   display: inline-block;
   margin-top: 15px;
   opacity: 0.5;
 }
-.article--img--float time::before {
+.article__img--float time::before {
   content: url(../icons/time-icon.svg);
   margin-right: 5px;
 }
-.article--img--one {
+.article__img--one {
   background: url(../images/news_beauty.png) no-repeat;
   background-size: cover;
   height: 370px;
   width: 670px;
 }
-.article--img--one--info {
+.article__img--one--info {
   display: flex;
   justify-content: space-between;
 }
-.article--img--one--info p {
+.article__img--one--info p {
   opacity: 0.5;
 }
-.article--img--flex {
+.article__img--flex {
   display: flex;
   width: 1200px;
   justify-content: center;
   margin: 30px 0;
 }
-.article--img--two {
+.article__img--two {
   background: url(../images/article-img-two.png) no-repeat;
   background-size: cover;
   margin-right: 5px;
   height: 360px;
   width: 383px;
 }
-.article--img--three {
+.article__img--three {
   background: url(../images/article-img-three.png) no-repeat;
   background-size: cover;
   height: 360px;
   width: 383px;
+}
+.article__quote {
+  margin: 40px 0;
+  position: relative;
+}
+.article__quote--bg {
+  background-color: rgba(232, 168, 124, 0.2);
+  width: 770px;
+  height: 155px;
+  margin: 0 auto;
+}
+.article__quote--bg blockquote {
+  width: 525px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+.article__quote--flex {
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 215px;
+  margin-top: 10px;
+}
+.article__quote--flex figcaption {
+  font-family: "Libre Franklin", "sans-serif";
+  font-weight: 700;
+  color: #E27D60;
+}
+.article__quote--flex span {
+  display: block;
+  color: #303030;
+  opacity: 0.5;
+  font-weight: 400;
+}
+.article__quote--img {
+  background: url(../images/quote-img.png) no-repeat;
+  background-size: cover;
+  height: 50px;
+  width: 50px;
+  margin-right: 20px;
 }
 
 /*# sourceMappingURL=styles.css.map */

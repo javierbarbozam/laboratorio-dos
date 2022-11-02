@@ -37,10 +37,8 @@ a {
 
 article {
   width: 1200px;
-  margin: 0 auto;
-  margin-top: 100px;
+  margin: 100px auto;
 }
-
 
 // GENERAL CLASSES
 
@@ -216,55 +214,102 @@ article {
   }
 }
 
-.article--img {
-  &--float {
-    float: left;
-    margin: 0 30px 0 0;
-    position: relative;
-
-    time {
-      display: inline-block;
-      margin-top: 15px;
-      opacity: 0.5;
-
-      &::before {
-        content: url(../icons/time-icon.svg);
-        margin-right: 5px;
-      }
-    }
-  }
-  &--one {
-    background: url(../images/news_beauty.png) no-repeat;
-    background-size: cover;
-    height: 370px;
-    width: 670px;
-
-    &--info {
-      display: flex;
-      justify-content: space-between;
-
-      p {
+.article {
+  &__img {
+    &--float {
+      float: left;
+      margin: 0 30px 0 0;
+      position: relative;
+  
+      time {
+        display: inline-block;
+        margin-top: 15px;
         opacity: 0.5;
+  
+        &::before {
+          content: url(../icons/time-icon.svg);
+          margin-right: 5px;
+        }
       }
     }
-  }
-  &--flex {
-    display: flex;
-    width: 1200px;
-    justify-content: center;
-    margin: 30px 0;
-  }
-  &--two{
-    background: url(../images/article-img-two.png) no-repeat;
-    background-size: cover;
-    margin-right: 5px;
-    height: 360px;
-    width: 383px;
-  }
-  &--three{
-    background: url(../images/article-img-three.png) no-repeat;
-    background-size: cover;
-    height: 360px;
-    width: 383px;
+    &--one {
+      background: url(../images/news_beauty.png) no-repeat;
+      background-size: cover;
+      height: 370px;
+      width: 670px;
+  
+      &--info {
+        display: flex;
+        justify-content: space-between;
+  
+        p {
+          opacity: 0.5;
+        }
+      }
+    }
+    &--flex {
+      display: flex;
+      width: 1200px;
+      justify-content: center;
+      margin: 30px 0;
+    }
+    &--two{
+      background: url(../images/article-img-two.png) no-repeat;
+      background-size: cover;
+      margin-right: 5px;
+      height: 360px;
+      width: 383px;
+    }
+    &--three{
+      background: url(../images/article-img-three.png) no-repeat;
+      background-size: cover;
+      height: 360px;
+      width: 383px;
+    }
   }  // continuar article (Javier)
+  &__quote {
+    margin: 40px 0;
+    position: relative;
+    &--bg {
+      background-color: rgba(232, 168, 124, 0.2);
+      width: 770px;
+      height: 155px;
+      margin: 0 auto;
+      
+      blockquote {
+        width: 525px;
+        margin: 0 auto;
+        padding-top: 30px;
+      }
+    }
+
+    &--flex {
+      display: flex;
+      align-items: center;
+      position: relative;
+      left: 215px;
+      margin-top: 10px;
+
+      figcaption {
+        font-family: 'Libre Franklin', 'sans-serif';
+        font-weight: 700;
+        color: colors.$darkorange;
+      }
+
+      span {
+        display: block;
+        color: colors.$darkgrey;
+        opacity: 0.5;
+        font-weight: 400;
+      }
+    }
+
+    &--img {
+      background: url(../images/quote-img.png) no-repeat;
+      background-size: cover;
+      height: 50px;
+      width: 50px;
+      margin-right: 20px;
+    }
+  }
 }

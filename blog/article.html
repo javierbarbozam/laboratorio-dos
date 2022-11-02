@@ -5,6 +5,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../styles/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;700&family=Work+Sans&display=swap" rel="stylesheet">
   <title>Article</title>
 </head>
 <body>
@@ -30,9 +33,9 @@
       <h1 class="title--bold">Your head and heart matter.</h1>
     </div>
     <article>
-      <div class="article--img--float">
-        <div class="article--img--one"></div>
-        <div class="article--img--one--info">
+      <div class="article__img--float">
+        <div class="article__img--one"></div>
+        <div class="article__img--one--info">
           <time datetime="2021-07-17">July 17, 2021</time>
           <p>By Nick Cave</p>
         </div>
@@ -50,9 +53,9 @@
       <p>
         Ut donec suscipit nunc volutpat faucibus. Ut penatibus etiam diam facilisi at nibh nulla auctor lorem. Accumsan vulputate euismod massa sit egestas. Aliquet a scelerisque enim, arcu rutrum adipiscing fringilla risus. Eget fringilla curabitur sed vulputate pretium, habitasse amet. 
       </p>
-      <div class="article--img--flex">
-        <div class="article--img--two"></div>
-        <div class="article--img--three"></div>
+      <div class="article__img--flex">
+        <div class="article__img--two"></div>
+        <div class="article__img--three"></div>
       </div>
       <p>
         Et, fringilla aliquam justo est potenti dignissim molestie non mi. Metus cursus mattis leo a purus. Etiam a nisl ac felis sollicitudin. Quis nibh velit ultricies nibh pretium semper. Lacus amet nullam et dictum at aliquam imperdiet. In justo, leo facilisi viverra neque, congue mauris. Proin magna malesuada tincidunt ullamcorper netus mauris nibh lorem tellus.
@@ -61,19 +64,23 @@
         Fringilla quis at sed tristique. Nisl enim, enim volutpat et nunc. Senectus tortor, venenatis sed viverra in sollicitudin nullam. Sed eget morbi id eget eleifend vel. Eu et metus ultricies id ut mattis ullamcorper feugiat tristique. In dictum volutpat hac justo, senectus. Egestas diam neque, nibh nibh porttitor orci.
       </p>
       <!--Agregar contenido de la computadora (Javier)-->
-      <figure>
-        <blockquote>
-          “Malesuada penatibus pharetra ullamcorper a dictumst. Bibendum consequat blandit viverra integer vel. Ac dui
-          odio
-          ultricies posuere. Donec proin varius mus in eget et urna, ultrices faucibus. Volutpat laoreet pellentesque
-          volutpat at
-          gravida et, at. Sed et, suspendisse tortor, porttitor enim, penatibus sit.”
-        </blockquote>
-        <div></div>
-        <!--div imagen-->
-        <figcaption>Angelina Sommers<span>Germany</span></figcaption>
+      <figure class="article__quote">
+        <div class="article__quote--bg">
+          <blockquote>
+            “Malesuada penatibus pharetra ullamcorper a dictumst. Bibendum consequat blandit viverra integer vel. Ac dui
+            odio
+            ultricies posuere. Donec proin varius mus in eget et urna, ultrices faucibus. Volutpat laoreet pellentesque
+            volutpat at
+            gravida et, at. Sed et, suspendisse tortor, porttitor enim, penatibus sit.”
+          </blockquote>
+        </div>
+        <div class="article__quote--flex">
+          <div class="article__quote--img"></div>
+          <figcaption>Angelina Sommers<span>Germany</span></figcaption>
+        </div>
       </figure>
-      <p>Porta nam sit tincidunt tristique mollis sollicitudin et. Malesuada penatibus pharetra ullamcorper a dictumst.
+      <p>
+        Porta nam sit tincidunt tristique mollis sollicitudin et. Malesuada penatibus pharetra ullamcorper a dictumst.
         Bibendum
         consequat blandit viverra integer vel. Ac dui odio ultricies posuere. Donec proin varius mus in eget et urna,
         ultrices
@@ -81,6 +88,8 @@
         penatibus sit. At augue montes, in lectus urna sollicitudin. Vel dolor convallis sit nunc ut ipsum gravida. Eu
         dolor
         nisi, pellentesque fames.
+      </p>
+      <p>
         Nisl dolor ullamcorper mi pharetra, neque maecenas ut id ornare. Adipiscing fames eu enim feugiat egestas quis
         hendrerit
         massa habitasse. Nisi, odio aliquam suspendisse gravida dignissim. Mattis vitae proin mi id nunc.
