@@ -607,6 +607,8 @@ input::placeholder {
 }
 .services__img--box h2 {
   text-align: center;
+  font-size: 36px;
+  margin: 5px 0 10px 0;
 }
 .services__img--one {
   height: 200px;
