@@ -495,11 +495,6 @@ input::placeholder {
   background: url(../images/news_posture.png) no-repeat;
 }
 
-h2 {
-  color: #E27D60;
-  font-size: 32px;
-}
-
 .banner-info__index {
   max-width: 100%;
   height: 420px;
@@ -664,6 +659,11 @@ body {
   color: #303030;
   margin: 0 auto;
   width: 100%;
+}
+
+h2 {
+  color: #E27D60;
+  font-size: 32px;
 }
 
 ul {
