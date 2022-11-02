@@ -456,7 +456,6 @@ ul {
 p {
   font-size: 18px;
   opacity: 0.8;
-  line-height: 20px;
 }
 
 h1, h2, h3, h4 {
@@ -594,8 +593,8 @@ article {
   height: 350px;
   width: 100%;
   color: #fff;
-  background: #3d3c67;
-  background: linear-gradient(90deg, #3d3c67 0%, #49235a 17%, #413463 37%, #520043 59%, #7e4b53 89%, #8b6058 100%);
+  background: rgb(61, 60, 103);
+  background: linear-gradient(90deg, rgb(61, 60, 103) 0%, rgb(73, 35, 90) 17%, rgb(65, 52, 99) 37%, rgb(82, 0, 67) 59%, rgb(126, 75, 83) 89%, rgb(139, 96, 88) 100%);
 }
 .services__promo div {
   margin: auto 0;
@@ -610,7 +609,7 @@ article {
   font-family: "Libre Franklin", "sans-serif";
   font-weight: 700;
   font-size: 64px;
-  margin: 0 0 10px 0;
+  margin: 0 0 20px 0;
 }
 .services__promo--title span {
   color: #E27D60;
