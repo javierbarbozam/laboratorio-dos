@@ -348,6 +348,41 @@ header {
   background: url(../images/news_posture.png) no-repeat;
 }
 
+.banner-info__index {
+  max-width: 100%;
+  height: 420px;
+  display: flex;
+  margin-bottom: 100px;
+}
+.banner-info__index .banner-info--p {
+  margin-bottom: 5%;
+}
+.banner-info__index div {
+  max-width: 55%;
+  height: 85%;
+  background-color: #f2f1f1;
+  padding-top: 3%;
+}
+.banner-info__index div p {
+  text-align: right;
+  max-width: 45%;
+  margin-left: 48%;
+}
+.banner-info__index div h2 {
+  margin-right: 7%;
+  color: #E27D60;
+  text-align: right;
+}
+.banner-info__index div a {
+  margin-left: 78%;
+}
+.banner-info__index--img {
+  background: url(../images/banner-info-index.png) no-repeat;
+  background-size: cover;
+  width: 560px;
+  height: 85%;
+}
+
 body {
   font-family: "Work Sans", sans-serif;
   font-weight: 400;
