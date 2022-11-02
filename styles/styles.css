@@ -351,6 +351,7 @@ header {
   max-width: 100%;
   height: 420px;
   display: flex;
+  margin-top: 100px;
   margin-bottom: 100px;
 }
 .banner-info__index .banner-info--p {
@@ -365,21 +366,49 @@ header {
 .banner-info__index div p {
   text-align: right;
   max-width: 45%;
-  margin-left: 48%;
+  margin-left: 53%;
 }
 .banner-info__index div h2 {
-  margin-right: 7%;
+  margin-right: 2%;
   color: #E27D60;
   text-align: right;
 }
 .banner-info__index div a {
-  margin-left: 78%;
+  margin-left: 83%;
 }
 .banner-info__index--img {
   background: url(../images/banner-info-index.png) no-repeat;
   background-size: cover;
   width: 560px;
   height: 85%;
+}
+
+.banner-info__triumph {
+  max-width: 100%;
+  height: 420px;
+  display: flex;
+  justify-content: right;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.banner-info__triumph .banner-info--p {
+  margin-bottom: 5%;
+}
+.banner-info__triumph div {
+  max-width: 75%;
+  height: 75%;
+  background-color: #f2f1f1;
+  padding-top: 4%;
+}
+.banner-info__triumph div p {
+  text-align: left;
+  max-width: 35%;
+  margin-left: 35%;
+}
+.banner-info__triumph div h2 {
+  margin-right: 51.5%;
+  color: #E27D60;
+  text-align: right;
 }
 
 body {
