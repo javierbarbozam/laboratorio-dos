@@ -2,11 +2,19 @@ footer {
   width: 100%;
 }
 
-form {
+.form-bg__massage {
   background: url(../images/footer_img.png) no-repeat;
   background-size: cover;
   width: 100%;
   height: 275px;
+  color: white;
+  margin: 0;
+}
+.form-bg__flowers {
+  background: url(../images/footer-aboutUs.png) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
   color: white;
   margin: 0;
 }
@@ -31,6 +39,10 @@ form {
   font-weight: bolder;
   font-size: 36px;
 }
+.form__info .our-team-form-label {
+  display: block;
+  width: 600px;
+}
 .form__info--description {
   font-weight: regular;
   font-size: 18px;
@@ -38,6 +50,10 @@ form {
 }
 .form__info--description span {
   color: #E27D60;
+}
+
+.form__contact {
+  background-color: #fff;
 }
 
 input[type=email] {
@@ -70,6 +86,7 @@ input::placeholder {
   font-size: 14px;
   width: 1200px;
   margin: 0 auto;
+  padding-top: 60px;
 }
 .footer-nav__logo {
   background: url(../images/millious-footer.png) no-repeat;
@@ -87,14 +104,15 @@ input::placeholder {
 }
 .footer-nav__social-media--facebook::before {
   content: url(../icons/footer-facebook.svg);
+  margin-right: 15px;
 }
 .footer-nav__social-media--vimeo::before {
   content: url(../icons/footer-vimeo.svg);
-  margin: 0 15px;
+  margin-right: 15px;
 }
 .footer-nav__social-media--instagram::before {
   content: url(../icons/footer-instagram.svg);
-  margin: 0 15px;
+  margin-right: 15px;
 }
 .footer-nav__social-media--twitter::before {
   content: url(../icons/footer-twitter.svg);
@@ -103,7 +121,6 @@ input::placeholder {
 .footer-list {
   display: flex;
   justify-content: right;
-  margin-top: 60px;
 }
 .footer-list li {
   list-style: none;
@@ -334,6 +351,7 @@ header {
   max-width: 100%;
   height: 420px;
   display: flex;
+  margin-top: 100px;
   margin-bottom: 100px;
 }
 .banner-info__index .banner-info--p {
@@ -348,21 +366,49 @@ header {
 .banner-info__index div p {
   text-align: right;
   max-width: 45%;
-  margin-left: 48%;
+  margin-left: 53%;
 }
 .banner-info__index div h2 {
-  margin-right: 7%;
+  margin-right: 2%;
   color: #E27D60;
   text-align: right;
 }
 .banner-info__index div a {
-  margin-left: 78%;
+  margin-left: 83%;
 }
 .banner-info__index--img {
   background: url(../images/banner-info-index.png) no-repeat;
   background-size: cover;
   width: 560px;
   height: 85%;
+}
+
+.banner-info__triumph {
+  max-width: 100%;
+  height: 420px;
+  display: flex;
+  justify-content: right;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.banner-info__triumph .banner-info--p {
+  margin-bottom: 5%;
+}
+.banner-info__triumph div {
+  max-width: 75%;
+  height: 75%;
+  background-color: #f2f1f1;
+  padding-top: 4%;
+}
+.banner-info__triumph div p {
+  text-align: left;
+  max-width: 35%;
+  margin-left: 35%;
+}
+.banner-info__triumph div h2 {
+  margin-right: 51.5%;
+  color: #E27D60;
+  text-align: right;
 }
 
 body {
@@ -576,6 +622,25 @@ article {
 }
 .article--img--one--info p {
   opacity: 0.5;
+}
+.article--img--flex {
+  display: flex;
+  width: 1200px;
+  justify-content: center;
+  margin: 30px 0;
+}
+.article--img--two {
+  background: url(../images/article-img-two.png) no-repeat;
+  background-size: cover;
+  margin-right: 5px;
+  height: 360px;
+  width: 383px;
+}
+.article--img--three {
+  background: url(../images/article-img-three.png) no-repeat;
+  background-size: cover;
+  height: 360px;
+  width: 383px;
 }
 
 /*# sourceMappingURL=styles.css.map */
