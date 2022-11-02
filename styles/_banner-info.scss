@@ -1,5 +1,10 @@
 @use '_colors';
 
+h2 {
+  color: colors.$darkorange;
+  font-size: 32px;
+}
+
 .banner-info__index {
   max-width: 100%;
   height: 420px;
@@ -7,31 +12,25 @@
   margin-top: 100px;
   margin-bottom: 100px;
 
+  .banner-info--text {
+    text-align: right;
+  }
+
   .banner-info--p {
     margin-bottom: 5%;
+    max-width: 50%;
+    margin-left: 50%;
   }
 
   div {
     max-width: 55%;
     height: 85%;
     background-color: #f2f1f1;
-    padding-top: 3%;
-
-
-    p {
-      text-align: right;
-      max-width: 45%;
-      margin-left: 48%;
-    }
+    padding-top: 2%;
 
     h2 {
-      margin-right: 7%;
       color: colors.$darkorange;
       text-align: right;
-    }
-
-    a {
-      margin-left: 78%;
     }
 
   }
@@ -65,14 +64,7 @@
 
     p {
       text-align: left;
-      max-width: 35%;
-      margin-left: 7%;
-    }
-
-    h2 {
-      margin-right: 75%;
-      color: colors.$darkorange;
-      text-align: right;
+      max-width: 45%;
     }
   }
 

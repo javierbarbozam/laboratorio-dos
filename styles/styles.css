@@ -495,6 +495,11 @@ input::placeholder {
   background: url(../images/news_posture.png) no-repeat;
 }
 
+h2 {
+  color: #E27D60;
+  font-size: 32px;
+}
+
 .banner-info__index {
   max-width: 100%;
   height: 420px;
@@ -502,27 +507,23 @@ input::placeholder {
   margin-top: 100px;
   margin-bottom: 100px;
 }
+.banner-info__index .banner-info--text {
+  text-align: right;
+}
 .banner-info__index .banner-info--p {
   margin-bottom: 5%;
+  max-width: 50%;
+  margin-left: 50%;
 }
 .banner-info__index div {
   max-width: 55%;
   height: 85%;
   background-color: #f2f1f1;
-  padding-top: 3%;
-}
-.banner-info__index div p {
-  text-align: right;
-  max-width: 45%;
-  margin-left: 48%;
+  padding-top: 2%;
 }
 .banner-info__index div h2 {
-  margin-right: 7%;
   color: #E27D60;
   text-align: right;
-}
-.banner-info__index div a {
-  margin-left: 78%;
 }
 .banner-info__index--img {
   background: url(../images/banner-info-index.png) no-repeat;
@@ -550,13 +551,7 @@ input::placeholder {
 }
 .banner-info__triumph div p {
   text-align: left;
-  max-width: 35%;
-  margin-left: 7%;
-}
-.banner-info__triumph div h2 {
-  margin-right: 75%;
-  color: #E27D60;
-  text-align: right;
+  max-width: 45%;
 }
 .banner-info__triumph--img {
   background: url(../images/banner-info-triumph.jpg) no-repeat;
@@ -815,8 +810,8 @@ article {
   height: 350px;
   width: 100%;
   color: #fff;
-  background: rgb(61, 60, 103);
-  background: linear-gradient(90deg, rgb(61, 60, 103) 0%, rgb(73, 35, 90) 17%, rgb(65, 52, 99) 37%, rgb(82, 0, 67) 59%, rgb(126, 75, 83) 89%, rgb(139, 96, 88) 100%);
+  background: #3d3c67;
+  background: linear-gradient(90deg, #3d3c67 0%, #49235a 17%, #413463 37%, #520043 59%, #7e4b53 89%, #8b6058 100%);
 }
 .services__promo div {
   margin: auto 0;
