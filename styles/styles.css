@@ -555,6 +555,41 @@ input::placeholder {
   height: 85%;
 }
 
+.banner-info__treatments {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.banner-info__treatments--img {
+  display: flex;
+  justify-content: space-between;
+}
+.banner-info__treatments--img--1 {
+  background: url(../images/banner-info-relax-massage.jpg) no-repeat;
+  background-size: cover;
+  width: 290px;
+  height: 290px;
+}
+.banner-info__treatments--img--2 {
+  background: url(../images/banner-info-aromatherapy.jpg) no-repeat;
+  background-size: cover;
+  width: 290px;
+  height: 290px;
+}
+.banner-info__treatments--img--3 {
+  background: url(../images/banner-info-rehabilitation.jpg) no-repeat;
+  background-size: cover;
+  width: 290px;
+  height: 290px;
+}
+.banner-info__treatments--img--4 {
+  background: url(../images/banner-info-manicure.jpg) no-repeat;
+  background-size: cover;
+  width: 290px;
+  height: 290px;
+}
+
 .shop--brands {
   display: flex;
   justify-content: space-around;
@@ -810,8 +845,8 @@ article {
   height: 350px;
   width: 100%;
   color: #fff;
-  background: rgb(61, 60, 103);
-  background: linear-gradient(90deg, rgb(61, 60, 103) 0%, rgb(73, 35, 90) 17%, rgb(65, 52, 99) 37%, rgb(82, 0, 67) 59%, rgb(126, 75, 83) 89%, rgb(139, 96, 88) 100%);
+  background: #3d3c67;
+  background: linear-gradient(90deg, #3d3c67 0%, #49235a 17%, #413463 37%, #520043 59%, #7e4b53 89%, #8b6058 100%);
 }
 .services__promo div {
   margin: auto 0;
