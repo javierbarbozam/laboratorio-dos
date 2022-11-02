@@ -24,10 +24,8 @@
     padding-top: 2%;
 
     h2 {
-      color: colors.$darkorange;
       text-align: right;
     }
-
   }
 
   &--img {
@@ -132,7 +130,6 @@
     padding-top: 2%;
 
     h2 {
-      color: colors.$darkorange;
       text-align: right;
     }
 
@@ -175,5 +172,44 @@
 
   &--p {
     margin-bottom: 50px;
+  }
+}
+
+.banner-info__our-team {
+  max-width: 100%;
+  height: 680px;
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+  .banner-info--text {
+    text-align: right;
+  }
+
+  .banner-info--p {
+    margin-bottom: 5%;
+    max-width: 50%;
+    margin-left: 50%;
+    background: none;
+    padding-top: 0;
+  }
+
+  div {
+    max-width: 45%;
+    height: 85%;
+    background-color: #f2f1f1;
+    padding-top: 5%;
+
+    h2 {
+      text-align: right;
+    }
+
+  }
+
+  &--img {
+    background: url(../images/banner-info-our-team.jpg) no-repeat;
+    background-size: cover;
+    width: 560px;
+    height: 85%;
   }
 }
