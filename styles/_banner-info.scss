@@ -46,16 +46,11 @@
   margin-top: 100px;
   margin-bottom: 100px;
 
-  .banner-info--p {
-    margin-bottom: 5%;
-  }
-
   div {
     max-width: 55%;
     height: 75%;
     background-color: #f2f1f1;
     padding-top: 4%;
-
 
     p {
       text-align: left;
@@ -148,5 +143,37 @@
     background-size: cover;
     width: 560px;
     height: 85%;
+  }
+}
+
+.banner-info__relax {
+  max-width: 100%;
+  height: 455px;
+  display: flex;
+  justify-content: right;
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+  div {
+    max-width: 55%;
+    height: 85%;
+    background-color: #f2f1f1;
+    padding-top: 2%;
+
+    p {
+      text-align: left;
+      max-width: 45%;
+    }
+  }
+
+  &--img {
+    background: url(../images/banner-info-relax.jpg) no-repeat;
+    background-size: cover;
+    width: 560px;
+    height: 85%;
+  }
+
+  &--p {
+    margin-bottom: 50px;
   }
 }
