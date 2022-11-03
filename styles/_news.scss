@@ -46,14 +46,14 @@
   }
 
   &__card {
-    border: 1.5px solid lightgray;
+    border: 1.5px solid colors.$lightgrey;
     border-radius: 4px;
     width: 30%;
     height: 395px;
   }
 
   &__box {
-    border: 1.5px solid lightgray;
+    border: 1.5px solid colors.$lightgrey;
     border-radius: 4px;
     width: 30%;
     height: 476px;
@@ -85,7 +85,7 @@
 
   &__category {
     background-color: white;
-    border: 0.5px solid colors.$darkgrey;
+    border: 0.5px solid colors.$lightgrey;
     border-radius: 3px;
     text-align: center;
     width: 30%;
