@@ -711,13 +711,21 @@ input::placeholder {
   height: 85%;
 }
 
+.shop-description {
+  font-size: 18px;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 .shop {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-content: center;
   max-width: 1200px;
   margin: 0 auto;
   padding-top: 40px;
+  padding-bottom: 100px;
 }
 .shop--brands-change {
   background: url(../icons/shop-change.svg) no-repeat;
@@ -764,6 +772,30 @@ input::placeholder {
   height: 335px;
 }
 
+.shop-massage_oil {
+  background: url(../images/shop-massage_oil.png) no-repeat;
+  width: 270px;
+  height: 335px;
+}
+
+.shop-pumpkin_pie {
+  background: url(../images/shop-pumpkin_pie.png) no-repeat;
+  width: 270px;
+  height: 335px;
+}
+
+.shop-cc_cream {
+  background: url(../images/shop-cc_cream.png) no-repeat;
+  width: 270px;
+  height: 335px;
+}
+
+.shop-anti-cellulite_oil {
+  background: url(../images/shop-anti-cellulite_oil.png) no-repeat;
+  width: 270px;
+  height: 335px;
+}
+
 .shop__reactions {
   display: flex;
   justify-content: center;
@@ -801,6 +833,7 @@ input::placeholder {
 .shop__text--product {
   font-size: 20px;
   font-weight: bold;
+  color: #303030;
   margin: 10px 0;
 }
 .shop__text--price {
