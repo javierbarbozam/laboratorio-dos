@@ -1,32 +1,110 @@
-.shop--brands {
+@use '_colors';
+
+.shop {
   display: flex;
   justify-content: space-around;
   align-content: center;
   max-width: 1200px;
   margin: 0 auto;
+  padding-top: 40px;
 
-  &-change {
+  &--brands-change {
     background: url(../icons/shop-change.svg) no-repeat;
     width: 164px;
     height: 67px;
   }
 
-  &-blue_velvet {
+  &--brands-blue_velvet {
     background: url(../icons/shop-blue_velvet.svg) no-repeat;
     width: 164px;
     height: 67px;
   }
 
-  &-hilroy {
+  &--brands-hilroy {
     background: url(../icons/shop-hilroy.svg) no-repeat;
     width: 164px;
     height: 67px;
   }
 
-  &-nafia {
+  &--brands-nafia {
     background: url(../icons/shop-nafia.svg) no-repeat;
     width: 164px;
     height: 67px;
+  }
+}
+
+.shop-massage_cream {
+  background: url(../images/shop-massage_cream.png) no-repeat;
+  width: 270px;
+  height: 335px;
+}
+
+.shop-jojoba_oil {
+  background: url(../images/shop-jojoba_oil.png) no-repeat;
+  width: 270px;
+  height: 335px;
+}
+
+.shop-almond_oil {
+  background: url(../images/shop-almond_oil.png) no-repeat;
+  width: 270px;
+  height: 335px;
+}
+
+.shop-coconut_oil {
+  background: url(../images/shop-coconut_oil.png) no-repeat;
+  width: 270px;
+  height: 335px;
+}
+
+.shop__reactions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  position: relative;
+  left: 75px;
+  top: -16px;
+  background-color: white;
+  border: 1px solid colors.$lightgrey;
+  border-radius: 3px;
+  width: 120px;
+  height: 34px;
+
+  &--like {
+    background: url(../icons/shop-like.svg) no-repeat;
+    width: 24px;
+    height: 24px;
+  }
+
+  &--share {
+    background: url(../icons/shop-share.svg) no-repeat;
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.shop__text {
+  margin-top: -13px;
+
+  &--category {
+    font-size: 10px;
+    color: colors.$darkgrey;
+    opacity: 0.5;  
+    margin: 10px 0;
+  }
+  
+  &--product {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  &--price {
+    font-size: 16px;
+    font-weight: bold;
+    color: colors.$darkorange;
+    margin: 10px 0;
   }
 }
 

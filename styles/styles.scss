@@ -28,7 +28,7 @@ ul {
   padding: 0;
 }
 
-p {
+p, li {
   font-size: 18px;
   opacity: 0.8;
 }
@@ -179,46 +179,106 @@ article {
   }
 }
 
-.services__promo {
-  margin: 100px 0;
-  display: flex;
-  justify-content: center;
-  height: 350px;
-  width: 100%;
-  color: #fff;
-  background: rgb(61,60,103);
-  background: linear-gradient(90deg, rgba(61,60,103,1) 0%, rgba(73,35,90,1) 17%, rgba(65,52,99,1) 37%, rgba(82,0,67,1) 59%, rgba(126,75,83,1) 89%, rgba(139,96,88,1) 100%);
-
-  div {
-    margin: auto 0;
-  }
-
-  &--description {
-    opacity: 1;
-    width: 583px;
-    margin: 0;
-  }
-
-  &--title {
-    opacity: 1;
-    font-family: 'Libre Franklin', 'sans-serif';
-    font-weight: 700;
-    font-size: 64px;
-    margin: 0 0 20px 0;
-
-    span {
-      color: colors.$darkorange;
+.services {
+  &__promo {
+    margin: 100px 0;
+    display: flex;
+    justify-content: center;
+    height: 350px;
+    width: 100%;
+    color: #fff;
+    background: rgb(61,60,103);
+    background: linear-gradient(90deg, rgba(61,60,103,1) 0%, rgba(73,35,90,1) 17%, rgba(65,52,99,1) 37%, rgba(82,0,67,1) 59%, rgba(126,75,83,1) 89%, rgba(139,96,88,1) 100%);
+  
+    div {
+      margin: auto 0;
+    }
+  
+    &--description {
+      opacity: 1;
+      width: 583px;
+      margin: 0;
+    }
+  
+    &--title {
+      opacity: 1;
+      font-family: 'Libre Franklin', 'sans-serif';
+      font-weight: 700;
+      font-size: 64px;
+      margin: 0 0 20px 0;
+  
+      span {
+        color: colors.$darkorange;
+      }
+    }
+  
+    &--discount {
+      opacity: 1;
+      margin: auto 0;
+      font-weight: 700;
+      font-size: 64px;
+      font-family: 'Libre Franklin', 'sans-serif';
+      padding-left: 120px;
     }
   }
 
-  &--discount {
-    opacity: 1;
-    margin: auto 0;
-    font-weight: 700;
-    font-size: 64px;
-    font-family: 'Libre Franklin', 'sans-serif';
-    padding-left: 120px;
+  &__trusted {
+   max-width: 1200px;
+   margin: 0 auto;
+   display: flex;
+   margin-bottom: 50px;
+  
+  &--images {
+    display: flex;
+    margin-right: 50px;
   }
+
+  &--text {
+    display: block;
+    margin-left: 50px;
+  }
+
+   &--img1 {
+    background: url(../images/services-candle.png) no-repeat;
+    background-size: cover;
+    width: 285px;
+    height: 370px;
+   }
+
+   &--img2 {
+    background: url(../images/services-plants.png) no-repeat;
+    background-size: cover;
+    width: 285px;
+    height: 370px;
+   }
+
+   &--img3 {
+    background: url(../images/services-skin.png) no-repeat;
+    background-size: cover;
+    width: 570px;
+    height: 350px;
+    margin-left: 50px;
+   }
+ }
+
+ &__skin {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  margin-bottom: 100px;
+
+  &--paragraphs {
+    max-width: 50%;
+    margin: auto 0;
+    margin-right: 50px;
+  }
+ }
+
+ &__btn {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+ }
 }
 
 .article {
