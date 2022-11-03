@@ -221,6 +221,32 @@ article {
       padding-left: 120px;
     }
   }
+
+ &__trusted {
+   max-width: 1200px;
+   margin: 0 auto;
+  
+   &--img1 {
+    background: url(../images/services-candle.png) no-repeat;
+    background-size: cover;
+    width: 560px;
+    height: 85%;
+   }
+
+   &--img2 {
+    background: url(../images/services-plants.png) no-repeat;
+    background-size: cover;
+    width: 560px;
+    height: 85%;
+   }
+
+   &--img3 {
+    background: url(../images/services-skin.png) no-repeat;
+    background-size: cover;
+    width: 560px;
+    height: 85%;
+   }
+ }
 }
 
 .article {
