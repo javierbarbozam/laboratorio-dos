@@ -222,30 +222,62 @@ article {
     }
   }
 
- &__trusted {
+  &__trusted {
    max-width: 1200px;
    margin: 0 auto;
+   display: flex;
+   margin-bottom: 50px;
   
+  &--images {
+    display: flex;
+    margin-right: 50px;
+  }
+
+  &--text {
+    display: block;
+    margin-left: 50px;
+  }
+
    &--img1 {
     background: url(../images/services-candle.png) no-repeat;
     background-size: cover;
-    width: 560px;
-    height: 85%;
+    width: 285px;
+    height: 370px;
    }
 
    &--img2 {
     background: url(../images/services-plants.png) no-repeat;
     background-size: cover;
-    width: 560px;
-    height: 85%;
+    width: 285px;
+    height: 370px;
    }
 
    &--img3 {
     background: url(../images/services-skin.png) no-repeat;
     background-size: cover;
-    width: 560px;
-    height: 85%;
+    width: 570px;
+    height: 350px;
+    margin-left: 50px;
    }
+ }
+
+ &__skin {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  margin-bottom: 100px;
+
+  &--paragraphs {
+    max-width: 50%;
+    margin: auto 0;
+    margin-right: 50px;
+  }
+ }
+
+ &__btn {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
  }
 }
 
