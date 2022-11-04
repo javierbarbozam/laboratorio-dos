@@ -32,7 +32,7 @@
       </div>
     </header>
     <main>
-      <div>
+      <div class="section__products container__products__select">
         <ul>
           <li><button>Bestsellers</button></li>
           <li><button>Massage</button></li>
@@ -44,57 +44,62 @@
           <li><button>Accessories</button></li>
         </ul>
         <div>
-          <button>search bar</button>
-          <button>menu</button>
+          <button class="product-search"><span class="visually-hidden">search bar</span></button>
+          <button class="product-menu"><span class="visually-hidden">menu</span></button>
         </div>
       </div>
-      <div>
+
+      <div class="product">
         <!--img product-->
-        <div class="">
+        <div class="product__images">
           <div>
-            <div class=""></div>
-            <div class=""></div>
-            <div class=""></div>
+            <div class="product-backside"></div>
+            <div class="product-features"></div>
+            <div class="product-img"></div>
           </div>
-          <div class=""></div>
+          <div class="product-massage_oil"></div>
         </div>
         <div>
-          <p>Massage Oil</p>
+          <p class="product__title">Massage Oil</p>
           <!--img-stars ratings-->
-          <div></div>
-          <p>57 ratings</p>
-          <div>
-            <div>Bestseller</div>
+          <p class="product__rating__text">57 ratings</p>
+          <div class="product__category">
+            <p class="product__category--name">Bestseller</p>
             <!--div me gusta y compartir-->
-            <div></div>
+            <div class="product__reactions">
+              <div class="shop__reactions--like"></div>
+              <div class="shop__reactions--share"></div>
+            </div>
           </div>
           <!-- boton de mas y menos -->
-          <div>
-            <button><span>less</span></button>
-            <p>1</p>
-            <button><span>more</span></button>
+          <div class="product__amount">
+            <button class="product__left-arrow"><span class="visually-hidden">less</span></button>
+            <p class="product__number">1</p>
+            <button class="product__right-arrow"><span class="visually-hidden">more</span></button>
           </div>
-          <p>
+          <p class="product__info">
             Eu et metus ultricies id ut mattis ullamcorper feugiat tristique. In
             dictum volutpat hac justo, senectus. Egestas diam neque, nibh nibh
             porttitor orci:
           </p>
           <ul>
-            <li>Malesuada justo</li>
-            <li>Elementum odio sagittis</li>
-            <li>Lacus amet nullam</li>
+            <li class="product__info">Malesuada justo</li>
+            <li class="product__info">Elementum odio sagittis</li>
+            <li class="product__info">Lacus amet nullam</li>
           </ul>
           <!-- redes sociales iconos -->
-          <div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
+          <div class="product__social-media">
+            <ul class="footer-nav__social-media">
+              <li class="footer-nav__social-media--facebook"><a href="#"><span  class="visually-hidden">Facebook</span></a></li>
+              <li class="footer-nav__social-media--vimeo"><a href="#"><span class="visually-hidden">Vimeo</span></a></li>
+              <li class="footer-nav__social-media--instagram"><a href="#"><span class="visually-hidden">Instagram</span></a></li>
+              <li class="footer-nav__social-media--twitter"><a href="#"><span class="visually-hidden">Twitter</span></a></li>
+            </ul>
           </div>
-          <button>Add To Cart</button>
+          <button class="product__button--cart">Add To Cart</button>
         </div>
       </div>
-      <div>
+      <div class="product__text">
         <p>
           This is body text. Lorem Ipsum is simply dummy text of the printing
           and typesetting industry. Lorem Ipsum has been the industry's standard
@@ -185,6 +190,14 @@
               <p class="shop__text--price">$25.30</p>
             </div>
           </div>
+        </div>
+        <div class="container-btn">
+          <button class="container-btn--left"><span class="visually-hidden">Watch previous reviews</span></button>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <button class="container-btn--right"><span class="visually-hidden">Watch next reviews</span></button>
         </div>
       </section>
     </main>
