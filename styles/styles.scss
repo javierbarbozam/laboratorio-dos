@@ -5,7 +5,8 @@
 @use '_news';
 @use '_banner-info';
 @use '_shop';
-@use 'services-banner';
+@use '_services-banner';
+@use '_side-our-team';
 
 // GENERAL TAGS
 
@@ -379,4 +380,220 @@ article {
       margin-right: 20px;
     }
   }
+}
+
+//product 
+.container__products__select{
+  background-color: colors.$darkorange;
+  height: 77px;
+}
+
+.section__products {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 48px;
+
+  button {
+    cursor: pointer;
+    background: none;
+    border: none;
+  }
+
+  ul{
+    display: flex;
+    max-width: 1200px;
+
+    button {
+      font-size: 18px;
+      font-weight: bold;
+      color: white;
+    }
+
+    button::after{
+      content: url(../icons/product-arrow.svg);
+      position: relative;
+      top: 4px;
+    }
+  }
+}
+
+.product-search::before {
+  content: url(../icons/product-search.svg);
+}
+
+.product-menu::before {
+  content: url(../icons/product-menu.svg);
+}
+
+.product {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 100px;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 7%;
+
+  &__images {
+    display: flex;
+  }
+
+  &-backside {
+    background: url(../images/product-backside.png) no-repeat;
+    width: 170px;
+    height: 170px;
+    margin-bottom: 30px;
+  }
+
+  &-features {
+    background: url(../images/product-features.png) no-repeat;
+    width: 170px;
+    height: 170px;
+    margin-bottom: 30px;
+  }
+
+  &-img {
+    background: url(../images/product-img.png) no-repeat;
+    width: 170px;
+    height: 170px;
+  }
+
+  &-massage_oil {
+    background: url(../images/product-massage_oil.png) no-repeat;
+    width: 370px;
+    height: 570px;
+  }
+
+  &__title {
+    font-size: 36px;
+    font-weight: bold;
+    color: colors.$darkgrey;
+    margin-top: 10px;
+  }
+
+  &__rating__text::before {
+    content: url(../icons/product-rating.svg);
+    padding-right: 20px;
+    padding-top: 2px;
+  }
+
+  &__rating__text {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Libre Franklin', 'sans-serif';
+  }
+
+  &__category {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+
+    &--name {
+      background-color: colors.$darkorange;
+      height: 20px;
+      width: 135px;
+      text-align: center;
+      color: white;
+      font-size: 18px;
+      font-weight: bold;
+      padding: 8px 0;
+      margin: 0;
+    }
+  }
+
+  &__reactions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    background-color: white;
+    border: 1px solid colors.$lightgrey;
+    border-radius: 3px;
+    width: 120px;
+    height: 34px;
+  }
+  
+  &__amount {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    border: 2px solid colors.$lightgrey;
+    border-radius: 3px;
+    width: 100px;
+    height: 42px;
+    margin: 40px 0;
+
+    button {
+    cursor: pointer;
+    background: none;
+    border: none;
+    }
+  }
+
+  &__left-arrow::before {
+    content: url(../icons/product-left-arrow.svg);
+    padding-right: 18px;
+  }
+
+  &__right-arrow::before {
+    content: url(../icons/product-right-arrow.svg);
+    padding-left: 18px;
+  }
+
+  &__number{
+    font-size: 20px;
+    font-weight: bold;
+    color: colors.$darkgrey;
+    margin: auto 0;
+  }
+
+  &__info {
+    font-size: 16px;
+    line-height: 19px;
+    color: colors.$darkgrey;
+    opacity: 0.5;
+    font-family: 'Work Sans', sans-serif;
+  }
+
+  ul {
+    list-style: inside;
+  }
+
+ 
+  &__social-media {
+    margin: 40px 0;
+
+    ul {
+      list-style: none;
+      justify-content: left;
+    }
+  }
+
+  &__button--cart {
+    button {
+      cursor: pointer;
+      background: none;
+      border: none;
+    }
+
+    background-color: colors.$darkgrey;
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: bold;
+    height: 42px;
+    width: 100%;
+    color: white;
+  }
+}
+
+.product__text {
+  max-width: 1200px;
+  margin: 50px auto;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 18px;
+  color: colors.$darkgrey;
+
+  ul {
+    list-style: inside;
+    }
 }

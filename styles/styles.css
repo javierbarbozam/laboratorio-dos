@@ -724,8 +724,8 @@ input::placeholder {
   align-content: center;
   max-width: 1200px;
   margin: 0 auto;
-  padding-top: 40px;
-  padding-bottom: 100px;
+  padding-top: 60px;
+  padding-bottom: 40px;
 }
 .shop--brands-change {
   background: url(../icons/shop-change.svg) no-repeat;
@@ -843,6 +843,13 @@ input::placeholder {
   margin: 10px 0;
 }
 
+.services__title {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  margin: 5px 0 10px 0;
+  opacity: 1;
+}
 .services__img--box {
   width: 900px;
   margin: 80px auto 0 auto;
@@ -910,6 +917,276 @@ input::placeholder {
   height: 100px;
   width: 90px;
   margin: 0 auto;
+}
+
+.doctors-description {
+  text-align: center;
+  margin-bottom: 42px;
+}
+.doctors-description span {
+  display: block;
+}
+
+.doctors-img__james {
+  width: 270px;
+  height: 335px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  background: url(../images/doctors-james.png) no-repeat;
+  background-size: cover;
+  background-position-x: center;
+}
+.doctors-img__victoria {
+  width: 270px;
+  height: 335px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  background: url(../images/doctors-victoria.png) no-repeat;
+  background-size: cover;
+  background-position-x: center;
+}
+.doctors-img__umar {
+  width: 270px;
+  height: 335px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  background: url(../images/doctors-Umar.png) no-repeat;
+  background-size: cover;
+  background-position-x: center;
+}
+.doctors-img__melissa {
+  width: 270px;
+  height: 335px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  background: url(../images/doctors-melissa.png) no-repeat;
+  background-size: cover;
+  background-position-x: center;
+}
+.doctors-img__bob {
+  width: 270px;
+  height: 335px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  background: url(../images/doctors-bob.png) no-repeat;
+  background-size: cover;
+  background-position-x: center;
+}
+.doctors-img__george {
+  width: 270px;
+  height: 335px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  background: url(../images/doctors-george.png) no-repeat;
+  background-size: cover;
+  background-position-x: center;
+}
+.doctors-img__mark {
+  width: 270px;
+  height: 335px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  background: url(../images/doctors-mark.png) no-repeat;
+  background-size: cover;
+  background-position-x: center;
+}
+.doctors-img__malcolm {
+  width: 270px;
+  height: 335px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  background: url(../images/doctors-malcolm.png) no-repeat;
+  background-size: cover;
+  background-position-x: center;
+}
+
+.doctors-container {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.doctors-container__card {
+  position: relative;
+  margin-bottom: 30px;
+}
+.doctors-container__card--name {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #303030;
+  margin: 30px 0 10px 20px;
+}
+.doctors-container__card--position {
+  margin: 0 0 0 20px;
+}
+
+.doctors-social {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  border: 0.5px solid #E6E6E6;
+  border-radius: 3px;
+  width: 30%;
+  padding: 7px 25px;
+  left: 25%;
+  bottom: 15%;
+}
+.doctors-social__facebook::before {
+  content: url(../icons/footer-facebook.svg);
+}
+.doctors-social__twitter::before {
+  content: url(../icons/footer-twitter.svg);
+}
+.doctors-social__instagram::before {
+  content: url(../icons/footer-instagram.svg);
+}
+
+.doctors__btn {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0 100px 0;
+}
+
+.reviews__bg {
+  width: 100%;
+  padding: 6% 0;
+  background-color: #E6E6E6;
+}
+.reviews__container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.reviews__info--container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.reviews__info--container p {
+  text-align: right;
+  max-width: 570px;
+}
+.reviews__info--container h2 {
+  text-align: right;
+}
+.reviews__info--container--img {
+  width: 570px;
+  height: 280px;
+  background: url(../images/reviews-massage.png) no-repeat;
+  background-size: cover;
+}
+
+.container-btn {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  margin: 0 auto;
+  width: fit-content;
+}
+.container-btn--left {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.container-btn--left::after {
+  content: url(../icons/left-arrow.svg);
+}
+.container-btn--right {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.container-btn--right::after {
+  content: url(../icons/right-arrow.svg);
+}
+.container-btn div {
+  width: 30px;
+  height: 3px;
+  margin: 0 5px;
+  background-color: #303030;
+  opacity: 0.5;
+}
+.container-btn div:nth-child(2) {
+  height: 6px;
+  background-color: #E27D60;
+  opacity: 1;
+}
+
+figure {
+  width: 30%;
+  margin: 0;
+}
+
+blockquote {
+  background-color: #fff;
+  border: #E6E6E6 solid 3px;
+  border-radius: 3px;
+  padding: 5% 8%;
+  margin: 0 0 10px 0;
+}
+
+.quote__container--flex {
+  display: flex;
+  width: 1200px;
+  justify-content: space-between;
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+.quote__container--orange-bg {
+  margin: 40px 0;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+}
+.quote__container--orange-bg figure {
+  width: 65%;
+}
+.quote__container--orange-bg blockquote {
+  width: 100%;
+  margin: 0 auto;
+  border: none;
+  background-color: rgba(232, 168, 124, 0.2);
+  padding: 5% 10%;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+.quote__img--flex {
+  display: flex;
+  align-items: center;
+}
+.quote__img--flex figcaption {
+  margin-left: 20px;
+  color: #E27D60;
+  font-weight: 700;
+}
+.quote__img--flex figcaption span {
+  display: block;
+  color: #303030;
+  margin-top: 5px;
+  font-weight: 400;
+}
+.quote__img--one {
+  width: 50px;
+  height: 50px;
+  background: url(../images/quote-img-one.png);
+}
+.quote__img--two {
+  width: 50px;
+  height: 50px;
+  background: url(../images/quote-img-two.png);
+}
+.quote__img--three {
+  width: 50px;
+  height: 50px;
+  background: url(../images/quote-img-three.png);
+}
+.quote__img--four {
+  width: 50px;
+  height: 50px;
+  background: url(../images/quote-img-four.png);
 }
 
 body {
@@ -1234,6 +1511,193 @@ article {
   height: 50px;
   width: 50px;
   margin-right: 20px;
+}
+
+.container__products__select {
+  background-color: #E27D60;
+  height: 77px;
+}
+
+.section__products {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 48px;
+}
+.section__products button {
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+.section__products ul {
+  display: flex;
+  max-width: 1200px;
+}
+.section__products ul button {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+.section__products ul button::after {
+  content: url(../icons/product-arrow.svg);
+  position: relative;
+  top: 4px;
+}
+
+.product-search::before {
+  content: url(../icons/product-search.svg);
+}
+
+.product-menu::before {
+  content: url(../icons/product-menu.svg);
+}
+
+.product {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 100px;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 7%;
+}
+.product__images {
+  display: flex;
+}
+.product-backside {
+  background: url(../images/product-backside.png) no-repeat;
+  width: 170px;
+  height: 170px;
+  margin-bottom: 30px;
+}
+.product-features {
+  background: url(../images/product-features.png) no-repeat;
+  width: 170px;
+  height: 170px;
+  margin-bottom: 30px;
+}
+.product-img {
+  background: url(../images/product-img.png) no-repeat;
+  width: 170px;
+  height: 170px;
+}
+.product-massage_oil {
+  background: url(../images/product-massage_oil.png) no-repeat;
+  width: 370px;
+  height: 570px;
+}
+.product__title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #303030;
+  margin-top: 10px;
+}
+.product__rating__text::before {
+  content: url(../icons/product-rating.svg);
+  padding-right: 20px;
+  padding-top: 2px;
+}
+.product__rating__text {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Libre Franklin", "sans-serif";
+}
+.product__category {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+.product__category--name {
+  background-color: #E27D60;
+  height: 20px;
+  width: 135px;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 8px 0;
+  margin: 0;
+}
+.product__reactions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  background-color: white;
+  border: 1px solid #E6E6E6;
+  border-radius: 3px;
+  width: 120px;
+  height: 34px;
+}
+.product__amount {
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  border: 2px solid #E6E6E6;
+  border-radius: 3px;
+  width: 100px;
+  height: 42px;
+  margin: 40px 0;
+}
+.product__amount button {
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+.product__left-arrow::before {
+  content: url(../icons/product-left-arrow.svg);
+  padding-right: 18px;
+}
+.product__right-arrow::before {
+  content: url(../icons/product-right-arrow.svg);
+  padding-left: 18px;
+}
+.product__number {
+  font-size: 20px;
+  font-weight: bold;
+  color: #303030;
+  margin: auto 0;
+}
+.product__info {
+  font-size: 16px;
+  line-height: 19px;
+  color: #303030;
+  opacity: 0.5;
+  font-family: "Work Sans", sans-serif;
+}
+.product ul {
+  list-style: inside;
+}
+.product__social-media {
+  margin: 40px 0;
+}
+.product__social-media ul {
+  list-style: none;
+  justify-content: left;
+}
+.product__button--cart {
+  background-color: #303030;
+  margin: 0 auto;
+  font-size: 18px;
+  font-weight: bold;
+  height: 42px;
+  width: 100%;
+  color: white;
+}
+.product__button--cart button {
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+.product__text {
+  max-width: 1200px;
+  margin: 50px auto;
+  font-family: "Work Sans", sans-serif;
+  font-size: 18px;
+  color: #303030;
+}
+.product__text ul {
+  list-style: inside;
 }
 
 /*# sourceMappingURL=styles.css.map */
