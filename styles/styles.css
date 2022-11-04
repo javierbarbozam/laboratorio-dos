@@ -1220,6 +1220,16 @@
   content: url(../icons/product-left-arrow.svg);
   padding-right: 18px;
 }
+.product__right-arrow {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.product__left-arrow {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
 .product__right-arrow::before {
   content: url(../icons/product-right-arrow.svg);
   padding-left: 18px;

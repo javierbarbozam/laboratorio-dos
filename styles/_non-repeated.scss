@@ -501,6 +501,19 @@
     padding-right: 18px;
   }
 
+  &__right-arrow {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+
+  }
+
+  &__left-arrow {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+
+  }
   &__right-arrow::before {
     content: url(../icons/product-right-arrow.svg);
     padding-left: 18px;
