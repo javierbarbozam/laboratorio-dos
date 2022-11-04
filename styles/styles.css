@@ -155,9 +155,9 @@
 }
 
 .container-news {
-  height: 566px;
   max-width: 1200px;
   margin: 0 auto;
+  margin-bottom: 100px;
 }
 
 .news {
@@ -204,6 +204,7 @@
   border-radius: 4px;
   width: 30%;
   height: 476px;
+  box-sizing: border-box;
 }
 .news__img--beauty {
   width: 100%;
@@ -289,6 +290,9 @@
 .banner-info__index .banner-info--text {
   text-align: right;
 }
+.banner-info__index .banner-info--text .title--light, .banner-info__index .banner-info--text h2 {
+  text-align: right;
+}
 .banner-info__index .banner-info--p {
   margin-bottom: 5%;
   max-width: 50%;
@@ -299,9 +303,6 @@
   height: 85%;
   background-color: #f2f1f1;
   padding-top: 2%;
-}
-.banner-info__index div h2 {
-  text-align: right;
 }
 .banner-info__index--img {
   background: url(../images/banner-info-index.png) no-repeat;
@@ -317,6 +318,9 @@
   justify-content: right;
   margin-top: 100px;
   margin-bottom: 100px;
+}
+.banner-info__triumph h2 {
+  text-align: left;
 }
 .banner-info__triumph div {
   max-width: 55%;
@@ -344,6 +348,7 @@
 .banner-info__treatments--img {
   display: flex;
   justify-content: space-between;
+  margin-top: 40px;
 }
 .banner-info__treatments--img--1 {
   background: url(../images/banner-info-relax-massage.jpg) no-repeat;
@@ -377,7 +382,7 @@
   margin-top: 100px;
   margin-bottom: 100px;
 }
-.banner-info__about-us .banner-info--text {
+.banner-info__about-us .banner-info--text, .banner-info__about-us h2, .banner-info__about-us .title--light {
   text-align: right;
 }
 .banner-info__about-us .banner-info--p {
@@ -409,6 +414,9 @@
   margin-top: 100px;
   margin-bottom: 100px;
 }
+.banner-info__relax h2, .banner-info__relax .title--light {
+  text-align: left;
+}
 .banner-info__relax div {
   max-width: 55%;
   height: 85%;
@@ -417,7 +425,7 @@
 }
 .banner-info__relax div p {
   text-align: left;
-  max-width: 45%;
+  width: 50%;
 }
 .banner-info__relax--img {
   background: url(../images/banner-info-relax.jpg) no-repeat;
@@ -436,7 +444,7 @@
   margin-top: 100px;
   margin-bottom: 100px;
 }
-.banner-info__our-team .banner-info--text {
+.banner-info__our-team .banner-info--text, .banner-info__our-team .title--light, .banner-info__our-team h2 {
   text-align: right;
 }
 .banner-info__our-team .banner-info--p {
@@ -452,9 +460,6 @@
   background-color: #f2f1f1;
   padding-top: 5%;
 }
-.banner-info__our-team div h2 {
-  text-align: right;
-}
 .banner-info__our-team--img {
   background: url(../images/banner-info-our-team.jpg) no-repeat;
   background-size: cover;
@@ -469,7 +474,7 @@
   margin-top: 100px;
   margin-bottom: 100px;
 }
-.banner-info__services .banner-info--text {
+.banner-info__services .banner-info--text, .banner-info__services h2, .banner-info__services .title--light {
   text-align: right;
 }
 .banner-info__services .banner-info--p {
@@ -485,14 +490,15 @@
   background-color: #f2f1f1;
   padding-top: 2%;
 }
-.banner-info__services div h2 {
-  text-align: right;
-}
 .banner-info__services--img {
   background: url(../images/banner-info-services.jpg) no-repeat;
   background-size: cover;
   width: 560px;
   height: 85%;
+}
+
+.shop__container {
+  margin: 100px 0;
 }
 
 .shop-description {
@@ -507,7 +513,7 @@
   justify-content: space-between;
   align-content: center;
   max-width: 1200px;
-  margin: 57px auto;
+  margin: 100px auto;
 }
 .shop--brands-change {
   background: url(../icons/shop-change.svg) no-repeat;
@@ -785,6 +791,10 @@
   background-size: cover;
 }
 
+.doctors-about-us {
+  margin-top: 100px;
+}
+
 .landing__welcome {
   display: flex;
   position: relative;
@@ -914,6 +924,9 @@
 .services__trusted--text {
   display: block;
   margin-left: 50px;
+}
+.services__trusted--text h2, .services__trusted--text .title--light {
+  text-align: left;
 }
 .services__trusted--img1 {
   background: url(../images/services-candle.png) no-repeat;
@@ -1074,80 +1087,6 @@
   opacity: 1;
 }
 
-figure {
-  width: 30%;
-  margin: 0;
-}
-
-blockquote {
-  background-color: #fff;
-  border: #E6E6E6 solid 3px;
-  border-radius: 3px;
-  padding: 5% 8%;
-  margin: 0 0 10px 0;
-}
-
-.quote__container--flex {
-  display: flex;
-  width: 1200px;
-  justify-content: space-between;
-  margin-top: 60px;
-  margin-bottom: 50px;
-}
-.quote__container--orange-bg {
-  margin: 40px 0;
-  width: 1200px;
-  display: flex;
-  justify-content: center;
-}
-.quote__container--orange-bg figure {
-  width: 65%;
-}
-.quote__container--orange-bg blockquote {
-  width: 100%;
-  margin: 0 auto;
-  border: none;
-  background-color: rgba(232, 168, 124, 0.2);
-  padding: 5% 10%;
-  margin-bottom: 10px;
-  box-sizing: border-box;
-}
-.quote__img--flex {
-  display: flex;
-  align-items: center;
-}
-.quote__img--flex figcaption {
-  margin-left: 20px;
-  color: #E27D60;
-  font-weight: 700;
-}
-.quote__img--flex figcaption span {
-  display: block;
-  color: #303030;
-  margin-top: 5px;
-  font-weight: 400;
-}
-.quote__img--one {
-  width: 50px;
-  height: 50px;
-  background: url(../images/quote-img-one.png);
-}
-.quote__img--two {
-  width: 50px;
-  height: 50px;
-  background: url(../images/quote-img-two.png);
-}
-.quote__img--three {
-  width: 50px;
-  height: 50px;
-  background: url(../images/quote-img-three.png);
-}
-.quote__img--four {
-  width: 50px;
-  height: 50px;
-  background: url(../images/quote-img-four.png);
-}
-
 .container__products__select {
   background-color: #E27D60;
   height: 77px;
@@ -1195,6 +1134,9 @@ blockquote {
   margin: 0 auto;
   gap: 7%;
 }
+.product .buttons {
+  width: 100%;
+}
 .product__images {
   display: flex;
 }
@@ -1222,7 +1164,8 @@ blockquote {
 }
 .product__title {
   font-size: 36px;
-  font-weight: bold;
+  font-weight: 700;
+  font-family: "Libre Franklin", sans-serif;
   color: #303030;
   margin-top: 10px;
 }
@@ -1273,11 +1216,6 @@ blockquote {
   height: 42px;
   margin: 40px 0;
 }
-.product__amount button {
-  cursor: pointer;
-  background: none;
-  border: none;
-}
 .product__left-arrow::before {
   content: url(../icons/product-left-arrow.svg);
   padding-right: 18px;
@@ -1309,20 +1247,6 @@ blockquote {
   list-style: none;
   justify-content: left;
 }
-.product__button--cart {
-  background-color: #303030;
-  margin: 0 auto;
-  font-size: 18px;
-  font-weight: bold;
-  height: 42px;
-  width: 100%;
-  color: white;
-}
-.product__button--cart button {
-  cursor: pointer;
-  background: none;
-  border: none;
-}
 
 .product__text {
   max-width: 1200px;
@@ -1332,7 +1256,8 @@ blockquote {
   color: #303030;
 }
 .product__text ul {
-  list-style: inside;
+  list-style: outside;
+  padding-left: 15px;
 }
 
 footer {
@@ -1371,7 +1296,6 @@ footer {
   justify-content: center;
   align-items: center;
   height: 275px;
-  margin-top: 40px;
 }
 .form__info--block {
   display: block;
@@ -1655,6 +1579,14 @@ h1, h2, h3, h4 {
   font-family: "Libre Franklin", sans-serif;
 }
 
+h2 {
+  text-align: center;
+  color: #E27D60;
+  font-size: 36px;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
 a {
   text-decoration: transparent;
   color: #303030;
@@ -1667,13 +1599,6 @@ article {
 
 .title--light {
   text-align: center;
-}
-.title--bold {
-  text-align: center;
-  font-size: 36px;
-  color: #E27D60;
-  font-weight: 700;
-  margin: 10px 0;
 }
 
 .visually-hidden {
@@ -1696,6 +1621,112 @@ article {
 }
 .buttons:hover {
   background-color: #E27D60;
+}
+
+figure {
+  width: 30%;
+  margin: 0;
+}
+
+blockquote {
+  background-color: #fff;
+  border: #E6E6E6 solid 3px;
+  border-radius: 3px;
+  padding: 5% 8%;
+  margin: 0 0 10px 0;
+}
+
+.quote__container--flex {
+  display: flex;
+  width: 1200px;
+  justify-content: space-between;
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+.quote__container--orange-bg {
+  margin: 40px 0;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+}
+.quote__container--orange-bg figure {
+  width: 65%;
+}
+.quote__container--orange-bg blockquote {
+  width: 100%;
+  margin: 0 auto;
+  border: none;
+  background-color: rgba(232, 168, 124, 0.2);
+  padding: 5% 10%;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+.quote__container--product {
+  width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.quote__container--product .quote__container--flex {
+  width: 100%;
+}
+.quote__container--product .quote__container--flex figure {
+  width: 48%;
+  box-sizing: border-box;
+}
+.quote__container--product .quote__container--flex figure blockquote {
+  width: 100%;
+  box-sizing: border-box;
+}
+.quote__img--flex {
+  display: flex;
+  align-items: center;
+}
+.quote__img--flex figcaption {
+  margin-left: 20px;
+  color: #E27D60;
+  font-weight: 700;
+}
+.quote__img--flex figcaption span {
+  display: block;
+  color: #303030;
+  margin-top: 5px;
+  font-weight: 400;
+}
+.quote__img--one {
+  width: 50px;
+  height: 50px;
+  background: url(../images/quote-img-one.png);
+}
+.quote__img--two {
+  width: 50px;
+  height: 50px;
+  background: url(../images/quote-img-two.png);
+}
+.quote__img--three {
+  width: 50px;
+  height: 50px;
+  background: url(../images/quote-img-three.png);
+}
+.quote__img--four {
+  width: 50px;
+  height: 50px;
+  background: url(../images/quote-img-four.png);
+}
+.quote__img--five {
+  width: 50px;
+  height: 50px;
+  background: url(../images/quote-img-five.png);
+}
+.quote__img--six {
+  width: 50px;
+  height: 50px;
+  background: url(../images/quote-img-six.png);
+}
+.quote__img--stars {
+  height: 15px;
+  width: 105px;
+  background: url(../icons/stars-icon.svg);
+  margin-left: 30px;
 }
 
 /*# sourceMappingURL=styles.css.map */

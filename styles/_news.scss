@@ -1,9 +1,9 @@
 @use '_colors';
 
 .container-news{
-  height: 566px;
   max-width: 1200px;
   margin: 0 auto;
+  margin-bottom: 100px;
 }
 
 .news {
@@ -57,6 +57,7 @@
     border-radius: 4px;
     width: 30%;
     height: 476px;
+    box-sizing: border-box;
   }
 
   &__img--beauty {

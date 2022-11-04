@@ -9,6 +9,10 @@
 
   .banner-info--text {
     text-align: right;
+
+    .title--light, h2 {
+      text-align: right;
+    }
   }
 
   .banner-info--p {
@@ -22,10 +26,6 @@
     height: 85%;
     background-color: #f2f1f1;
     padding-top: 2%;
-
-    h2 {
-      text-align: right;
-    }
   }
 
   &--img {
@@ -43,6 +43,10 @@
   justify-content: right;
   margin-top: 100px;
   margin-bottom: 100px;
+
+  h2 {
+    text-align: left;
+  }
 
   div {
     max-width: 55%;
@@ -71,9 +75,9 @@
   margin-bottom: 100px;
 
   &--img {
-
     display: flex;
     justify-content: space-between;
+    margin-top: 40px;
 
     &--1 {
       background: url(../images/banner-info-relax-massage.jpg) no-repeat;
@@ -113,7 +117,7 @@
   margin-top: 100px;
   margin-bottom: 100px;
 
-  .banner-info--text {
+  .banner-info--text, h2, .title--light {
     text-align: right;
   }
 
@@ -151,6 +155,10 @@
   margin-top: 100px;
   margin-bottom: 100px;
 
+  h2, .title--light {
+    text-align: left;
+  }
+
   div {
     max-width: 55%;
     height: 85%;
@@ -159,7 +167,7 @@
 
     p {
       text-align: left;
-      max-width: 45%;
+      width: 50%;
     }
   }
 
@@ -182,7 +190,7 @@
   margin-top: 100px;
   margin-bottom: 100px;
 
-  .banner-info--text {
+  .banner-info--text, .title--light, h2 {
     text-align: right;
   }
 
@@ -199,11 +207,6 @@
     height: 85%;
     background-color: #f2f1f1;
     padding-top: 5%;
-
-    h2 {
-      text-align: right;
-    }
-
   }
 
   &--img {
@@ -221,7 +224,7 @@
   margin-top: 100px;
   margin-bottom: 100px;
 
-  .banner-info--text {
+  .banner-info--text, h2, .title--light {
     text-align: right;
   }
 
@@ -238,11 +241,6 @@
     height: 85%;
     background-color: #f2f1f1;
     padding-top: 2%;
-
-    h2 {
-      text-align: right;
-    }
-
   }
 
   &--img {

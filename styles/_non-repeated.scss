@@ -20,14 +20,17 @@
       padding-top: 100px;
       padding-left: 100px;
       z-index: 2;
+
       h1 {
         font-size: 48px;
         max-width: 400px;
         margin: 0;
+
         span {
           color: colors.$darkorange;
         }
       }
+
       p {
         font-size: 18px;
         color: colors.$darkgrey;
@@ -35,6 +38,7 @@
         line-height: 22px;
       }
     }
+
     &--bg {
       background-color: colors.$lightorange;
       opacity: 0.5;
@@ -152,6 +156,10 @@
   &--text {
     display: block;
     margin-left: 50px;
+
+    h2, .title--light {
+      text-align: left;
+    }
   }
 
    &--img1 {
@@ -341,98 +349,6 @@
   }
 }
 
-// quotes 
-
-figure {
-  width: 30%;
-  margin: 0;
-}
-
-blockquote {
-  background-color: #fff;
-  border: colors.$lightgrey solid 3px;
-  border-radius: 3px;
-  padding: 5% 8%;
-  margin: 0 0 10px 0;
-}
-
-.quote {
-  &__container {
-    &--flex {
-      display: flex;
-      width: 1200px;
-      justify-content: space-between;
-      margin-top: 60px;
-      margin-bottom: 50px;
-    }
-
-    &--orange-bg {
-      margin: 40px 0;
-      width: 1200px;
-      display: flex;
-      justify-content: center;
-
-      figure {
-        width: 65%;
-      }
-
-      blockquote {
-        width: 100%;
-        margin: 0 auto;
-        border: none;
-        background-color: rgba(232, 168, 124, 0.2);
-        padding: 5% 10%;
-        margin-bottom: 10px;
-        box-sizing: border-box;
-      }
-    }
-  }
-
-  &__img {
-    &--flex {
-      display: flex;
-      align-items: center;
-  
-      figcaption {
-        margin-left: 20px;
-        color: colors.$darkorange;
-        font-weight: 700;
-  
-        span {
-          display: block;
-          color: colors.$darkgrey;
-          margin-top: 5px;
-          font-weight: 400;
-        }
-      }
-    }
-  
-    &--one {
-      width: 50px;
-      height: 50px;
-      background: url(../images/quote-img-one.png);
-    }
-  
-    &--two {
-      width: 50px;
-      height: 50px;
-      background: url(../images/quote-img-two.png);
-    }
-  
-    &--three {
-      width: 50px;
-      height: 50px;
-      background: url(../images/quote-img-three.png);
-    }
-  
-    &--four {
-      width: 50px;
-      height: 50px;
-      background: url(../images/quote-img-four.png);
-    }
-  }
-}
-
 // product 
 
 .container__products__select{
@@ -486,6 +402,9 @@ blockquote {
   margin: 0 auto;
   gap: 7%;
 
+	.buttons {
+		width: 100%;
+	}
   &__images {
     display: flex;
   }
@@ -518,7 +437,8 @@ blockquote {
 
   &__title {
     font-size: 36px;
-    font-weight: bold;
+    font-weight: 700;
+		font-family: 'Libre Franklin', sans-serif;
     color: colors.$darkgrey;
     margin-top: 10px;
   }
@@ -574,12 +494,6 @@ blockquote {
     width: 100px;
     height: 42px;
     margin: 40px 0;
-
-    button {
-    cursor: pointer;
-    background: none;
-    border: none;
-    }
   }
 
   &__left-arrow::before {
@@ -620,22 +534,6 @@ blockquote {
       justify-content: left;
     }
   }
-
-  &__button--cart {
-    button {
-      cursor: pointer;
-      background: none;
-      border: none;
-    }
-
-    background-color: colors.$darkgrey;
-    margin: 0 auto;
-    font-size: 18px;
-    font-weight: bold;
-    height: 42px;
-    width: 100%;
-    color: white;
-  }
 }
 
 .product__text {
@@ -646,6 +544,7 @@ blockquote {
   color: colors.$darkgrey;
 
   ul {
-    list-style: inside;
-    }
+    list-style: outside;
+		padding-left: 15px;
+  }
 }

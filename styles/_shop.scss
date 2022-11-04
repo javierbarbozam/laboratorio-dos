@@ -1,5 +1,9 @@
 @use '_colors';
 
+.shop__container {
+  margin: 100px 0;
+}
+
 .shop-description{
   font-size: 18px;
   text-align: center;
@@ -12,7 +16,7 @@
   justify-content: space-between;
   align-content: center;
   max-width: 1200px;
-  margin: 57px auto;
+  margin: 100px auto;
 
   &--brands-change {
     background: url(../icons/shop-change.svg) no-repeat;
