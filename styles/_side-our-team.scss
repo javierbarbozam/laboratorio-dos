@@ -249,6 +249,27 @@ blockquote {
       margin-top: 60px;
       margin-bottom: 50px;
     }
+
+    &--orange-bg {
+      margin: 40px 0;
+      width: 1200px;
+      display: flex;
+      justify-content: center;
+
+      figure {
+        width: 65%;
+      }
+
+      blockquote {
+        width: 100%;
+        margin: 0 auto;
+        border: none;
+        background-color: rgba(232, 168, 124, 0.2);
+        padding: 5% 10%;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+      }
+    }
   }
 
   &__img {
@@ -286,6 +307,12 @@ blockquote {
       width: 50px;
       height: 50px;
       background: url(../images/quote-img-three.png);
+    }
+  
+    &--four {
+      width: 50px;
+      height: 50px;
+      background: url(../images/quote-img-four.png);
     }
   }
 }
