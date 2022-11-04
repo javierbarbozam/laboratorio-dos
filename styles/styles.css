@@ -1628,6 +1628,7 @@ article {
   border: none;
   font-size: 18px;
   color: #FFFFFF;
+  cursor: pointer;
 }
 .buttons:hover {
   background-color: #E27D60;
