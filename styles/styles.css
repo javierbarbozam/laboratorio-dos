@@ -133,6 +133,48 @@
   top: 40px;
 }
 
+.landing__services .buttons {
+  display: block;
+  margin: 0 auto;
+}
+
+.landing__services--ul {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  margin: 40px auto 40px auto;
+}
+
+.landing__services--ul--flex {
+  display: flex;
+  width: 570px;
+  align-items: flex-end;
+}
+.landing__services--ul--flex p {
+  margin: 0;
+}
+
+.landing__services--ul--title {
+  opacity: 1;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 700;
+}
+
+.landing__services--ul--divider {
+  height: 2px;
+  width: 390px;
+  border-bottom: dotted #303030;
+  position: relative;
+  bottom: 5px;
+}
+
+.landing__services--ul--price {
+  opacity: 1;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 700;
+  color: #E27D60;
+}
+
 .services__title {
   font-family: "Libre Franklin", sans-serif;
   font-weight: 700;
@@ -848,43 +890,6 @@
 
 .doctors-about-us {
   margin-top: 100px;
-}
-
-.landing__services--ul {
-  display: flex;
-  justify-content: space-between;
-  width: 1200px;
-  margin: 40px auto 40px auto;
-}
-.landing__services--ul--flex {
-  display: flex;
-  width: 570px;
-  align-items: flex-end;
-}
-.landing__services--ul--flex p {
-  margin: 0;
-}
-.landing__services--ul--title {
-  opacity: 1;
-  font-family: "Libre Franklin", sans-serif;
-  font-weight: 700;
-}
-.landing__services--ul--divider {
-  height: 2px;
-  width: 390px;
-  border-bottom: dotted #303030;
-  position: relative;
-  bottom: 5px;
-}
-.landing__services--ul--price {
-  opacity: 1;
-  font-family: "Libre Franklin", sans-serif;
-  font-weight: 700;
-  color: #E27D60;
-}
-.landing__services .buttons {
-  display: block;
-  margin: 0 auto;
 }
 
 .services__promo {

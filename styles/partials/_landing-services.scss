@@ -1,0 +1,44 @@
+@use "_colors";
+
+.landing__services .buttons {
+  display: block;
+  margin: 0 auto;
+}
+
+.landing__services--ul {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  margin: 40px auto 40px auto;
+}
+
+.landing__services--ul--flex {
+  display: flex;
+  width: 570px;
+  align-items: flex-end;
+
+  p {
+    margin: 0;
+  }
+}
+
+.landing__services--ul--title {
+  opacity: 1;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 700;
+}
+
+.landing__services--ul--divider {
+  height: 2px;
+  width: 390px;
+  border-bottom: dotted colors.$darkgrey;
+  position: relative;
+  bottom: 5px;
+}
+
+.landing__services--ul--price {
+  opacity: 1;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 700;
+  color: colors.$darkorange;
+}

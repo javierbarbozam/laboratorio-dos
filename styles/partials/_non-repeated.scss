@@ -1,54 +1,6 @@
 
 @use '_colors';
 
-.landing {
-
-  &__services {
-
-    &--ul {
-      display: flex;
-      justify-content: space-between;
-      width: 1200px;
-      margin: 40px auto 40px auto;
-
-      &--flex {
-        display: flex;
-        width: 570px;
-        align-items: flex-end;
-
-        p {
-          margin: 0;
-        }
-      }
-
-      &--title {
-        opacity: 1;
-        font-family: 'Libre Franklin', sans-serif;
-        font-weight: 700;
-      }
-
-      &--divider {
-        height: 2px;
-        width: 390px;
-        border-bottom: dotted colors.$darkgrey;
-        position: relative;
-        bottom: 5px;
-      }
-
-      &--price {
-        opacity: 1;
-        font-family: 'Libre Franklin', sans-serif;
-        font-weight: 700;
-        color: colors.$darkorange;
-      }
-    }
-
-    .buttons {
-      display: block;
-      margin: 0 auto;
-    }
-  }
-}
 
 .services {
   &__promo {
