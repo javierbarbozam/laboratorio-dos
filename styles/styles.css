@@ -1152,6 +1152,7 @@ blockquote {
   background-size: cover;
   background-position-x: center;
 }
+
 .doctors-img__victoria {
   width: 270px;
   height: 335px;
@@ -1161,6 +1162,7 @@ blockquote {
   background-size: cover;
   background-position-x: center;
 }
+
 .doctors-img__umar {
   width: 270px;
   height: 335px;
@@ -1170,6 +1172,7 @@ blockquote {
   background-size: cover;
   background-position-x: center;
 }
+
 .doctors-img__melissa {
   width: 270px;
   height: 335px;
@@ -1179,6 +1182,7 @@ blockquote {
   background-size: cover;
   background-position-x: center;
 }
+
 .doctors-img__bob {
   width: 270px;
   height: 335px;
@@ -1188,6 +1192,7 @@ blockquote {
   background-size: cover;
   background-position-x: center;
 }
+
 .doctors-img__george {
   width: 270px;
   height: 335px;
@@ -1197,6 +1202,7 @@ blockquote {
   background-size: cover;
   background-position-x: center;
 }
+
 .doctors-img__mark {
   width: 270px;
   height: 335px;
@@ -1206,6 +1212,7 @@ blockquote {
   background-size: cover;
   background-position-x: center;
 }
+
 .doctors-img__malcolm {
   width: 270px;
   height: 335px;
@@ -1223,10 +1230,12 @@ blockquote {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
 .doctors-container__card {
   position: relative;
   margin-bottom: 30px;
 }
+
 .doctors-container__card--name {
   font-family: "Libre Franklin", sans-serif;
   font-size: 20px;
@@ -1234,6 +1243,7 @@ blockquote {
   color: #303030;
   margin: 30px 0 10px 20px;
 }
+
 .doctors-container__card--position {
   margin: 0 0 0 20px;
 }
@@ -1251,12 +1261,15 @@ blockquote {
   left: 25%;
   bottom: 15%;
 }
+
 .doctors-social__facebook::before {
   content: url(../icons/footer-facebook.svg);
 }
+
 .doctors-social__twitter::before {
   content: url(../icons/footer-twitter.svg);
 }
+
 .doctors-social__instagram::before {
   content: url(../icons/footer-instagram.svg);
 }
@@ -1272,10 +1285,12 @@ blockquote {
   padding: 6% 0;
   background-color: #E6E6E6;
 }
+
 .reviews__container {
   width: 1200px;
   margin: 0 auto;
 }
+
 .reviews__info--container {
   display: flex;
   align-items: center;
@@ -1288,6 +1303,7 @@ blockquote {
 .reviews__info--container h2 {
   text-align: right;
 }
+
 .reviews__info--container--img {
   width: 570px;
   height: 280px;
