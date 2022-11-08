@@ -782,12 +782,6 @@ blockquote {
   margin-top: 100px;
   margin-bottom: 100px;
 }
-.banner-info__index .banner-info--text {
-  text-align: right;
-}
-.banner-info__index .banner-info--text .title--light, .banner-info__index .banner-info--text h2 {
-  text-align: right;
-}
 .banner-info__index .banner-info--p {
   margin-bottom: 5%;
   max-width: 50%;
@@ -799,6 +793,14 @@ blockquote {
   background-color: #f2f1f1;
   padding-top: 2%;
 }
+
+.banner-info--text {
+  text-align: right;
+}
+.banner-info--text .title--light, .banner-info--text h2 {
+  text-align: right;
+}
+
 .banner-info__index--img {
   background: url(../images/banner-info-index.png) no-repeat;
   background-size: cover;
@@ -827,6 +829,7 @@ blockquote {
   text-align: left;
   max-width: 45%;
 }
+
 .banner-info__triumph--img {
   background: url(../images/banner-info-triumph.jpg) no-repeat;
   background-size: cover;
@@ -840,29 +843,34 @@ blockquote {
   text-align: center;
   margin-bottom: 100px;
 }
+
 .banner-info__treatments--img {
   display: flex;
   justify-content: space-between;
   margin-top: 40px;
 }
+
 .banner-info__treatments--img--1 {
   background: url(../images/banner-info-relax-massage.jpg) no-repeat;
   background-size: cover;
   width: 290px;
   height: 290px;
 }
+
 .banner-info__treatments--img--2 {
   background: url(../images/banner-info-aromatherapy.jpg) no-repeat;
   background-size: cover;
   width: 290px;
   height: 290px;
 }
+
 .banner-info__treatments--img--3 {
   background: url(../images/banner-info-rehabilitation.jpg) no-repeat;
   background-size: cover;
   width: 290px;
   height: 290px;
 }
+
 .banner-info__treatments--img--4 {
   background: url(../images/banner-info-manicure.jpg) no-repeat;
   background-size: cover;
@@ -876,9 +884,6 @@ blockquote {
   display: flex;
   margin-top: 100px;
   margin-bottom: 100px;
-}
-.banner-info__about-us .banner-info--text, .banner-info__about-us h2, .banner-info__about-us .title--light {
-  text-align: right;
 }
 .banner-info__about-us .banner-info--p {
   margin-bottom: 5%;
@@ -894,6 +899,7 @@ blockquote {
 .banner-info__about-us div h2 {
   text-align: right;
 }
+
 .banner-info__about-us--img {
   background: url(../images/banner-info-about-us.jpg) no-repeat;
   background-size: cover;
@@ -920,14 +926,16 @@ blockquote {
 }
 .banner-info__relax div p {
   text-align: left;
-  width: 50%;
+  width: 68%;
 }
+
 .banner-info__relax--img {
   background: url(../images/banner-info-relax.jpg) no-repeat;
   background-size: cover;
   width: 560px;
   height: 85%;
 }
+
 .banner-info__relax--p {
   margin-bottom: 50px;
 }
@@ -938,9 +946,6 @@ blockquote {
   display: flex;
   margin-top: 100px;
   margin-bottom: 100px;
-}
-.banner-info__our-team .banner-info--text, .banner-info__our-team .title--light, .banner-info__our-team h2 {
-  text-align: right;
 }
 .banner-info__our-team .banner-info--p {
   margin-bottom: 5%;
@@ -955,6 +960,7 @@ blockquote {
   background-color: #f2f1f1;
   padding-top: 5%;
 }
+
 .banner-info__our-team--img {
   background: url(../images/banner-info-our-team.jpg) no-repeat;
   background-size: cover;
@@ -969,9 +975,6 @@ blockquote {
   margin-top: 100px;
   margin-bottom: 100px;
 }
-.banner-info__services .banner-info--text, .banner-info__services h2, .banner-info__services .title--light {
-  text-align: right;
-}
 .banner-info__services .banner-info--p {
   margin-bottom: 5%;
   max-width: 50%;
@@ -985,6 +988,7 @@ blockquote {
   background-color: #f2f1f1;
   padding-top: 2%;
 }
+
 .banner-info__services--img {
   background: url(../images/banner-info-services.jpg) no-repeat;
   background-size: cover;
