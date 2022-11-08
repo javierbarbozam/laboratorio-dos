@@ -1282,6 +1282,7 @@ footer {
   color: white;
   margin: 0;
 }
+
 .form-bg__flowers {
   background: url(../images/footer-aboutUs.png) no-repeat;
   background-size: cover;
@@ -1290,6 +1291,7 @@ footer {
   color: white;
   margin: 0;
 }
+
 .form-bg__hand {
   background: url(../images/footer-hand.png) no-repeat;
   background-size: cover;
@@ -1307,14 +1309,14 @@ footer {
   align-items: center;
   height: 275px;
 }
-.form__info--block {
+.form__info .form__info--block {
   display: block;
 }
-.form__info--light {
+.form__info .form__info--light {
   font-weight: lighter;
   font-size: 16px;
 }
-.form__info--bolt {
+.form__info .form__info--bolt {
   font-weight: bolder;
   font-size: 36px;
 }
@@ -1323,7 +1325,6 @@ footer {
   width: 600px;
 }
 .form__info--description {
-  font-weight: regular;
   font-size: 18px;
   width: 350px;
 }
@@ -1347,29 +1348,38 @@ footer {
   height: 275px;
   margin-top: 40px;
 }
+
 .form__hand--block {
   display: block;
 }
+
 .form__hand--light {
   font-weight: lighter;
   font-size: 16px;
 }
+
 .form__hand--bolt {
   font-weight: bolder;
   font-size: 36px;
 }
+
+.form__container-hand {
+  width: 60%;
+}
+
 .form__hand .our-team-form-label {
   display: block;
   width: 600px;
 }
+
 .form__hand--description {
-  font-weight: regular;
   font-size: 18px;
   width: 350px;
 }
 .form__hand--description span {
   color: #E27D60;
 }
+
 .form__hand #name-hand {
   width: 100%;
   padding: 10px 8px;
@@ -1377,16 +1387,13 @@ footer {
   border: 1px solid #E6E6E6;
   margin-top: 30px;
 }
+
 .form__hand #email-hand {
   width: 100%;
   padding: 10px 8px;
   border-radius: 5px;
   border: 1px solid #E6E6E6;
   margin: 30px 0;
-}
-
-.form__container-hand {
-  width: 60%;
 }
 
 .form__our-team {
@@ -1398,23 +1405,27 @@ footer {
   height: 600px;
   margin-top: 40px;
 }
+
 .form__our-team--block {
   display: block;
 }
+
 .form__our-team--light {
   font-weight: lighter;
   font-size: 16px;
 }
+
 .form__our-team--bolt {
   font-weight: bolder;
   font-size: 36px;
 }
+
 .form__our-team .our-team-form-label {
   display: block;
   width: 600px;
 }
+
 .form__our-team--description {
-  font-weight: regular;
   font-size: 18px;
   width: 350px;
 }
@@ -1444,6 +1455,7 @@ footer {
   display: flex;
   margin: 30px 0;
 }
+
 .form__politics--label {
   margin-left: 10px;
 }
@@ -1470,12 +1482,14 @@ footer {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+
 .footer-nav__logo {
   background: url(../images/millious-footer.png) no-repeat;
   background-size: cover;
   height: 20px;
   width: 100px;
 }
+
 .footer-nav__social-media {
   display: flex;
   align-items: center;
@@ -1484,18 +1498,22 @@ footer {
 .footer-nav__social-media li {
   position: relative;
 }
+
 .footer-nav__social-media--facebook::before {
   content: url(../icons/footer-facebook.svg);
   margin-right: 15px;
 }
+
 .footer-nav__social-media--vimeo::before {
   content: url(../icons/footer-vimeo.svg);
   margin-right: 15px;
 }
+
 .footer-nav__social-media--instagram::before {
   content: url(../icons/footer-instagram.svg);
   margin-right: 15px;
 }
+
 .footer-nav__social-media--twitter::before {
   content: url(../icons/footer-twitter.svg);
 }
@@ -1513,6 +1531,7 @@ footer {
   text-decoration: none;
   color: white;
 }
+
 .footer-list__info {
   display: flex;
   flex-direction: column;
@@ -1521,6 +1540,7 @@ footer {
   justify-content: center;
   padding: 0 60px;
 }
+
 .footer-list__quick-links {
   display: flex;
   flex-direction: column;
@@ -1529,6 +1549,7 @@ footer {
   justify-content: left;
   padding: 0 60px;
 }
+
 .footer-list__contact {
   display: flex;
   flex-direction: column;
