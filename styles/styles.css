@@ -175,6 +175,108 @@
   color: #E27D60;
 }
 
+.services__skin {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.services__skin--paragraphs {
+  max-width: 50%;
+  margin: auto 0;
+  margin-right: 50px;
+}
+
+.services__btn {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.services__trusted {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.services__trusted--images {
+  display: flex;
+  margin-right: 50px;
+}
+
+.services__trusted--text {
+  display: block;
+  margin-left: 50px;
+}
+.services__trusted--text h2, .services__trusted--text .title--light {
+  text-align: left;
+}
+
+.services__trusted--img1 {
+  background: url(../images/services-candle.png) no-repeat;
+  background-size: cover;
+  width: 285px;
+  height: 370px;
+}
+
+.services__trusted--img2 {
+  background: url(../images/services-plants.png) no-repeat;
+  background-size: cover;
+  width: 285px;
+  height: 370px;
+}
+
+.services__trusted--img3 {
+  background: url(../images/services-skin.png) no-repeat;
+  background-size: cover;
+  width: 570px;
+  height: 350px;
+  margin-left: 50px;
+}
+
+.services__promo {
+  margin: 100px 0;
+  display: flex;
+  justify-content: center;
+  height: 350px;
+  width: 100%;
+  color: #fff;
+  background: rgb(61, 60, 103);
+  background: linear-gradient(90deg, rgb(61, 60, 103) 0%, rgb(73, 35, 90) 17%, rgb(65, 52, 99) 37%, rgb(82, 0, 67) 59%, rgb(126, 75, 83) 89%, rgb(139, 96, 88) 100%);
+}
+
+.services__promo div {
+  margin: auto 0;
+}
+
+.services__promo--description {
+  opacity: 1;
+  width: 583px;
+  margin: 0;
+}
+
+.services__promo--title {
+  opacity: 1;
+  font-family: "Libre Franklin", "sans-serif";
+  font-weight: 700;
+  font-size: 64px;
+  margin: 0 0 20px 0;
+}
+.services__promo--title span {
+  color: #E27D60;
+}
+
+.services__promo--discount {
+  opacity: 1;
+  margin: auto 0;
+  font-weight: 700;
+  font-size: 64px;
+  font-family: "Libre Franklin", "sans-serif";
+  padding-left: 120px;
+}
+
 .services__title {
   font-family: "Libre Franklin", sans-serif;
   font-weight: 700;
@@ -890,95 +992,6 @@
 
 .doctors-about-us {
   margin-top: 100px;
-}
-
-.services__promo {
-  margin: 100px 0;
-  display: flex;
-  justify-content: center;
-  height: 350px;
-  width: 100%;
-  color: #fff;
-  background: rgb(61, 60, 103);
-  background: linear-gradient(90deg, rgb(61, 60, 103) 0%, rgb(73, 35, 90) 17%, rgb(65, 52, 99) 37%, rgb(82, 0, 67) 59%, rgb(126, 75, 83) 89%, rgb(139, 96, 88) 100%);
-}
-.services__promo div {
-  margin: auto 0;
-}
-.services__promo--description {
-  opacity: 1;
-  width: 583px;
-  margin: 0;
-}
-.services__promo--title {
-  opacity: 1;
-  font-family: "Libre Franklin", "sans-serif";
-  font-weight: 700;
-  font-size: 64px;
-  margin: 0 0 20px 0;
-}
-.services__promo--title span {
-  color: #E27D60;
-}
-.services__promo--discount {
-  opacity: 1;
-  margin: auto 0;
-  font-weight: 700;
-  font-size: 64px;
-  font-family: "Libre Franklin", "sans-serif";
-  padding-left: 120px;
-}
-.services__trusted {
-  max-width: 1200px;
-  margin: 0 auto;
-  display: flex;
-  margin-bottom: 50px;
-}
-.services__trusted--images {
-  display: flex;
-  margin-right: 50px;
-}
-.services__trusted--text {
-  display: block;
-  margin-left: 50px;
-}
-.services__trusted--text h2, .services__trusted--text .title--light {
-  text-align: left;
-}
-.services__trusted--img1 {
-  background: url(../images/services-candle.png) no-repeat;
-  background-size: cover;
-  width: 285px;
-  height: 370px;
-}
-.services__trusted--img2 {
-  background: url(../images/services-plants.png) no-repeat;
-  background-size: cover;
-  width: 285px;
-  height: 370px;
-}
-.services__trusted--img3 {
-  background: url(../images/services-skin.png) no-repeat;
-  background-size: cover;
-  width: 570px;
-  height: 350px;
-  margin-left: 50px;
-}
-.services__skin {
-  max-width: 1200px;
-  margin: 0 auto;
-  display: flex;
-  margin-bottom: 100px;
-}
-.services__skin--paragraphs {
-  max-width: 50%;
-  margin: auto 0;
-  margin-right: 50px;
-}
-.services__btn {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 100px;
 }
 
 .article__img--float {
