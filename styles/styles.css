@@ -277,6 +277,213 @@
   padding-left: 120px;
 }
 
+.article__img--float {
+  float: left;
+  margin: 0 30px 0 0;
+  position: relative;
+}
+.article__img--float time {
+  display: inline-block;
+  margin-top: 15px;
+  opacity: 0.5;
+}
+.article__img--float time::before {
+  content: url(../icons/time-icon.svg);
+  margin-right: 5px;
+}
+
+.article__img--one {
+  background: url(../images/news_beauty.png) no-repeat;
+  background-size: cover;
+  height: 370px;
+  width: 670px;
+}
+
+.article__img--one--info {
+  display: flex;
+  justify-content: space-between;
+}
+.article__img--one--info p {
+  opacity: 0.5;
+}
+
+.article__img--flex {
+  display: flex;
+  width: 1200px;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.article__img--two {
+  background: url(../images/article-img-two.png) no-repeat;
+  background-size: cover;
+  margin-right: 5px;
+  height: 360px;
+  width: 383px;
+}
+
+.article__img--three {
+  background: url(../images/article-img-three.png) no-repeat;
+  background-size: cover;
+  height: 360px;
+  width: 383px;
+}
+
+figure {
+  width: 30%;
+  margin: 0;
+}
+
+blockquote {
+  background-color: #fff;
+  border: #E6E6E6 solid 3px;
+  border-radius: 3px;
+  padding: 5% 8%;
+  margin: 0 0 10px 0;
+}
+
+.quote__container--flex {
+  display: flex;
+  width: 1200px;
+  justify-content: space-between;
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+
+.quote__container--product {
+  width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.quote__container--product .quote__container--flex {
+  width: 100%;
+}
+.quote__container--product .quote__container--flex figure {
+  width: 48%;
+  box-sizing: border-box;
+}
+.quote__container--product .quote__container--flex figure blockquote {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.quote__img--flex {
+  display: flex;
+  align-items: center;
+}
+.quote__img--flex figcaption {
+  margin-left: 20px;
+  color: #E27D60;
+  font-weight: 700;
+}
+.quote__img--flex figcaption span {
+  display: block;
+  color: #303030;
+  margin-top: 5px;
+  font-weight: 400;
+}
+
+.quote__img--one {
+  width: 50px;
+  height: 50px;
+  background: url(../images/quote-img-one.png);
+}
+
+.quote__img--two {
+  width: 50px;
+  height: 50px;
+  background: url(../images/quote-img-two.png);
+}
+
+.quote__img--three {
+  width: 50px;
+  height: 50px;
+  background: url(../images/quote-img-three.png);
+}
+
+.quote__img--four {
+  width: 50px;
+  height: 50px;
+  background: url(../images/quote-img-four.png);
+}
+
+.quote__img--five {
+  width: 50px;
+  height: 50px;
+  background: url(../images/quote-img-five.png);
+}
+
+.quote__img--six {
+  width: 50px;
+  height: 50px;
+  background: url(../images/quote-img-six.png);
+}
+
+.quote__img--stars {
+  height: 15px;
+  width: 105px;
+  background: url(../icons/stars-icon.svg);
+  margin-left: 30px;
+}
+
+.quote__container--orange-bg {
+  margin: 40px 0;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+}
+.quote__container--orange-bg figure {
+  width: 65%;
+}
+.quote__container--orange-bg blockquote {
+  width: 100%;
+  margin: 0 auto;
+  border: none;
+  background-color: rgba(232, 168, 124, 0.2);
+  padding: 5% 10%;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.container-btn {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.container-btn div {
+  width: 30px;
+  height: 3px;
+  margin: 0 5px;
+  background-color: #303030;
+  opacity: 0.5;
+}
+.container-btn div:nth-child(2) {
+  height: 6px;
+  background-color: #E27D60;
+  opacity: 1;
+}
+
+.container-btn--left {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.container-btn--left::after {
+  content: url(../icons/left-arrow.svg);
+}
+
+.container-btn--right {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.container-btn--right::after {
+  content: url(../icons/right-arrow.svg);
+}
+
 .services__title {
   font-family: "Libre Franklin", sans-serif;
   font-weight: 700;
@@ -994,129 +1201,6 @@
   margin-top: 100px;
 }
 
-.article__img--float {
-  float: left;
-  margin: 0 30px 0 0;
-  position: relative;
-}
-.article__img--float time {
-  display: inline-block;
-  margin-top: 15px;
-  opacity: 0.5;
-}
-.article__img--float time::before {
-  content: url(../icons/time-icon.svg);
-  margin-right: 5px;
-}
-.article__img--one {
-  background: url(../images/news_beauty.png) no-repeat;
-  background-size: cover;
-  height: 370px;
-  width: 670px;
-}
-.article__img--one--info {
-  display: flex;
-  justify-content: space-between;
-}
-.article__img--one--info p {
-  opacity: 0.5;
-}
-.article__img--flex {
-  display: flex;
-  width: 1200px;
-  justify-content: center;
-  margin: 30px 0;
-}
-.article__img--two {
-  background: url(../images/article-img-two.png) no-repeat;
-  background-size: cover;
-  margin-right: 5px;
-  height: 360px;
-  width: 383px;
-}
-.article__img--three {
-  background: url(../images/article-img-three.png) no-repeat;
-  background-size: cover;
-  height: 360px;
-  width: 383px;
-}
-.article__quote {
-  margin: 40px 0;
-  position: relative;
-}
-.article__quote--bg {
-  background-color: rgba(232, 168, 124, 0.2);
-  width: 770px;
-  height: 155px;
-  margin: 0 auto;
-}
-.article__quote--bg blockquote {
-  width: 525px;
-  margin: 0 auto;
-  padding-top: 30px;
-}
-.article__quote--flex {
-  display: flex;
-  align-items: center;
-  position: relative;
-  left: 215px;
-  margin-top: 10px;
-}
-.article__quote--flex figcaption {
-  font-family: "Libre Franklin", "sans-serif";
-  font-weight: 700;
-  color: #E27D60;
-}
-.article__quote--flex span {
-  display: block;
-  color: #303030;
-  opacity: 0.5;
-  font-weight: 400;
-}
-.article__quote--img {
-  background: url(../images/quote-img.png) no-repeat;
-  background-size: cover;
-  height: 50px;
-  width: 50px;
-  margin-right: 20px;
-}
-
-.container-btn {
-  display: flex;
-  align-items: center;
-  justify-items: center;
-  margin: 0 auto;
-  width: fit-content;
-}
-.container-btn--left {
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-}
-.container-btn--left::after {
-  content: url(../icons/left-arrow.svg);
-}
-.container-btn--right {
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-}
-.container-btn--right::after {
-  content: url(../icons/right-arrow.svg);
-}
-.container-btn div {
-  width: 30px;
-  height: 3px;
-  margin: 0 5px;
-  background-color: #303030;
-  opacity: 0.5;
-}
-.container-btn div:nth-child(2) {
-  height: 6px;
-  background-color: #E27D60;
-  opacity: 1;
-}
-
 .container__products__select {
   background-color: #E27D60;
   height: 77px;
@@ -1167,31 +1251,40 @@
 .product .buttons {
   width: 100%;
 }
+.product ul {
+  list-style: inside;
+}
+
 .product__images {
   display: flex;
 }
+
 .product-backside {
   background: url(../images/product-backside.png) no-repeat;
   width: 170px;
   height: 170px;
   margin-bottom: 30px;
 }
+
 .product-features {
   background: url(../images/product-features.png) no-repeat;
   width: 170px;
   height: 170px;
   margin-bottom: 30px;
 }
+
 .product-img {
   background: url(../images/product-img.png) no-repeat;
   width: 170px;
   height: 170px;
 }
+
 .product-massage_oil {
   background: url(../images/product-massage_oil.png) no-repeat;
   width: 370px;
   height: 570px;
 }
+
 .product__title {
   font-size: 36px;
   font-weight: 700;
@@ -1199,21 +1292,25 @@
   color: #303030;
   margin-top: 10px;
 }
+
 .product__rating__text::before {
   content: url(../icons/product-rating.svg);
   padding-right: 20px;
   padding-top: 2px;
 }
+
 .product__rating__text {
   font-size: 16px;
   font-weight: bold;
   font-family: "Libre Franklin", "sans-serif";
 }
+
 .product__category {
   display: flex;
   justify-content: space-between;
   align-content: center;
 }
+
 .product__category--name {
   background-color: #E27D60;
   height: 20px;
@@ -1225,6 +1322,7 @@
   padding: 8px 0;
   margin: 0;
 }
+
 .product__reactions {
   display: flex;
   justify-content: center;
@@ -1236,6 +1334,7 @@
   width: 120px;
   height: 34px;
 }
+
 .product__amount {
   display: flex;
   justify-content: center;
@@ -1246,46 +1345,42 @@
   height: 42px;
   margin: 40px 0;
 }
+
 .product__left-arrow::before {
   content: url(../icons/product-left-arrow.svg);
   padding-right: 18px;
 }
+
 .product__right-arrow {
   background-color: transparent;
   border: none;
   cursor: pointer;
 }
+
 .product__left-arrow {
   background-color: transparent;
   border: none;
   cursor: pointer;
 }
+
 .product__right-arrow::before {
   content: url(../icons/product-right-arrow.svg);
   padding-left: 18px;
 }
+
 .product__number {
   font-size: 20px;
   font-weight: bold;
   color: #303030;
   margin: auto 0;
 }
+
 .product__info {
   font-size: 16px;
   line-height: 19px;
   color: #303030;
   opacity: 0.5;
   font-family: "Work Sans", sans-serif;
-}
-.product ul {
-  list-style: inside;
-}
-.product__social-media {
-  margin: 40px 0;
-}
-.product__social-media ul {
-  list-style: none;
-  justify-content: left;
 }
 
 .product__text {
@@ -1298,6 +1393,14 @@
 .product__text ul {
   list-style: outside;
   padding-left: 15px;
+}
+
+.product__social-media {
+  margin: 40px 0;
+}
+.product__social-media ul {
+  list-style: none;
+  justify-content: left;
 }
 
 footer {
@@ -1683,112 +1786,6 @@ article {
 }
 .buttons:hover {
   background-color: #E27D60;
-}
-
-figure {
-  width: 30%;
-  margin: 0;
-}
-
-blockquote {
-  background-color: #fff;
-  border: #E6E6E6 solid 3px;
-  border-radius: 3px;
-  padding: 5% 8%;
-  margin: 0 0 10px 0;
-}
-
-.quote__container--flex {
-  display: flex;
-  width: 1200px;
-  justify-content: space-between;
-  margin-top: 60px;
-  margin-bottom: 50px;
-}
-.quote__container--orange-bg {
-  margin: 40px 0;
-  width: 1200px;
-  display: flex;
-  justify-content: center;
-}
-.quote__container--orange-bg figure {
-  width: 65%;
-}
-.quote__container--orange-bg blockquote {
-  width: 100%;
-  margin: 0 auto;
-  border: none;
-  background-color: rgba(232, 168, 124, 0.2);
-  padding: 5% 10%;
-  margin-bottom: 10px;
-  box-sizing: border-box;
-}
-.quote__container--product {
-  width: 1200px;
-  margin: 0 auto;
-  margin-bottom: 100px;
-}
-.quote__container--product .quote__container--flex {
-  width: 100%;
-}
-.quote__container--product .quote__container--flex figure {
-  width: 48%;
-  box-sizing: border-box;
-}
-.quote__container--product .quote__container--flex figure blockquote {
-  width: 100%;
-  box-sizing: border-box;
-}
-.quote__img--flex {
-  display: flex;
-  align-items: center;
-}
-.quote__img--flex figcaption {
-  margin-left: 20px;
-  color: #E27D60;
-  font-weight: 700;
-}
-.quote__img--flex figcaption span {
-  display: block;
-  color: #303030;
-  margin-top: 5px;
-  font-weight: 400;
-}
-.quote__img--one {
-  width: 50px;
-  height: 50px;
-  background: url(../images/quote-img-one.png);
-}
-.quote__img--two {
-  width: 50px;
-  height: 50px;
-  background: url(../images/quote-img-two.png);
-}
-.quote__img--three {
-  width: 50px;
-  height: 50px;
-  background: url(../images/quote-img-three.png);
-}
-.quote__img--four {
-  width: 50px;
-  height: 50px;
-  background: url(../images/quote-img-four.png);
-}
-.quote__img--five {
-  width: 50px;
-  height: 50px;
-  background: url(../images/quote-img-five.png);
-}
-.quote__img--six {
-  width: 50px;
-  height: 50px;
-  background: url(../images/quote-img-six.png);
-}
-.quote__img--stars {
-  height: 15px;
-  width: 105px;
-  background: url(../icons/stars-icon.svg);
-  margin-left: 30px;
 }
 
 /*# sourceMappingURL=styles.css.map */

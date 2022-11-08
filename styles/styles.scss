@@ -4,12 +4,15 @@
 @use '../styles/partials/_landing-welcome';
 @use '../styles/partials/_landing-services';
 @use '../styles/partials/_trusted-service';
+@use '../styles/partials/_article';
+@use '../styles/partials/_quotes';
+@use '../styles/partials/_previous-next-btn';
 @use '../styles/partials/_services-banner';
 @use '../styles/partials/_news';
 @use '../styles/partials/_banner-info';
 @use '../styles/partials/_shop';
 @use '../styles/partials/_side-our-team';
-@use '../styles/partials/_non-repeated';
+@use '../styles/partials/_product-description';
 @use '../styles/partials/_footer';
 
 // GENERAL TAGS
@@ -87,136 +90,5 @@ article {
 
   &:hover {
     background-color: colors.$darkorange;
-  }
-}
-
-// quotes 
-
-figure {
-  width: 30%;
-  margin: 0;
-}
-
-blockquote {
-  background-color: #fff;
-  border: colors.$lightgrey solid 3px;
-  border-radius: 3px;
-  padding: 5% 8%;
-  margin: 0 0 10px 0;
-}
-
-.quote {
-  &__container {
-    &--flex {
-      display: flex;
-      width: 1200px;
-      justify-content: space-between;
-      margin-top: 60px;
-      margin-bottom: 50px;
-    }
-
-    &--orange-bg {
-      margin: 40px 0;
-      width: 1200px;
-      display: flex;
-      justify-content: center;
-
-      figure {
-        width: 65%;
-      }
-
-      blockquote {
-        width: 100%;
-        margin: 0 auto;
-        border: none;
-        background-color: rgba(232, 168, 124, 0.2);
-        padding: 5% 10%;
-        margin-bottom: 10px;
-        box-sizing: border-box;
-      }
-    }
-
-    &--product {
-      width: 1200px;
-      margin: 0 auto;
-      margin-bottom: 100px;
-    
-      .quote__container--flex {
-        width: 100%;
-    
-        figure {
-          width: 48%;
-          box-sizing: border-box;
-          
-          blockquote {
-            width: 100%;
-            box-sizing: border-box;
-          }
-        }
-      }
-    }
-  }
-
-  &__img {
-    &--flex {
-      display: flex;
-      align-items: center;
-  
-      figcaption {
-        margin-left: 20px;
-        color: colors.$darkorange;
-        font-weight: 700;
-  
-        span {
-          display: block;
-          color: colors.$darkgrey;
-          margin-top: 5px;
-          font-weight: 400;
-        }
-      }
-    }
-  
-    &--one {
-      width: 50px;
-      height: 50px;
-      background: url(../images/quote-img-one.png);
-    }
-  
-    &--two {
-      width: 50px;
-      height: 50px;
-      background: url(../images/quote-img-two.png);
-    }
-  
-    &--three {
-      width: 50px;
-      height: 50px;
-      background: url(../images/quote-img-three.png);
-    }
-  
-    &--four {
-      width: 50px;
-      height: 50px;
-      background: url(../images/quote-img-four.png);
-    }
-  
-    &--five {
-      width: 50px;
-      height: 50px;
-      background: url(../images/quote-img-five.png);
-    }
-  
-    &--six {
-      width: 50px;
-      height: 50px;
-      background: url(../images/quote-img-six.png);
-    }
-
-    &--stars {
-      height: 15px;
-      width: 105px;
-      background: url(../icons/stars-icon.svg);
-      margin-left: 30px;
-    }
   }
 }
