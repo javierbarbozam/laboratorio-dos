@@ -1,0 +1,43 @@
+@use '_colors';
+
+.container-btn {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.container-btn div{
+	width: 30px;
+	height: 3px;
+	margin: 0 5px;
+	background-color: colors.$darkgrey;
+	opacity: 0.5;
+
+	&:nth-child(2) {
+		height: 6px;
+		background-color: colors.$darkorange;
+		opacity: 1;
+	}
+}
+
+.container-btn--left {
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	
+	&::after {
+		content: url(../icons/left-arrow.svg);
+	}
+}
+
+.container-btn--right {
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+
+	&::after {
+		content: url(../icons/right-arrow.svg);
+	}
+}
