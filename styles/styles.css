@@ -1010,21 +1010,25 @@ blockquote {
   max-width: 1200px;
   margin: 100px auto;
 }
+
 .shop--brands-change {
   background: url(../icons/shop-change.svg) no-repeat;
   width: 164px;
   height: 67px;
 }
+
 .shop--brands-blue_velvet {
   background: url(../icons/shop-blue_velvet.svg) no-repeat;
   width: 164px;
   height: 67px;
 }
+
 .shop--brands-hilroy {
   background: url(../icons/shop-hilroy.svg) no-repeat;
   width: 164px;
   height: 67px;
 }
+
 .shop--brands-nafia {
   background: url(../icons/shop-nafia.svg) no-repeat;
   width: 164px;
@@ -1093,11 +1097,13 @@ blockquote {
   width: 120px;
   height: 34px;
 }
+
 .shop__reactions--like {
   background: url(../icons/shop-like.svg) no-repeat;
   width: 24px;
   height: 24px;
 }
+
 .shop__reactions--share {
   background: url(../icons/shop-share.svg) no-repeat;
   width: 24px;
@@ -1107,18 +1113,21 @@ blockquote {
 .shop__text {
   margin-top: -13px;
 }
+
 .shop__text--category {
   font-size: 10px;
   color: #303030;
   opacity: 0.5;
   margin: 10px 0;
 }
+
 .shop__text--product {
   font-size: 20px;
   font-weight: bold;
   color: #303030;
   margin: 10px 0;
 }
+
 .shop__text--price {
   font-size: 16px;
   font-weight: bold;
