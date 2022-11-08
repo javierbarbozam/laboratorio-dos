@@ -1,0 +1,51 @@
+@use "_colors";
+
+.landing__welcome {
+  display: flex;
+  position: relative;
+  padding-top: 40px;
+}
+
+.landing__welcome--img {
+  background: url(../images/container-welcome.png) no-repeat;
+  background-size: cover;
+  height: 449px;
+  width: 55%;
+  border-radius: 0 0 200px 0;
+  z-index: 2;
+}
+
+.landing__welcome--info {
+  padding-top: 100px;
+  padding-left: 100px;
+  z-index: 2;
+
+  h1 {
+    font-size: 48px;
+    max-width: 400px;
+    margin: 0;
+
+    span {
+      color: colors.$darkorange;
+    }
+  }
+
+  p {
+    font-size: 18px;
+    color: colors.$darkgrey;
+    max-width: 440px;
+    line-height: 22px;
+  }
+}
+
+.landing__welcome--bg {
+  background-color: colors.$lightorange;
+  opacity: 0.5;
+  height: 600px;
+  width: 90%;
+  border-radius: 0 0 0 200px;
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  top: 40px;
+}
