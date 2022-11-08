@@ -1,0 +1,77 @@
+@use '_colors';
+
+body {
+	font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+	box-sizing: border-box;
+  color: colors.$darkgrey;
+  margin: 0 auto;
+  width: 100%;
+}
+
+h2 {
+  color: colors.$darkorange;
+  font-size: 32px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+p, li {
+  font-size: 18px;
+  opacity: 0.8;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+h2 {
+  text-align: center;
+  color: colors.$darkorange;
+  font-size: 36px;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+a {
+  text-decoration: transparent;
+  color: colors.$darkgrey;
+}
+
+article {
+  width: 1200px;
+  margin: 100px auto;
+}
+
+// GENERAL CLASSES
+
+.title--light {
+  text-align: center;
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.buttons {
+  padding: 10px 36px;
+  background-color: colors.$darkgrey;
+  border-radius: 2px;
+  border: none;
+  font-size: 18px;
+  color: #FFFFFF;
+  cursor: pointer;
+
+  &:hover {
+    background-color: colors.$darkorange;
+  }
+}
