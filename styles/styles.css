@@ -736,11 +736,11 @@ blockquote {
 
 .banner-info__index--img {
   width: 560px;
-  height: 400px;
+  height: 424px;
 }
 
 .banner-info__triumph {
-  height: 424px;
+  height: 434px;
   display: flex;
   justify-content: right;
 }
@@ -760,7 +760,7 @@ blockquote {
 
 .banner-info__triumph--img {
   width: 560px;
-  height: 424px;
+  height: 374px;
 }
 
 .banner-info__treatments {
