@@ -1237,29 +1237,23 @@ blockquote {
 .product__images {
   display: flex;
 }
+.product__images div {
+  width: 200px;
+}
 
-.product-backside {
-  background: url(../images/product-backside.png) no-repeat;
+.product__images--backside,
+.product__images--features,
+.product__images--photosection {
   width: 170px;
   height: 170px;
   margin-bottom: 30px;
 }
 
-.product-features {
-  background: url(../images/product-features.png) no-repeat;
-  width: 170px;
-  height: 170px;
-  margin-bottom: 30px;
+.product__images--photosection {
+  margin-bottom: 0;
 }
 
-.product-img {
-  background: url(../images/product-img.png) no-repeat;
-  width: 170px;
-  height: 170px;
-}
-
-.product-massage_oil {
-  background: url(../images/product-massage_oil.png) no-repeat;
+.product__massage_oil {
   width: 370px;
   height: 570px;
 }
@@ -1272,13 +1266,13 @@ blockquote {
   margin-top: 10px;
 }
 
-.product__rating__text::before {
+.product__rating-text::before {
   content: url(../icons/product-rating.svg);
   padding-right: 20px;
   padding-top: 2px;
 }
 
-.product__rating__text {
+.product__rating-text {
   font-size: 16px;
   font-weight: bold;
   font-family: "Libre Franklin", "sans-serif";
@@ -1312,6 +1306,16 @@ blockquote {
   border-radius: 3px;
   width: 120px;
   height: 34px;
+}
+
+.product__reactions__like {
+  width: 24px;
+  height: 24px;
+}
+
+.product__reactions__share {
+  width: 24px;
+  height: 24px;
 }
 
 .product__amount {
