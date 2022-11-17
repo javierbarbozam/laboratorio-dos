@@ -9,16 +9,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;700&family=Work+Sans&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet"/>
     <title>About Us</title>
   </head>
   <body>
     <header>
       <div class="header__flex">
         <a href="#" class="header__logo"
-          ><span class="visually-hidden">Millious</span></a
-        >
+          ><span class="visually-hidden">Millious</span></a>
         <nav class="header__nav">
           <a href="../index.html">Home</a>
           <a href="./about-us.html">About Us</a>
@@ -117,36 +115,35 @@
             <div class="banner-info__treatments--img--4"></div>
           </div>
         </div>
-        <form class="form-bg__hand">
-          <div class="form__hand">
-            <div class="form__hand--block">
-              <p class="form__hand--light">OUR OFFER</p>
-              <label class="form__hand--bolt" for="email"
-                >This is just for you.</label
-              >
-              <p class="form__hand--description">
-                Get <span>25% discount</span> for booking an appointment at
-                holidays or your birthday.
-              </p>
+        <div class="form">
+          <form class="form__hand">
+            <div class="form__hand--container">
+              <div class="form__hand--block">
+                <p class="form__hand--light">OUR OFFER</p>
+                <label class="form__hand--bolt" for="email"
+                  >This is just for you.</label>
+                <p class="form__hand--description">
+                  Get <span>25% discount</span> for booking an appointment at
+                  holidays or your birthday.
+                </p>
+              </div>
+              <div class="form__container-hand">
+                <label class="visually-hidden" for="name">Enter your name</label>
+                <input
+                  type="text"
+                  id="name-hand"
+                  name="name"
+                  placeholder="Enter your name"/>
+                <input
+                  type="email"
+                  id="email-hand"
+                  name="email"
+                  placeholder="Enter your E-mail"/>
+                <input class="buttons" type="submit" value="Subscribe" />
+              </div>
             </div>
-            <div class="form__container-hand">
-              <label class="visually-hidden" for="name">Enter your name</label>
-              <input
-                type="text"
-                id="name-hand"
-                name="name"
-                placeholder="Enter your name"
-              />
-              <input
-                type="email"
-                id="email-hand"
-                name="email"
-                placeholder="Enter your E-mail"
-              />
-              <input class="buttons" type="submit" value="Subscribe" />
-            </div>
-          </div>
-        </form>
+          </form>
+        </div>
       </section>
       <div class="doctors-about-us">
         <p class="title--light">OUR TEAM</p>
@@ -413,59 +410,59 @@
     </main>
     <footer>
       <!-- /////////////SECCION DE FORM ///////////-->
-      <form class="form-bg__massage">
-        <div class="form__info">
-          <div class="form__info--block">
-            <p class="form__info--light">SUBSCRIBE</p>
-            <label class="form__info--bolt" for="email"
-              >Join our newssellers.</label
-            >
-            <p class="form__info--description">
-              Subcribe to our newsseller and <span>get 45% discount </span> for
-              your next appointment.
-            </p>
+      <div class="form">
+        <form class="form__massage">
+          <div class="form__info">
+            <div class="form__info--block">
+              <p class="form__info--light">SUBSCRIBE</p>
+              <label class="form__info--bolt" for="email"
+                >Join our newssellers.</label>
+              <p class="form__info--description">
+                Subcribe to our newsseller and <span>get 45% discount </span> for
+                your next appointment.
+              </p>
+            </div>
+            <input
+              type="email"
+              id="email-formInfo"
+              name="email"
+              placeholder="Enter your E-mail"/>
+            <input class="buttons" type="submit" value="Subscribe"/>
           </div>
-          <input
-            type="email"
-            id="email-formInfo"
-            name="email"
-            placeholder="Enter your E-mail"
-          />
-          <input class="buttons" type="submit" value="Subscribe" />
-        </div>
-      </form>
+        </form>
+      </div>
       <!-- //////////NAVEGACION DEL FOOTER /////// -->
-      <div class="footer-container">
-        <div class="footer-nav">
-          <div class="footer-nav__logo"></div>
-          <ul class="footer-nav__social-media">
-            <li class="footer-nav__social-media--facebook">
+      <div class="footer">
+        <div class="footer__nav">
+          <div class="footer__nav--logo"></div>
+          <ul class="footer__nav--social">
+            <li class="footer__nav--facebook">
               <a href="#"><span class="visually-hidden">Facebook</span></a>
             </li>
-            <li class="footer-nav__social-media--vimeo">
+            <li class="footer__nav--vimeo">
               <a href="#"><span class="visually-hidden">Vimeo</span></a>
             </li>
-            <li class="footer-nav__social-media--instagram">
+            <li class="footer__nav--instagram">
               <a href="#"><span class="visually-hidden">Instagram</span></a>
             </li>
-            <li class="footer-nav__social-media--twitter">
+            <li class="footer__nav--twitter">
               <a href="#"><span class="visually-hidden">Twitter</span></a>
             </li>
           </ul>
-          <ul class="footer-list">
-            <div class="footer-list__info">
+          <ul class="footer__list">
+            <div class="footer__list--info">
               <span>Information</span>
               <li><a href="#">About Millious</a></li>
               <li><a href="#">FAQ</a></li>
               <li><a href="#">Contact Us</a></li>
             </div>
-            <div class="footer-list__quick-links">
+            <div class="footer__list--quick-links">
               <span>Quick Links</span>
               <li><a href="#">Services</a></li>
               <li><a href="#">Shop</a></li>
               <li><a href="#">Booking</a></li>
             </div>
-            <div class="footer-list__contact">
+            <div class="footer__list--contact">
               <span>Contact us</span>
               <li>
                 <a href="https://goo.gl/maps/bperdV5WTmEGwWUPA"
@@ -479,7 +476,7 @@
             </div>
           </ul>
         </div>
-        <div class="footer-rights">
+        <div class="footer__rights">
           <p>© Millious 2022</p>
           <p>All right reserved</p>
         </div>

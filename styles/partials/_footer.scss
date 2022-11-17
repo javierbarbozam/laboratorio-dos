@@ -1,40 +1,40 @@
 @use '_colors';
-
+ 
 footer {
   width: 100%;
 }
-
+ 
 /////////IMAGES BACKGROUND/////////
-
-.form-bg__massage {
-  background: url(../images/footer_img.png) no-repeat; 
+ 
+.form__massage {
+  background: url(../images/footer_img.png) no-repeat;
   background-size: cover;
   width: 100%;
-  height: 275px; 
+  height: 275px;
   color:white;
-  margin: 0; 
+  margin: 0;
   }
-
+ 
 .form-bg__flowers {
-  background: url(../images/footer-aboutUs.png) no-repeat; 
+  background: url(../images/footer-aboutUs.png) no-repeat;
   background-size: cover;
   width: 100%;
-  height: 600px; 
+  height: 600px;
   color:white;
-  margin: 0; 
+  margin: 0;
 }
-
-.form-bg__hand { 
-    background: url(../images/footer-hand.png) no-repeat; 
+ 
+.form__hand {
+    background: url(../images/footer-hand.png) no-repeat;
     background-size: cover;
     width: 100%;
-    height: 275px; 
+    height: 275px;
     color:white;
-    margin: 0; 
+    margin: 0;
 }
-
+ 
   /////////contenedor de 1200 INDEX - ARTICLE/////////
-
+ 
 .form__info {
   margin: 0 auto;
   width: 1200px;
@@ -42,7 +42,7 @@ footer {
   justify-content: center;
   align-items: center;
   height: 275px;
-
+ 
   ///////// TEXTO A LA PAR DEL FORM
     .form__info--block {
       display: block;
@@ -51,26 +51,26 @@ footer {
       font-weight: lighter;
       font-size: 16px;
     }
-    
+   
     .form__info--bolt {
       font-weight: bolder;
       font-size: 36px;
     }
-
+ 
     .our-team-form-label {
       display: block;
       width: 600px;
     }
-
+ 
     &--description {
       font-size: 18px;
       width: 350px;
-
+ 
       span {
         color: colors.$darkorange;
       }
     }  
-
+ 
     #email-formInfo {
       width: 45%;
       padding: 10px 8px;
@@ -79,9 +79,9 @@ footer {
       margin: 0 30px;
     }
 }
-
+ 
   ///////// contenedor de 1200 HAND/////////
-.form__hand {
+.form__hand--container {
   margin: 0 auto;
   width: 1200px;
   display: flex;
@@ -90,9 +90,9 @@ footer {
   height: 275px;
   margin-top: 40px;
 }
-
+ 
 ///////// TEXTO A LA PAR DEL FORM/////////
-
+ 
 .form__hand--block {
   display: block;
 }  
@@ -100,30 +100,30 @@ footer {
   font-weight: lighter;
   font-size: 16px;
 }
-
+ 
 .form__hand--bolt {
   font-weight: bolder;
   font-size: 36px;
 }
-
+ 
 .form__container-hand {
   width: 60%;
 }
-
+ 
 .form__hand .our-team-form-label {
   display: block;
   width: 600px;
 }
-
+ 
 .form__hand--description {
   font-size: 18px;
   width: 350px;
-
+ 
   span {
     color: colors.$darkorange;
   }
 }  
-
+ 
 .form__hand #name-hand {
   width: 100%;
   padding: 10px 8px;
@@ -131,7 +131,7 @@ footer {
   border: 1px solid #E6E6E6;
   margin-top: 30px;
 }
-
+ 
 .form__hand #email-hand {
   width: 100%;
   padding: 10px 8px;
@@ -139,9 +139,9 @@ footer {
   border: 1px solid #E6E6E6;
   margin: 30px 0;
 }
-
+ 
   /////////contenedor de 1200 OUR TEAM  /////////
-
+ 
 .form__our-team {
   margin: 0 auto;
   width: 1200px;
@@ -150,11 +150,11 @@ footer {
   align-items: center;
   height: 600px;
   margin-top: 40px;
-
+ 
 }
-
-///////// TEXTO A LA PAR DEL FORM 
-
+ 
+///////// TEXTO A LA PAR DEL FORM
+ 
 .form__our-team--block {
   display: block;
 }  
@@ -162,28 +162,28 @@ footer {
   font-weight: lighter;
   font-size: 16px;
 }
-
+ 
 .form__our-team--bolt {
   font-weight: bolder;
   font-size: 36px;
 }
-
+ 
 .form__our-team .our-team-form-label {
   display: block;
   width: 600px;
 }
-
+ 
 .form__our-team--description {
   font-size: 18px;
   width: 350px;
-
+ 
   span {
     color: colors.$darkorange;
   }
-} 
-
+}
+ 
   ///////// CAJA BLANCA ABOUT US   /////////
-  
+ 
 .form__card-our-team {
   width: 370px;
   height: 400px;
@@ -192,7 +192,7 @@ footer {
   color: colors.$darkgrey;
   padding: 30px;
 }
-
+ 
 #name-our-team, #phone-our-team,
 #email-our-team  {
   width: 100%;
@@ -201,28 +201,28 @@ footer {
   border: 1px solid colors.$lightgrey;
   margin-top: 30px;
 }
-
+ 
 .form__politics {
   display: flex;
   margin: 30px 0;
 }
-
+ 
 .form__politics--label {
   margin-left: 10px;
   span {
     color: colors.$darkorange;
   }
 }
-
+ 
   ////////// FOOTER NAV GRIS  /////////
-
-.footer-container {
+ 
+.footer {
 background-color: #303030;
   background-color: colors.$darkgrey;
   width: 100%;
 }
-
-.footer-nav {
+ 
+.footer__nav {
   background-color: colors.$darkgrey;
   color: colors.$darkorange;
   color: #E27D60;
@@ -235,107 +235,107 @@ background-color: #303030;
   padding-top: 60px;
   padding-bottom: 60px;  
 }
-
-.footer-nav__logo {
-  background: url(../images/millious-footer.png) no-repeat; 
+ 
+.footer__nav--logo {
+  background: url(../images/millious-footer.png) no-repeat;
   background-size: cover;
   height: 20px;
   width: 100px;
 }
-
-.footer-nav__social-media {
+ 
+.footer__nav--social {
   display: flex;
   align-items: center;
   justify-content: center;
-
+ 
   li {
     position: relative;
   }
 }
-
-.footer-nav__social-media--facebook::before {
+ 
+.footer__nav--facebook::before {
   content: url(../icons/footer-facebook.svg);
   margin-right: 15px;
 }
-
-.footer-nav__social-media--vimeo::before {
+ 
+.footer__nav--vimeo::before {
   content: url(../icons/footer-vimeo.svg);
   margin-right: 15px;
 }
-
-.footer-nav__social-media--instagram::before {
+ 
+.footer__nav--instagram::before {
   content: url(../icons/footer-instagram.svg);
   margin-right: 15px;
 }
-
-.footer-nav__social-media--twitter::before {
+ 
+.footer__nav--twitter::before {
   content: url(../icons/footer-twitter.svg);
 }
-
-.footer-list {
+ 
+.footer__list {
   display: flex;
   justify-content: right;
-
+ 
   li {
     list-style: none;
     margin-top: 20px;
     padding: 0 60px;
   }
-
+ 
   a {
     text-decoration: none;
     color: white;
   }
 }
-
-.footer-list__info {
+ 
+.footer__list--info {
   display: flex;
   flex-direction: column;
-
+ 
   span {
     justify-content: center;
     padding: 0 60px;
   }
 }
-
-.footer-list__quick-links {
+ 
+.footer__list--quick-links {
   display: flex;
   flex-direction: column;
-
+ 
   span {
     justify-content: left;
     padding: 0 60px;
   }
 }
-
-.footer-list__contact {
+ 
+.footer__list--contact {
   display: flex;
   flex-direction: column;
   text-align: left;
-
+ 
   span {
     justify-content: left;
     padding: 0 60px;
   }
 }
-
-.footer-rights {
+ 
+.footer__rights {
   display: flex;
   justify-content: space-between;
   color: white;
   width: 1200px;
   margin: 0 auto;
   margin-top: 20px;
-
+ 
   p {
     font-size: 14px;
   }
 }
-
+ 
 .form__contact {
   background-color: #fff;
 }
-    
+
 input::placeholder {
   font-weight: lighter;
   opacity: .5;
