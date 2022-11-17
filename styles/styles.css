@@ -949,13 +949,10 @@ blockquote {
 }
 
 .banner-info__our-team {
-  max-width: 100%;
   height: 680px;
   display: flex;
-  margin-top: 100px;
-  margin-bottom: 100px;
 }
-.banner-info__our-team .banner-info--p {
+.banner-info__our-team .banner-info__info {
   margin-bottom: 5%;
   max-width: 50%;
   margin-left: 50%;
