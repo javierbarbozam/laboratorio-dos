@@ -1066,35 +1066,29 @@ blockquote {
   margin: 10px 0;
 }
 
-.doctors-description {
+.doctors__description {
   text-align: center;
   margin-bottom: 42px;
 }
-.doctors-description span {
+.doctors__description span {
   display: block;
 }
 
-.doctors-img__james {
+.doctors__container__card--james {
   width: 270px;
   height: 335px;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
-  background: url(../images/doctors-james.png) no-repeat;
-  background-size: cover;
-  background-position-x: center;
 }
 
-.doctors-img__victoria {
+.doctors__container__card--victoria {
   width: 270px;
   height: 335px;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
-  background: url(../images/doctors-victoria.png) no-repeat;
-  background-size: cover;
-  background-position-x: center;
 }
 
-.doctors-img__umar {
+.doctors__container__card--umar {
   width: 270px;
   height: 335px;
   border-top-left-radius: 3px;
@@ -1104,37 +1098,28 @@ blockquote {
   background-position-x: center;
 }
 
-.doctors-img__melissa {
+.doctors__container__card--melissa {
   width: 270px;
   height: 335px;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
-  background: url(../images/doctors-melissa.png) no-repeat;
-  background-size: cover;
-  background-position-x: center;
 }
 
-.doctors-img__bob {
+.doctors__container__card--bob {
   width: 270px;
   height: 335px;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
-  background: url(../images/doctors-bob.png) no-repeat;
-  background-size: cover;
-  background-position-x: center;
 }
 
-.doctors-img__george {
+.doctors__container__card--george {
   width: 270px;
   height: 335px;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
-  background: url(../images/doctors-george.png) no-repeat;
-  background-size: cover;
-  background-position-x: center;
 }
 
-.doctors-img__mark {
+.doctors__container__card--mark {
   width: 270px;
   height: 335px;
   border-top-left-radius: 3px;
@@ -1144,17 +1129,14 @@ blockquote {
   background-position-x: center;
 }
 
-.doctors-img__malcolm {
+.doctors__container__card--malcolm {
   width: 270px;
   height: 335px;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
-  background: url(../images/doctors-malcolm.png) no-repeat;
-  background-size: cover;
-  background-position-x: center;
 }
 
-.doctors-container {
+.doctors__container {
   width: 1200px;
   margin: 0 auto;
   display: flex;
@@ -1162,12 +1144,12 @@ blockquote {
   justify-content: space-between;
 }
 
-.doctors-container__card {
+.doctors__container__card {
   position: relative;
   margin-bottom: 30px;
 }
 
-.doctors-container__card--name {
+.doctors__container__card__name {
   font-family: "Libre Franklin", sans-serif;
   font-size: 20px;
   font-weight: 700;
@@ -1175,11 +1157,11 @@ blockquote {
   margin: 30px 0 10px 20px;
 }
 
-.doctors-container__card--position {
+.doctors__container__card__position {
   margin: 0 0 0 20px;
 }
 
-.doctors-social {
+.doctors__social {
   position: absolute;
   display: flex;
   align-items: center;
@@ -1193,15 +1175,15 @@ blockquote {
   bottom: 15%;
 }
 
-.doctors-social__facebook::before {
+.doctors__social--facebook::before {
   content: url(../icons/footer-facebook.svg);
 }
 
-.doctors-social__twitter::before {
+.doctors__social--twitter::before {
   content: url(../icons/footer-twitter.svg);
 }
 
-.doctors-social__instagram::before {
+.doctors__social--instagram::before {
   content: url(../icons/footer-instagram.svg);
 }
 
@@ -1211,7 +1193,7 @@ blockquote {
   margin: 40px 0 100px 0;
 }
 
-.reviews__bg {
+.reviews {
   width: 100%;
   padding: 6% 0;
   background-color: #E6E6E6;
@@ -1222,27 +1204,27 @@ blockquote {
   margin: 0 auto;
 }
 
-.reviews__info--container {
+.reviews__container__info {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.reviews__info--container p {
+.reviews__container__info p {
   text-align: right;
   max-width: 570px;
 }
-.reviews__info--container h2 {
+.reviews__container__info h2 {
   text-align: right;
 }
 
-.reviews__info--container--img {
+.reviews__container__info--img {
   width: 570px;
   height: 280px;
   background: url(../images/reviews-massage.png) no-repeat;
   background-size: cover;
 }
 
-.doctors-about-us {
+.doctors {
   margin-top: 100px;
 }
 
