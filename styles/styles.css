@@ -71,7 +71,7 @@ article {
   background-color: #E27D60;
 }
 
-.header__flex {
+.navbar--flex {
   display: flex;
   justify-content: space-between;
   width: 80%;
@@ -79,26 +79,62 @@ article {
   padding-top: 50px;
 }
 
-.header__logo::after {
+.navbar__logo::after {
   content: url(../images/millious.svg);
 }
 
-.header__nav a {
+.navbar__anchor a {
   font-family: "Libre Franklin", sans-serif;
   font-weight: 700;
   position: relative;
 }
-.header__nav a::after {
+.navbar__anchor a::after {
   content: url(../icons/nav-anchor-arrow.svg);
   position: relative;
   left: 9px;
 }
-.header__nav a:hover {
+.navbar__anchor a:hover {
   color: #E27D60;
 }
-
-.header__nav a:nth-child(even) {
+.navbar__anchor a:nth-child(even) {
   padding: 0 25px;
+}
+
+.navbar__search {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.navbar__search:after {
+  content: url(../icons/nav-search-btn.svg);
+}
+.navbar__search:hover {
+  transform: scale(1.15);
+}
+
+.navbar__booking {
+  background-color: transparent;
+  border: none;
+  padding: 0 21px;
+  cursor: pointer;
+}
+.navbar__booking:after {
+  content: url(../icons/nav-booking-btn.svg);
+}
+.navbar__booking:hover {
+  transform: scale(1.15);
+}
+
+.navbar__cart {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.navbar__cart:after {
+  content: url(../icons/nav-shopping-cart-btn.svg);
+}
+.navbar__cart:hover {
+  transform: scale(1.15);
 }
 
 .header__title {
@@ -120,7 +156,7 @@ article {
   z-index: 2;
 }
 
-.header__nav--bg {
+.header__title--bg {
   background-color: #E6E6E6;
   opacity: 0.5;
   width: 90%;
@@ -129,34 +165,6 @@ article {
   z-index: 1;
   right: 0;
   top: -60%;
-}
-
-.header__nav--search {
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-}
-.header__nav--search:after {
-  content: url(../icons/nav-search-btn.svg);
-}
-
-.header__nav--booking {
-  background-color: transparent;
-  border: none;
-  padding: 0 21px;
-  cursor: pointer;
-}
-.header__nav--booking:after {
-  content: url(../icons/nav-booking-btn.svg);
-}
-
-.header__nav--cart {
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-}
-.header__nav--cart:after {
-  content: url(../icons/nav-shopping-cart-btn.svg);
 }
 
 .hero-section {
@@ -776,14 +784,17 @@ blockquote {
   background: url(../images/news_posture.png) no-repeat;
 }
 
-.banner-info__index {
+.banner-info {
   max-width: 100%;
-  height: 420px;
-  display: flex;
   margin-top: 100px;
   margin-bottom: 100px;
 }
-.banner-info__index .banner-info--p {
+
+.banner-info__index {
+  height: 420px;
+  display: flex;
+}
+.banner-info__index .banner-info__info {
   margin-bottom: 5%;
   max-width: 50%;
   margin-left: 50%;
@@ -795,10 +806,10 @@ blockquote {
   padding-top: 2%;
 }
 
-.banner-info--text {
+.banner-info__text {
   text-align: right;
 }
-.banner-info--text .title--light, .banner-info--text h2 {
+.banner-info__text .title--light, .banner-info__text h2 {
   text-align: right;
 }
 
@@ -810,12 +821,9 @@ blockquote {
 }
 
 .banner-info__triumph {
-  max-width: 100%;
   height: 455px;
   display: flex;
   justify-content: right;
-  margin-top: 100px;
-  margin-bottom: 100px;
 }
 .banner-info__triumph h2 {
   text-align: left;
@@ -842,7 +850,6 @@ blockquote {
   max-width: 1200px;
   margin: 0 auto;
   text-align: center;
-  margin-bottom: 100px;
 }
 
 .banner-info__treatments--img {
@@ -970,13 +977,10 @@ blockquote {
 }
 
 .banner-info__services {
-  max-width: 100%;
   height: 690px;
   display: flex;
-  margin-top: 100px;
-  margin-bottom: 100px;
 }
-.banner-info__services .banner-info--p {
+.banner-info__services .banner-info__info {
   margin-bottom: 5%;
   max-width: 50%;
   margin-left: 50%;

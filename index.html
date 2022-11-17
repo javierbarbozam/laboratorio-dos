@@ -11,10 +11,10 @@
     <title>Millious</title>
   </head>
   <body>
-    <header>
-      <div class="header__flex">
-        <a href="#" class="header__logo"><span class="visually-hidden">Millious</span></a>
-        <nav class="header__nav">
+    <header class="navbar">
+      <div class="navbar--flex">
+        <a href="#" class="navbar__logo"><span class="visually-hidden">Millious</span></a>
+        <nav class="navbar__anchor">
             <a href="./index.html">Home</a>
             <a href="./about-us/about-us.html">About Us</a>
             <a href="./shop/product.html">Shop</a>
@@ -23,9 +23,9 @@
             <a href="./our-team/our-team.html">Our Team</a>
         </nav>
         <div>
-          <button class="header__nav--search"><span class="visually-hidden">Go to Search tool</span></button>
-          <button class="header__nav--booking"><span class="visually-hidden">Go to Bookings</span></button>
-          <button class="header__nav--cart"><span class="visually-hidden">Go to my cart</span></button>
+          <button class="navbar__search"><span class="visually-hidden">Go to Search tool</span></button>
+          <button class="navbar__booking"><span class="visually-hidden">Go to Bookings</span></button>
+          <button class="navbar__cart"><span class="visually-hidden">Go to my cart</span></button>
         </div>
       </div>
     </header>
@@ -62,20 +62,22 @@
           <p>Lorem ipsum dolor amet, consect risu adipiscing elit do</p>
         </div>
       </section>
-      <section class="banner-info__index">
-        <div class="banner-info--text">
-          <p class="title--light">WE SEE THE RESULTS.</p>
-          <h2>Give us a visit.</h2>
-          <p class="banner-info--p">
-            Ut donec suscipit nunc volutpat faucibus. Ut penatibus etiam diam
-            facilisi at nibh nulla auctor lorem. Accumsan vulputate euismod massa
-            sit egestas. Aliquet a scelerisque enim, arcu rutrum adipiscing
-            fringilla risus. Ullamcorper consequat donec euismod mi pulvinar.
-          </p>
-          <a class="buttons" href="#">Read More</a>
+      <section class="banner-info">
+        <div class="banner-info__index">
+          <div class="banner-info__text">
+            <p class="title--light">WE SEE THE RESULTS.</p>
+            <h2>Give us a visit.</h2>
+            <p class="banner-info__info">
+              Ut donec suscipit nunc volutpat faucibus. Ut penatibus etiam diam
+              facilisi at nibh nulla auctor lorem. Accumsan vulputate euismod massa
+              sit egestas. Aliquet a scelerisque enim, arcu rutrum adipiscing
+              fringilla risus. Ullamcorper consequat donec euismod mi pulvinar.
+            </p>
+            <a class="buttons" href="#">Read More</a>
+          </div>
+          <!-- div de imagen -->
+          <div class="banner-info__index--img"></div>  
         </div>
-        <!-- div de imagen -->
-        <div class="banner-info__index--img"></div>
       </section>
       <section class="landing__services">
         <p class="title--light">PRICING</p>
@@ -149,32 +151,36 @@
         <button class="buttons">View More</button>
       </section>
       <section>
-        <div class="banner-info__triumph">
-          <!-- div de imagen -->
-          <div class="banner-info__triumph--img"></div>
-          <div>
-            <p class="title--light">TRIUMPH YOUR FITNESS.</p>
-            <h2>Widen your smile.</h2>
-            <p>
-              Aliquet a scelerisque enim, arcu rutrum adipiscing fringilla risus.
-              Eget fringilla curabitur sed vulputate pretium, habitasse amet.
-              Elementum odio sagittis, interdum elit ipsum. Volutpat erat ac eu
-              aliquam turpis. Ullamcorper consequat donec euismod mi pulvinar.
-            </p>
+        <div class="banner-info">
+          <div class="banner-info__triumph">
+            <!-- div de imagen -->
+            <div class="banner-info__triumph--img"></div>
+            <div>
+              <p class="title--light">TRIUMPH YOUR FITNESS.</p>
+              <h2>Widen your smile.</h2>
+              <p>
+                Aliquet a scelerisque enim, arcu rutrum adipiscing fringilla risus.
+                Eget fringilla curabitur sed vulputate pretium, habitasse amet.
+                Elementum odio sagittis, interdum elit ipsum. Volutpat erat ac eu
+                aliquam turpis. Ullamcorper consequat donec euismod mi pulvinar.
+              </p>
+            </div>
           </div>
         </div>
-        <div class="banner-info__treatments">
-          <p>TREATMENTS.</p>
-          <h2>Your key to a relaxed life.</h2>
-          <div class="banner-info__treatments--img">
-            <!-- div de imagen -->
-            <div class="banner-info__treatments--img--1"></div>
-            <!-- div de imagen -->
-            <div class="banner-info__treatments--img--2"></div>
-            <!-- div de imagen -->
-            <div class="banner-info__treatments--img--3"></div>
-            <!-- div de imagen -->
-            <div class="banner-info__treatments--img--4"></div>
+        <div class="banner-info">
+          <div class="banner-info__treatments">
+            <p>TREATMENTS.</p>
+            <h2>Your key to a relaxed life.</h2>
+            <div class="banner-info__treatments--img">
+              <!-- div de imagen -->
+              <div class="banner-info__treatments--img--1"></div>
+              <!-- div de imagen -->
+              <div class="banner-info__treatments--img--2"></div>
+              <!-- div de imagen -->
+              <div class="banner-info__treatments--img--3"></div>
+              <!-- div de imagen -->
+              <div class="banner-info__treatments--img--4"></div>
+            </div>
           </div>
         </div>
       </section>
