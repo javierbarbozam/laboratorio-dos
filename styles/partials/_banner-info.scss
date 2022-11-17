@@ -1,13 +1,16 @@
 @use '_colors';
 
-.banner-info__index {
+.banner-info {
   max-width: 100%;
-  height: 420px;
-  display: flex;
   margin-top: 100px;
   margin-bottom: 100px;
+}
 
-  .banner-info--p {
+.banner-info__index {
+  height: 420px;
+  display: flex;
+
+  .banner-info__info {
     margin-bottom: 5%;
     max-width: 50%;
     margin-left: 50%;
@@ -21,7 +24,7 @@
   }
 }
 
-.banner-info--text {
+.banner-info__text {
   text-align: right;
 
   .title--light, h2 {
