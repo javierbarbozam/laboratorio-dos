@@ -1,12 +1,12 @@
 @use "_colors";
 
-.landing__welcome {
+.hero-section {
   display: flex;
   position: relative;
   padding-top: 40px;
 }
 
-.landing__welcome--img {
+.hero-section__img {
   background: url(../images/container-welcome.png) no-repeat;
   background-size: cover;
   height: 449px;
@@ -15,20 +15,10 @@
   z-index: 2;
 }
 
-.landing__welcome--info {
+.hero-section__info {
   padding-top: 100px;
   padding-left: 100px;
   z-index: 2;
-
-  h1 {
-    font-size: 48px;
-    max-width: 400px;
-    margin: 0;
-
-    span {
-      color: colors.$darkorange;
-    }
-  }
 
   p {
     font-size: 18px;
@@ -38,7 +28,17 @@
   }
 }
 
-.landing__welcome--bg {
+.hero-section__title {
+  font-size: 48px;
+  max-width: 400px;
+  margin: 0;
+
+  span {
+    color: colors.$darkorange;
+  }
+}
+
+.hero-section__bg {
   background-color: colors.$lightorange;
   opacity: 0.5;
   height: 600px;
