@@ -1556,29 +1556,35 @@ footer {
   align-items: center;
   height: 275px;
 }
-.form__info .form__info--block {
+
+.form__info--block {
   display: block;
 }
-.form__info .form__info--light {
+
+.form__info--light {
   font-weight: lighter;
   font-size: 16px;
 }
-.form__info .form__info--bolt {
+
+.form__info--bold {
   font-weight: bolder;
   font-size: 36px;
 }
-.form__info .our-team-form-label {
+
+.our-team-form-label {
   display: block;
   width: 600px;
 }
-.form__info--description {
+
+.form__info__description {
   font-size: 18px;
   width: 350px;
 }
-.form__info--description span {
+.form__info__description span {
   color: #E27D60;
 }
-.form__info #email-formInfo {
+
+#email-formInfo {
   width: 45%;
   padding: 10px 8px;
   border-radius: 5px;
@@ -1737,31 +1743,31 @@ footer {
   width: 100px;
 }
 
-.footer__nav--social {
+.footer__nav__social {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.footer__nav--social li {
+.footer__nav__social li {
   position: relative;
 }
 
-.footer__nav--facebook::before {
+.footer__nav__social--facebook::before {
   content: url(../icons/footer-facebook.svg);
   margin-right: 15px;
 }
 
-.footer__nav--vimeo::before {
+.footer__nav__social--vimeo::before {
   content: url(../icons/footer-vimeo.svg);
   margin-right: 15px;
 }
 
-.footer__nav--instagram::before {
+.footer__nav__social--instagram::before {
   content: url(../icons/footer-instagram.svg);
   margin-right: 15px;
 }
 
-.footer__nav--twitter::before {
+.footer__nav__social--twitter::before {
   content: url(../icons/footer-twitter.svg);
 }
 

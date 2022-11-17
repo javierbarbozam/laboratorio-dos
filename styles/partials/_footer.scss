@@ -42,6 +42,7 @@ footer {
   justify-content: center;
   align-items: center;
   height: 275px;
+}
  
   ///////// TEXTO A LA PAR DEL FORM
     .form__info--block {
@@ -52,7 +53,7 @@ footer {
       font-size: 16px;
     }
    
-    .form__info--bolt {
+    .form__info--bold {
       font-weight: bolder;
       font-size: 36px;
     }
@@ -62,22 +63,21 @@ footer {
       width: 600px;
     }
  
-    &--description {
+    .form__info__description {
       font-size: 18px;
       width: 350px;
  
       span {
         color: colors.$darkorange;
       }
-    }  
- 
-    #email-formInfo {
-      width: 45%;
-      padding: 10px 8px;
-      border-radius: 5px;
-      border: 1px solid colors.$lightgrey;
-      margin: 0 30px;
-    }
+}
+
+#email-formInfo {
+  width: 45%;
+  padding: 10px 8px;
+  border-radius: 5px;
+  border: 1px solid colors.$lightgrey;
+  margin: 0 30px;
 }
  
   ///////// contenedor de 1200 HAND/////////
@@ -243,7 +243,7 @@ background-color: #303030;
   width: 100px;
 }
  
-.footer__nav--social {
+.footer__nav__social {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -253,22 +253,22 @@ background-color: #303030;
   }
 }
  
-.footer__nav--facebook::before {
+.footer__nav__social--facebook::before {
   content: url(../icons/footer-facebook.svg);
   margin-right: 15px;
 }
  
-.footer__nav--vimeo::before {
+.footer__nav__social--vimeo::before {
   content: url(../icons/footer-vimeo.svg);
   margin-right: 15px;
 }
  
-.footer__nav--instagram::before {
+.footer__nav__social--instagram::before {
   content: url(../icons/footer-instagram.svg);
   margin-right: 15px;
 }
  
-.footer__nav--twitter::before {
+.footer__nav__social--twitter::before {
   content: url(../icons/footer-twitter.svg);
 }
  
