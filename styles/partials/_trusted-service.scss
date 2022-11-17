@@ -7,7 +7,7 @@
   margin-bottom: 100px;
 }
 
-.services__skin--paragraphs {
+.services__skin--info {
   max-width: 50%;
   margin: auto 0;
   margin-right: 50px;
@@ -19,19 +19,19 @@
   margin-bottom: 100px;
 }
 
-.services__trusted {
+.services {
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
   margin-bottom: 50px;
 }
 
-.services__trusted--images {
+.services__images {
   display: flex;
   margin-right: 50px;
 }
 
-.services__trusted--text {
+.services__text {
   display: block;
   margin-left: 50px;
 
@@ -40,23 +40,17 @@
   }
 }
 
-.services__trusted--img1 {
-  background: url(../images/services-candle.png) no-repeat;
-  background-size: cover;
+.services__images--candle {
   width: 285px;
   height: 370px;
 }
 
-.services__trusted--img2 {
-  background: url(../images/services-plants.png) no-repeat;
-  background-size: cover;
+.services__images--plants {
   width: 285px;
   height: 370px;
 }
 
-.services__trusted--img3 {
-  background: url(../images/services-skin.png) no-repeat;
-  background-size: cover;
+.services__images--skin {
   width: 570px;
   height: 350px;
   margin-left: 50px;
