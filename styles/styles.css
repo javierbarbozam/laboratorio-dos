@@ -534,21 +534,21 @@ blockquote {
   opacity: 1;
 }
 
-.container-btn--left {
+.container-btn__left {
   background-color: transparent;
   border: none;
   cursor: pointer;
 }
-.container-btn--left::after {
+.container-btn__left::after {
   content: url(../icons/left-arrow.svg);
 }
 
-.container-btn--right {
+.container-btn__right {
   background-color: transparent;
   border: none;
   cursor: pointer;
 }
-.container-btn--right::after {
+.container-btn__right::after {
   content: url(../icons/right-arrow.svg);
 }
 
