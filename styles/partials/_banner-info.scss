@@ -15,14 +15,17 @@
     max-width: 50%;
     margin-left: 50%;
   }
+
+  div {
+    max-width: 55%;
+    height: 85%;
+    background-color: colors.$lightergrey;
+    padding-top: 2%;
+  }
 }
 
 .banner-info__text {
   text-align: right;
-  max-width: 55%;
-  height: 400px;
-  background-color: colors.$lightergrey;
-  padding-top: 2%;
 
   .title--light, h2 {
     text-align: right;
@@ -30,12 +33,14 @@
 }
 
 .banner-info__index--img {
+  background: url(../images/banner-info-index.png) no-repeat;
+  background-size: cover;
   width: 560px;
-  height: 400px;
+  height: 85%;
 }
 
 .banner-info__triumph {
-  height: 424px;
+  height: 455px;
   display: flex;
   justify-content: right;
 
@@ -57,8 +62,10 @@
 }
 
 .banner-info__triumph--img {
+  background: url(../images/banner-info-triumph.jpg) no-repeat;
+  background-size: cover;
   width: 560px;
-  height: 424px;
+  height: 85%;
 }
 
 .banner-info__treatments {

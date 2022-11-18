@@ -726,25 +726,29 @@ blockquote {
   max-width: 50%;
   margin-left: 50%;
 }
+.banner-info__index div {
+  max-width: 55%;
+  height: 85%;
+  background-color: #f2f1f1;
+  padding-top: 2%;
+}
 
 .banner-info__text {
   text-align: right;
-  max-width: 55%;
-  height: 400px;
-  background-color: #f2f1f1;
-  padding-top: 2%;
 }
 .banner-info__text .title--light, .banner-info__text h2 {
   text-align: right;
 }
 
 .banner-info__index--img {
+  background: url(../images/banner-info-index.png) no-repeat;
+  background-size: cover;
   width: 560px;
-  height: 400px;
+  height: 85%;
 }
 
 .banner-info__triumph {
-  height: 424px;
+  height: 455px;
   display: flex;
   justify-content: right;
 }
@@ -763,8 +767,10 @@ blockquote {
 }
 
 .banner-info__triumph--img {
+  background: url(../images/banner-info-triumph.jpg) no-repeat;
+  background-size: cover;
   width: 560px;
-  height: 424px;
+  height: 85%;
 }
 
 .banner-info__treatments {
