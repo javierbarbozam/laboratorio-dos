@@ -311,10 +311,10 @@
                 mi pulvinar.
               </p>
             </div>
-            <div class="reviews__info--container--img"></div>
+          <div class="reviews__info--container--img"></div>
           </div>
-          <div class="quote__container">
-            <div class="quote__container--flex">
+          <div class="quote">
+            <div class="quote__container">
               <figure>
                 <!-- first quote -->
                 <blockquote>
@@ -322,8 +322,10 @@
                   pulvinar consequat eleifend malesuada. Eu dolor at venenatis
                   aliquam velit et in consequat”
                 </blockquote>
-                <div class="quote__img--flex">
-                  <div class="quote__img--one"></div>
+                <div class="quote__container__img">
+                  <div class="quote__container__img--one">
+                    <img src="../images/quote-img-one.png" alt="">
+                  </div>
                   <figcaption>
                     Jessica Mortyr<span>United Kingdom</span>
                   </figcaption>
@@ -336,8 +338,10 @@
                   pulvinar consequat eleifend malesuada. Eu dolor at venenatis
                   aliquam velit et in consequat”
                 </blockquote>
-                <div class="quote__img--flex">
-                  <div class="quote__img--two"></div>
+                <div class="quote__container__img">
+                  <div class="quote__container__img--two">
+                    <img src="../images/quote-img-two.png" alt="">
+                  </div>
                   <figcaption>
                     Valeri Johnson<span>United States</span>
                   </figcaption>
@@ -350,19 +354,25 @@
                   pulvinar consequat eleifend malesuada. Eu dolor at venenatis
                   aliquam velit et in consequat”
                 </blockquote>
-                <div class="quote__img--flex">
-                  <div class="quote__img--three"></div>
+                <div class="quote__container__img">
+                  <div class="quote__container__img--three">
+                    <img src="../images/quote-img-three.png" alt="">
+                  </div>
                   <figcaption>Christine Karr<span>Wales</span></figcaption>
                 </div>
               </figure>
             </div>
             <div class="container-btn">
-              <button class="container-btn__left"><span class="visually-hidden">Watch previous reviews</span></button>
+              <button class="container-btn__left">
+                <span class="visually-hidden">Watch previous reviews</span>
+              </button>
               <div></div>
               <div></div>
               <div></div>
               <div></div>
-              <button class="container-btn__right"><span class="visually-hidden">Watch next reviews</span></button>
+              <button class="container-btn__right">
+                <span class="visually-hidden">Watch next reviews</span>
+              </button>
             </div>
           </div>
         </div>
@@ -492,53 +502,77 @@
     </main>
     <footer>
       <!-- /////////////SECCION DE FORM ///////////-->
-      <form class="form-bg__massage">
-        <div class="form__info">
-          <div class="form__info--block">
-            <p class="form__info--light">SUBSCRIBE</p>
-            <label class="form__info--bolt"  for="email">Join our newssellers.</label> 
-            <p class="form__info--description">Subcribe to our newsseller and <span>get 45% discount </span> for your next appointment.</p>
+      <div class="form">
+        <form class="form__massage">
+          <div class="form__info">
+            <div class="form__info--block">
+              <p class="form__info--light">SUBSCRIBE</p>
+              <label class="form__info--bold" for="email"
+                >Join our newssellers.</label>
+              <p class="form__info__description">
+                Subcribe to our newsseller and <span>get 45% discount </span> for
+                your next appointment.
+              </p>
+            </div>
+            <input
+              type="email"
+              id="email-formInfo"
+              name="email"
+              placeholder="Enter your E-mail"/>
+            <input class="buttons" type="submit" value="Subscribe"/>
           </div>
-          <input type="email" id="email-formInfo" name="email" placeholder ="Enter your E-mail"/>
-          <input class="buttons" type="submit" value="Subscribe"/>
+        </form>
+      </div>
+      <!-- //////////NAVEGACION DEL FOOTER /////// -->
+      <div class="footer">
+        <div class="footer__nav">
+          <div class="footer__nav--logo"></div>
+          <ul class="footer__nav__social">
+            <li class="footer__nav__social--facebook">
+              <a href="#"><span class="visually-hidden">Facebook</span></a>
+            </li>
+            <li class="footer__nav__social--vimeo">
+              <a href="#"><span class="visually-hidden">Vimeo</span></a>
+            </li>
+            <li class="footer__nav__social--instagram">
+              <a href="#"><span class="visually-hidden">Instagram</span></a>
+            </li>
+            <li class="footer__nav__social--twitter">
+              <a href="#"><span class="visually-hidden">Twitter</span></a>
+            </li>
+          </ul>
+          <ul class="footer__list">
+            <div class="footer__list--info">
+              <span>Information</span>
+              <li><a href="#">About Millious</a></li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </div>
+            <div class="footer__list--quick-links">
+              <span>Quick Links</span>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Shop</a></li>
+              <li><a href="#">Booking</a></li>
+            </div>
+            <div class="footer__list--contact">
+              <span>Contact us</span>
+              <li>
+                <a href="https://goo.gl/maps/bperdV5WTmEGwWUPA"
+                  >76 W Street,New York, NY 10014</a
+                >
+              </li>
+              <li>
+                <a href="mailto:millious@example.com">millious@example.com</a>
+              </li>
+              <li><a href="callto:" +1(565)231-5645>+1(565)231-5645</a></li>
+            </div>
+          </ul>
         </div>
-      </form>      
-        <!-- //////////NAVEGACION DEL FOOTER /////// -->
-        <div class="footer-container">
-          <div class="footer-nav">
-          <div class="footer-nav__logo"></div>
-            <ul class="footer-nav__social-media">
-              <li class="footer-nav__social-media--facebook"><a href="#"><span  class="visually-hidden">Facebook</span></a></li>
-              <li class="footer-nav__social-media--vimeo"><a href="#"><span class="visually-hidden">Vimeo</span></a></li>
-              <li class="footer-nav__social-media--instagram"><a href="#"><span class="visually-hidden">Instagram</span></a></li>
-              <li class="footer-nav__social-media--twitter"><a href="#"><span class="visually-hidden">Twitter</span></a></li>
-            </ul>
-            <ul class="footer-list">
-              <div class="footer-list__info">
-                <span>Information</span>
-                <li><a href="#">About Millious</a></li>
-                <li><a href="#">FAQ</a></li>
-                <li><a href="#">Contact Us</a></li>
-              </div>
-              <div class="footer-list__quick-links">
-                <span>Quick Links</span>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Shop</a></li>
-                <li><a href="#">Booking</a></li>
-              </div>
-              <div class="footer-list__contact">
-                <span>Contact us</span>
-                <li><a href="https://goo.gl/maps/bperdV5WTmEGwWUPA">76 W Street,New York, NY 10014</a></li>
-                <li><a href="mailto:millious@example.com">millious@example.com</a></li>
-                <li><a href="callto:" +1(565)231-5645>+1(565)231-5645</a></li>
-              </div>
-            </ul>
-          </div>
-          <div class="footer-rights">
-            <p>© Millious 2022</p>
-            <p>All right reserved</p> 
-          </div>
+        <div class="footer__rights">
+          <p>© Millious 2022</p>
+          <p>All right reserved</p>
         </div>
+      </div>
     </footer>
   </body>
 </html>
