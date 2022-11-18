@@ -426,6 +426,10 @@ blockquote {
   margin: 0 auto;
   margin-bottom: 100px;
 }
+.quote__container__product h2 {
+  text-align: left;
+  margin-bottom: 20px;
+}
 
 .quote__container__review {
   width: 100%;
