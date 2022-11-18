@@ -419,7 +419,7 @@ blockquote {
   margin: 0 0 10px 0;
 }
 
-.quote__container--flex {
+.quote__container {
   display: flex;
   width: 1200px;
   justify-content: space-between;
@@ -444,38 +444,35 @@ blockquote {
   box-sizing: border-box;
 }
 
-.quote__img--flex {
+.quote__container__img {
   display: flex;
   align-items: center;
 }
-.quote__img--flex figcaption {
+.quote__container__img figcaption {
   margin-left: 20px;
   color: #E27D60;
   font-weight: 700;
 }
-.quote__img--flex figcaption span {
+.quote__container__img figcaption span {
   display: block;
   color: #303030;
   margin-top: 5px;
   font-weight: 400;
 }
 
-.quote__img--one {
+.quote__container__img--one {
   width: 50px;
   height: 50px;
-  background: url(../images/quote-img-one.png);
 }
 
 .quote__img--two {
   width: 50px;
   height: 50px;
-  background: url(../images/quote-img-two.png);
 }
 
 .quote__img--three {
   width: 50px;
   height: 50px;
-  background: url(../images/quote-img-three.png);
 }
 
 .quote__img--four {

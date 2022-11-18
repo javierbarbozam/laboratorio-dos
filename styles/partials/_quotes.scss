@@ -13,7 +13,7 @@ blockquote {
   margin: 0 0 10px 0;
 }
 
-.quote__container--flex {
+.quote__container {
 	display: flex;
 	width: 1200px;
 	justify-content: space-between;
@@ -41,7 +41,7 @@ blockquote {
 	}
 }
 
-.quote__img--flex {
+.quote__container__img {
 	display: flex;
 	align-items: center;
 
@@ -59,22 +59,19 @@ blockquote {
 	}
 }
 
-.quote__img--one {
+.quote__container__img--one {
 	width: 50px;
 	height: 50px;
-	background: url(../images/quote-img-one.png);
 }
 
 .quote__img--two {
 	width: 50px;
 	height: 50px;
-	background: url(../images/quote-img-two.png);
 }
 
 .quote__img--three {
 	width: 50px;
 	height: 50px;
-	background: url(../images/quote-img-three.png);
 }
 
 // Article quote img
