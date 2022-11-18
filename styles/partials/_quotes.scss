@@ -21,22 +21,26 @@ blockquote {
 	margin-bottom: 50px;
 }
 
-.quote__container--product {
+.quote__container__product {
 	width: 1200px;
 	margin: 0 auto;
 	margin-bottom: 100px;
 
-	.quote__container--flex {
-		width: 100%;
+}
 
-		figure {
-			width: 48%;
+.quote__container__review {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	
+
+	figure {
+		width: 48%;
+		box-sizing: border-box;
+		
+		blockquote {
+			width: 100%;
 			box-sizing: border-box;
-			
-			blockquote {
-				width: 100%;
-				box-sizing: border-box;
-			}
 		}
 	}
 }
@@ -64,39 +68,35 @@ blockquote {
 	height: 50px;
 }
 
-.quote__img--two {
+.quote__container__img--two {
 	width: 50px;
 	height: 50px;
 }
 
-.quote__img--three {
+.quote__container__img--three {
 	width: 50px;
 	height: 50px;
 }
 
 // Article quote img
-.quote__img--four {
+.quote__container__img--four {
 	width: 50px;
 	height: 50px;
-	background: url(../images/quote-img-four.png);
 }
 
-.quote__img--five {
+.quote__container__img--five {
 	width: 50px;
 	height: 50px;
-	background: url(../images/quote-img-five.png);
 }
 
-.quote__img--six {
+.quote__container__img--six {
 	width: 50px;
 	height: 50px;
-	background: url(../images/quote-img-six.png);
 }
 
-.quote__img--stars {
+.quote__container__img--stars {
 	height: 15px;
 	width: 105px;
-	background: url(../icons/stars-icon.svg);
 	margin-left: 30px;
 }
 
