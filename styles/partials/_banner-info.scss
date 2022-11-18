@@ -74,36 +74,13 @@
   text-align: center;
 }
 
-.banner-info__treatments--img {
+.banner-info__treatments--section {
     display: flex;
     justify-content: space-between;
     margin-top: 40px;
 }
 
-.banner-info__treatments--img--1 {
-  background: url(../images/banner-info-relax-massage.jpg) no-repeat;
-  background-size: cover;
-  width: 290px;
-  height: 290px;
-}
-
-.banner-info__treatments--img--2 {
-  background: url(../images/banner-info-aromatherapy.jpg) no-repeat;
-  background-size: cover;
-  width: 290px;
-  height: 290px;
-}
-
-.banner-info__treatments--img--3 {
-  background: url(../images/banner-info-rehabilitation.jpg) no-repeat;
-  background-size: cover;
-  width: 290px;
-  height: 290px;
-}
-
-.banner-info__treatments--img--4 {
-  background: url(../images/banner-info-manicure.jpg) no-repeat;
-  background-size: cover;
+.banner-info__treatments--img {
   width: 290px;
   height: 290px;
 }
