@@ -1368,7 +1368,7 @@ footer {
   margin: 0;
 }
 
-.form-bg__flowers {
+.form__flowers {
   background: url(../images/footer-aboutUs.png) no-repeat;
   background-size: cover;
   width: 100%;
