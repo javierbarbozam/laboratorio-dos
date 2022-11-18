@@ -137,18 +137,18 @@ article {
   transform: scale(1.15);
 }
 
-.header__title {
+.main-title {
   position: relative;
   margin-top: 80px;
 }
-.header__title p {
+.main-title p {
   font-size: 12px;
   margin: 0;
   text-align: center;
   position: relative;
   z-index: 2;
 }
-.header__title h1 {
+.main-title h1 {
   color: #E27D60;
   margin: 10px 0 0 0;
   text-align: center;
@@ -156,7 +156,7 @@ article {
   z-index: 2;
 }
 
-.header__title--bg {
+.main-title--bg {
   background-color: #E6E6E6;
   opacity: 0.5;
   width: 90%;

@@ -1,6 +1,6 @@
 @use '_colors';
 
-.header__title {
+.main-title {
   position: relative;
   margin-top: 80px;
 
@@ -21,7 +21,7 @@
   }
 }
 
-.header__title--bg {
+.main-title--bg {
   background-color: #E6E6E6;
   opacity: 0.5;
   width: 90%;
