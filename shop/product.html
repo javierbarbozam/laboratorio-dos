@@ -132,8 +132,8 @@
         </p>
       </div>
       <!-- review blockquote -->
-      <div class="quote__container--product">
-        <div class="quote__container--flex">
+      <div class="quote__container__product">
+        <div class="quote__container__review">
           <figure>
             <!-- first quote -->
             <blockquote>
@@ -141,12 +141,15 @@
               pulvinar consequat eleifend malesuada. Eu dolor at venenatis
               aliquam velit et in consequat”
             </blockquote>
-            <div class="quote__img--flex">
-              <div class="quote__img--five"></div>
+            <div class="quote__container__img">
+              <div class="quote__container__img--five">
+                <img src="../images/quote-img-five.png" alt="">
+              </div>
               <figcaption>
                 Alex Kristen<span>United Kingdom</span>
               </figcaption>
-              <div class="quote__img--stars"><span class="visually-hidden">3.5 stars rating</span></div>
+              <div class="quote__container__img--stars"><span class="visually-hidden">3.5 stars rating</span>
+              <img src="../icons/stars-icon.svg" alt=""></div>
             </div>
           </figure>
           <figure>
@@ -156,12 +159,15 @@
               pulvinar consequat eleifend malesuada. Eu dolor at venenatis
               aliquam velit et in consequat”
             </blockquote>
-            <div class="quote__img--flex">
-              <div class="quote__img--six"></div>
+            <div class="quote__container__img">
+              <div class="quote__container__img--six">
+                <img src="../images/quote-img-six.png" alt="">
+              </div>
               <figcaption>
                 Melissa Gunton<span>United States</span>
               </figcaption>
-              <div class="quote__img--stars"><span class="visually-hidden">3.5 stars rating</span></div>
+              <div class="quote__container__img--stars"><span class="visually-hidden">3.5 stars rating</span>
+                <img src="../icons/stars-icon.svg" alt=""></div>
             </div>
           </figure>
         </div>
@@ -235,55 +241,83 @@
     </main>
     <footer>
       <!-- /////////////SECCION DE FORM ///////////-->
-      <form class="form-bg__hand">
-        <div class="form__hand">
-          <div class="form__hand--block">
-            <p class="form__hand--light">OUR OFFER</p>
-            <label class="form__hand--bolt"  for="email">This is just for you.</label> 
-            <p class="form__hand--description">Get <span>25% discount</span> for booking an appointment at holidays or your birthday.</p>
+      <div class="form">
+        <form class="form__hand">
+          <div class="form__hand--container">
+            <div class="form__hand--block">
+              <p class="form__hand--light">OUR OFFER</p>
+              <label class="form__hand--bolt" for="email"
+                >This is just for you.</label>
+              <p class="form__hand--description">
+                Get <span>25% discount</span> for booking an appointment at
+                holidays or your birthday.
+              </p>
+            </div>
+            <div class="form__container-hand">
+              <label class="visually-hidden" for="name">Enter your name</label>
+              <input
+                type="text"
+                id="name-hand"
+                name="name"
+                placeholder="Enter your name"/>
+              <input
+                type="email"
+                id="email-hand"
+                name="email"
+                placeholder="Enter your E-mail"/>
+              <input class="buttons" type="submit" value="Subscribe" />
+            </div>
           </div>
-          <div class="form__container-hand">
-            <label class="visually-hidden" for="name">Enter your name</label>
-            <input type="text" id="name-hand" name="name" placeholder="Enter your name"/>
-            <input type="email" id="email-hand" name="email" placeholder ="Enter your E-mail"/>
-            <input class="buttons" type="submit" value="Subscribe"/>
-          </div>
-        </div>
-      </form>      
+        </form>
+      </div>      
         <!-- //////////NAVEGACION DEL FOOTER /////// -->
-        <div class="footer-container">
-          <div class="footer-nav">
-          <div class="footer-nav__logo"></div>
-            <ul class="footer-nav__social-media">
-              <li class="footer-nav__social-media--facebook"><a href="#"><span  class="visually-hidden">Facebook</span></a></li>
-              <li class="footer-nav__social-media--vimeo"><a href="#"><span class="visually-hidden">Vimeo</span></a></li>
-              <li class="footer-nav__social-media--instagram"><a href="#"><span class="visually-hidden">Instagram</span></a></li>
-              <li class="footer-nav__social-media--twitter"><a href="#"><span class="visually-hidden">Twitter</span></a></li>
+        <div class="footer">
+          <div class="footer__nav">
+            <div class="footer__nav--logo"></div>
+            <ul class="footer__nav__social">
+              <li class="footer__nav__social--facebook">
+                <a href="#"><span class="visually-hidden">Facebook</span></a>
+              </li>
+              <li class="footer__nav__social--vimeo">
+                <a href="#"><span class="visually-hidden">Vimeo</span></a>
+              </li>
+              <li class="footer__nav__social--instagram">
+                <a href="#"><span class="visually-hidden">Instagram</span></a>
+              </li>
+              <li class="footer__nav__social--twitter">
+                <a href="#"><span class="visually-hidden">Twitter</span></a>
+              </li>
             </ul>
-            <ul class="footer-list">
-              <div class="footer-list__info">
+            <ul class="footer__list">
+              <div class="footer__list--info">
                 <span>Information</span>
                 <li><a href="#">About Millious</a></li>
                 <li><a href="#">FAQ</a></li>
                 <li><a href="#">Contact Us</a></li>
               </div>
-              <div class="footer-list__quick-links">
+              <div class="footer__list--quick-links">
                 <span>Quick Links</span>
                 <li><a href="#">Services</a></li>
                 <li><a href="#">Shop</a></li>
                 <li><a href="#">Booking</a></li>
               </div>
-              <div class="footer-list__contact">
+              <div class="footer__list--contact">
                 <span>Contact us</span>
-                <li><a href="https://goo.gl/maps/bperdV5WTmEGwWUPA">76 W Street,New York, NY 10014</a></li>
-                <li><a href="mailto:millious@example.com">millious@example.com</a></li>
+                <li>
+                  <a href="https://goo.gl/maps/bperdV5WTmEGwWUPA"
+                    >76 W Street,New York, NY 10014</a
+                  >
+                </li>
+                <li>
+                  <a href="mailto:millious@example.com">millious@example.com</a>
+                </li>
                 <li><a href="callto:" +1(565)231-5645>+1(565)231-5645</a></li>
               </div>
             </ul>
           </div>
-          <div class="footer-rights">
+          <div class="footer__rights">
             <p>© Millious 2022</p>
-            <p>All right reserved</p> 
+            <p>All right reserved</p>
           </div>
         </div>
     </footer>
