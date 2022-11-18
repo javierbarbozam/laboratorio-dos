@@ -1,12 +1,12 @@
 @use '_colors';
 
-.container-news{
+.news{
   max-width: 1200px;
   margin: 0 auto;
   margin-bottom: 100px;
 }
 
-.news {
+.news--flex {
   display: flex;
   justify-content: space-between;
 
@@ -53,39 +53,19 @@
   height: 395px;
 }
 
-.news__box {
-  border: 1.5px solid colors.$lightgrey;
-  border-radius: 4px;
-  width: 30%;
+.news__card--height {
   height: 476px;
   box-sizing: border-box;
 }
 
-.news__img--beauty {
+.news__card__img {
   width: 100%;
   height: 60%;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
-  background: url(../images/news_beauty.png) no-repeat;
 }
 
-.news__img--massage {
-  width: 100%;
-  height: 60%;
-  border-top-left-radius: 3px;
-  border-top-right-radius: 3px;
-  background: url(../images/news_massage.png) no-repeat;
-}
-
-.news__img--healthcare {
-  width: 100%;
-  height: 60%;
-  border-top-left-radius: 3px;
-  border-top-right-radius: 3px;
-  background: url(../images/news_healthcare.png) no-repeat;
-}
-
-.news__category {
+.news__card__category {
   background-color: white;
   border: 0.5px solid colors.$lightgrey;
   border-radius: 3px;
@@ -97,18 +77,13 @@
   bottom: 4%;
 }
 
-.news__info {
+.news__card__info {
   height: 30%;
   padding-left: 26px;
   padding-right: 26px;
 }
 
-.news__info--p {
-  font-size: 14px;
-  padding-bottom: 30px;
-}
-
-.news__info--time {
+.news__card__info-time--flex {
   display: flex;
   align-items: center;
   margin-top: 15px;
@@ -121,26 +96,11 @@
   }
 }
 
-.news__img--desired {
-  width: 100%;
-  height: 53%;
-  border-top-left-radius: 3px;
-  border-top-right-radius: 3px;
-  background: url(../images/news_desired.png) no-repeat;
+.news__card__info__text {
+  font-size: 14px;
+  padding-bottom: 30px;
 }
 
-.news__img--passionate {
-  width: 100%;
+.news__card__img--height {
   height: 53%;
-  border-top-left-radius: 3px;
-  border-top-right-radius: 3px;
-  background: url(../images/news_passionate.png) no-repeat;
-}
-
-.news__img--posture {
-  width: 100%;
-  height: 53%;
-  border-top-left-radius: 3px;
-  border-top-right-radius: 3px;
-  background: url(../images/news_posture.png) no-repeat;
 }
