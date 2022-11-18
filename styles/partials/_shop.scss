@@ -1,17 +1,17 @@
 @use '_colors';
 
-.shop__container {
+.shop {
   margin: 100px 0;
 }
 
-.shop-description{
+.shop__info {
   font-size: 18px;
   text-align: center;
   max-width: 800px;
   margin: 0 auto;
 }
 
-.shop {
+.shop--flex {
   display: flex;
   justify-content: space-between;
   align-content: center;
@@ -19,76 +19,29 @@
   margin: 100px auto;
 }
 
-.shop--brands-change {
+//brands
+.shop__brands-change {
   background: url(../icons/shop-change.svg) no-repeat;
   width: 164px;
   height: 67px;
 }
 
-.shop--brands-blue_velvet {
+.shop__brands-blue_velvet {
   background: url(../icons/shop-blue_velvet.svg) no-repeat;
   width: 164px;
   height: 67px;
 }
 
-.shop--brands-hilroy {
+.shop__brands-hilroy {
   background: url(../icons/shop-hilroy.svg) no-repeat;
   width: 164px;
   height: 67px;
 }
 
-.shop--brands-nafia {
+.shop__brands-nafia {
   background: url(../icons/shop-nafia.svg) no-repeat;
   width: 164px;
   height: 67px;
-}
-
-.shop-massage_cream {
-  background: url(../images/shop-massage_cream.png) no-repeat;
-  width: 270px;
-  height: 335px;
-}
-
-.shop-jojoba_oil {
-  background: url(../images/shop-jojoba_oil.png) no-repeat;
-  width: 270px;
-  height: 335px;
-}
-
-.shop-almond_oil {
-  background: url(../images/shop-almond_oil.png) no-repeat;
-  width: 270px;
-  height: 335px;
-}
-
-.shop-coconut_oil {
-  background: url(../images/shop-coconut_oil.png) no-repeat;
-  width: 270px;
-  height: 335px;
-}
-
-.shop-massage_oil {
-  background: url(../images/shop-massage_oil.png) no-repeat;
-  width: 270px;
-  height: 335px;
-}
-
-.shop-pumpkin_pie {
-  background: url(../images/shop-pumpkin_pie.png) no-repeat;
-  width: 270px;
-  height: 335px;
-}
-
-.shop-cc_cream {
-  background: url(../images/shop-cc_cream.png) no-repeat;
-  width: 270px;
-  height: 335px;
-}
-
-.shop-anti-cellulite_oil {
-  background: url(../images/shop-anti-cellulite_oil.png) no-repeat;
-  width: 270px;
-  height: 335px;
 }
 
 .shop__reactions {
@@ -106,13 +59,13 @@
   height: 34px;
 }
 
-.shop__reactions--like {
+.shop__reactions__like {
   background: url(../icons/shop-like.svg) no-repeat;
   width: 24px;
   height: 24px;
 }
 
-.shop__reactions--share {
+.shop__reactions__share {
   background: url(../icons/shop-share.svg) no-repeat;
   width: 24px;
   height: 24px;
@@ -122,21 +75,21 @@
   margin-top: -13px;
 }
 
-.shop__text--category {
+.shop__text__category {
   font-size: 10px;
   color: colors.$darkgrey;
   opacity: 0.5;  
   margin: 10px 0;
 }
 
-.shop__text--product {
+.shop__text__product {
   font-size: 20px;
   font-weight: bold;
   color: colors.$darkgrey;
   margin: 10px 0;
 }
 
-.shop__text--price {
+.shop__text__price {
   font-size: 16px;
   font-weight: bold;
   color: colors.$darkorange;
