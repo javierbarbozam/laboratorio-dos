@@ -1,18 +1,18 @@
 @use "_colors";
 
-.landing__services .buttons {
+.pricing .buttons {
   display: block;
   margin: 0 auto;
 }
 
-.landing__services--ul {
+.pricing__ul {
   display: flex;
   justify-content: space-between;
   width: 1200px;
   margin: 40px auto 40px auto;
 }
 
-.landing__services--ul--flex {
+.pricing__ul--flex {
   display: flex;
   width: 570px;
   align-items: flex-end;
@@ -22,21 +22,22 @@
   }
 }
 
-.landing__services--ul--title {
+.pricing__ul__title {
   opacity: 1;
   font-family: "Libre Franklin", sans-serif;
   font-weight: 700;
+  min-width: fit-content;
 }
 
-.landing__services--ul--divider {
+.pricing__ul__divider {
   height: 2px;
-  width: 390px;
+  width: 100%;
   border-bottom: dotted colors.$darkgrey;
   position: relative;
   bottom: 5px;
 }
 
-.landing__services--ul--price {
+.pricing__ul__price {
   opacity: 1;
   font-family: "Libre Franklin", sans-serif;
   font-weight: 700;
