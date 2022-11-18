@@ -1,0 +1,33 @@
+@use '_colors';
+
+.header__title {
+  position: relative;
+  margin-top: 80px;
+
+  p {
+    font-size: 12px;
+    margin: 0;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+  }
+
+  h1 {
+    color: colors.$darkorange;
+    margin: 10px 0 0 0;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+  }
+}
+
+.header__title--bg {
+  background-color: #E6E6E6;
+  opacity: 0.5;
+  width: 90%;
+  height: 144px;
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  top: -60%;
+}
