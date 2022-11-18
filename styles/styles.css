@@ -613,12 +613,12 @@ blockquote {
 .news {
   max-width: 1200px;
   margin: 0 auto;
-  margin-bottom: 100px;
 }
 
 .news--flex {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 100px;
 }
 .news--flex h3 {
   color: #E27D60;
