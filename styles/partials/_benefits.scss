@@ -1,0 +1,57 @@
+.benefits {
+  width: 900px;
+  margin: 80px auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 2;
+}
+
+.benefits__title {
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  margin: 5px 0 10px 0;
+  opacity: 1;
+  text-align: center;
+}
+
+.benefits__info {
+  text-align: center;
+  max-width: 230px;
+}
+
+.benefits__bg {
+  height: 200px;
+  width: 200px;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.benefits__vector--one {
+  background: url(../icons/deep-tissue-icon.svg) no-repeat;
+  background-size: contain;
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+}
+
+.benefits__vector--two {
+  background: url(../icons/wellness-icon.svg) no-repeat;
+  background-size: contain;
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+}
+
+.benefits__vector--three {
+  background: url(../icons/reflexology-icon.svg) no-repeat;
+  background-size: contain;
+  height: 100px;
+  width: 90px;
+  margin: 0 auto;
+}
