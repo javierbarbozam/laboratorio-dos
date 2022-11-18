@@ -1018,9 +1018,6 @@ blockquote {
   height: 335px;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
-  background: url(../images/doctors-Umar.png) no-repeat;
-  background-size: cover;
-  background-position-x: center;
 }
 
 .doctors__container__card--melissa {
@@ -1049,9 +1046,6 @@ blockquote {
   height: 335px;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
-  background: url(../images/doctors-mark.png) no-repeat;
-  background-size: cover;
-  background-position-x: center;
 }
 
 .doctors__container__card--malcolm {
